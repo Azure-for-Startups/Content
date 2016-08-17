@@ -1,7 +1,9 @@
 # Amazon S3 to Azure Storage
-Command line cross cloud copy tool
+### Command line cross cloud copy tool
+Contact: Noga Tal nogat@microsoft.com
 
-## Abstract (May 2016)
+
+## Abstract ### (May 2016)
 The following is a ‘how to’ code sample and library that can be used for recursive copy storage structure from Amazon S3 to Azure storage.  The library also can be used and integrated in any custom solution.
 
 ## Prerequisites
