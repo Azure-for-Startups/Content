@@ -1,4 +1,3 @@
-# Azure GitHub Management: azure-oss-portal
 # Amazon S3 to Azure Storage
 Command line cross cloud copy tool
 
