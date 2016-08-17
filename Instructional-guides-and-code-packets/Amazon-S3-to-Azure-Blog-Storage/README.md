@@ -12,4 +12,5 @@ The following is a ‘how to’ code sample and library that can be used for rec
 ## Introduction
 The S3 to Azure sample illustrates basic principles of copying from Amazon S3 bucket to Azure Storage blob container. The sample tool enables multithreaded asynchronous recursive copying of bucket folder structure and files matching the provided path prefix. A local connection is used to data transfer. The server side copying available on Azure is out of score for this sample. Also this sample is an illustration and is not intended to be a production ready application, but it can be used as is and extended for specific user scenarios 
 
-https://github.com/XynergiesLLC/test/blob/master/folder/ErrorScreen.png
+![alt tag](https://github.com/XynergiesLLC/test/blob/master/folder/ErrorScreen.png)
+
