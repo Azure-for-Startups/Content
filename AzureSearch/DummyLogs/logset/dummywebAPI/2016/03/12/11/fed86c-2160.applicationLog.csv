@@ -1,0 +1,216 @@
+date,level,applicationName,instanceId,eventTickCount,eventId,pid,tid,message,activityId
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Request, Method=GET, Url=https://dummywebapi.azurewebsites.net/api/BizSpark/UpdateAzureUsage?key=IOUiuhIUYTgi, Message='https://dummywebapi.azurewebsites.net/api/BizSpark/UpdateAzureUsage?key=IOUiuhIUYTgi'",00000000-0000-0000-d900-0080010000ea
+
+
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='BizSpark', Operation=DefaultHttpControllerSelector.SelectController",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='DummyNetService.Controllers.Api.BizSparkController', Operation=DefaultHttpControllerActivator.Create",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='DummyNetService.Controllers.Api.BizSparkController', Operation=HttpControllerDescriptor.CreateController",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='Selected action 'UpdateAzureUsage(String key)'', Operation=ApiControllerActionSelector.SelectAction",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='Parameter 'key' bound to the value 'IOUiuhIUYTgi'', Operation=ModelBinderParameterBinding.ExecuteBindingAsync",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:06,Information,dummywebAPI,fed86c,635933772064483523,0,2160,21,"Message='Model state is valid. Values: key=IOUiuhIUYTgi', Operation=HttpActionBinding.ExecuteBindingAsync",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Error,dummywebAPI,fed86c,635933772370574023,0,2160,63,"Operation=ReflectedHttpActionDescriptor.ExecuteAsync, Exception=System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while reading from the store provider's data reader. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.HandleReaderException(Exception e)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.<MoveNextAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ToArrayAsync>d__13`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<GetDummiesForLastMonthAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateTableAzureUsageAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAsureUsagesAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAzureUsage>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Error,dummywebAPI,fed86c,635933772370574023,0,2160,63,"Operation=ApiControllerActionInvoker.InvokeActionAsync, Exception=System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while reading from the store provider's data reader. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.HandleReaderException(Exception e)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.<MoveNextAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ToArrayAsync>d__13`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<GetDummiesForLastMonthAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateTableAzureUsageAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAsureUsagesAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAzureUsage>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Error,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Operation=BizSparkController.ExecuteAsync, Exception=System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while reading from the store provider's data reader. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.ReadAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.HandleReaderException(Exception e)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.<StoreReadAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.<MoveNextAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ForEachAsync>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<ToArrayAsync>d__13`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<GetDummiesForLastMonthAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateTableAzureUsageAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAsureUsagesAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DummyNetService.Controllers.Api.BizSparkController.<UpdateAzureUsage>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.Tracers.HttpControllerTracer.<ExecuteAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Message='Will use same 'JsonMediaTypeFormatter' formatter', Operation=JsonMediaTypeFormatter.GetPerRequestFormatterInstance",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Message='Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'', Operation=DefaultContentNegotiator.Negotiate",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Operation=CorsMessageHandler.SendAsync, Status=500 (InternalServerError)",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,Operation=JsonMediaTypeFormatter.WriteToStreamAsync,00000000-0000-0000-d900-0080010000ea
+
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Operation=LogRequestAndResponseHandler.SendAsync, Status=500 (InternalServerError)",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,63,"Response, Status=500 (InternalServerError), Method=GET, Url=https://dummywebapi.azurewebsites.net/api/BizSpark/UpdateAzureUsage?key=IOUiuhIUYTgi, Message='Content-type='application/json; charset=utf-8', content-length=46'",00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:00:37,Information,dummywebAPI,fed86c,635933772370730212,0,2160,19,Operation=BizSparkController.Dispose,00000000-0000-0000-d900-0080010000ea
+2016-03-12T11:01:55,Information,dummywebAPI,fed86c,635933773156577108,0,2160,15,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:06:56,Information,dummywebAPI,fed86c,635933776161299739,0,2160,14,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:11:58,Information,dummywebAPI,fed86c,635933779188900209,0,2160,12,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:16:56,Information,dummywebAPI,fed86c,635933782169592652,0,2160,12,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:21:57,Information,dummywebAPI,fed86c,635933785173332332,0,2160,12,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:26:57,Information,dummywebAPI,fed86c,635933788175182433,0,2160,12,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:31:57,Information,dummywebAPI,fed86c,635933791177444755,0,2160,13,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:41:58,Information,dummywebAPI,fed86c,635933797183155531,0,2160,14,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:46:58,Information,dummywebAPI,fed86c,635933800185780282,0,2160,14,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:51:58,Information,dummywebAPI,fed86c,635933803189510461,0,2160,14,Redirecting: https://dummywebapi.azurewebsites.net/,
+2016-03-12T11:56:59,Information,dummywebAPI,fed86c,635933806196819081,0,2160,12,Redirecting: https://dummywebapi.azurewebsites.net/,
