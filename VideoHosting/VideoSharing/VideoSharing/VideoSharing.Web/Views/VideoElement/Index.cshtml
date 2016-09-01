@@ -1,0 +1,75 @@
+﻿@using VideoSharing.Web.Extensions
+@model IEnumerable<VideoSharing.DataAccess.Model.VideoElement>
+
+@{
+    ViewBag.Title = "Index";
+    var ownVideos = Model.OwnItems();
+    var sharedVideos = Model.SharedItems();
+}
+
+<h2>Own Videos</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(m => m.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.IsPublic)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in ownVideos)
+    {
+        <tr>
+            <td>
+                <p>
+                    @Html.DisplayFor(m => item.Title)
+                </p>
+                <video controls="controls" style="width: 300px;" src="@item.StreamingUrl">
+                    Your browser does not support playing a video.
+                </video>
+            </td>
+            <td>
+                @Html.DisplayFor(m => item.IsPublic)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id = item.Id}) |
+                @Html.ActionLink("Delete", "Delete", new {id = item.Id})
+            </td>
+        </tr>
+    }
+
+</table>
+
+@if (sharedVideos.Any())
+{
+    <h2>Shared Videos</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.Title)
+            </th>
+        </tr>
+
+        @foreach (var item in sharedVideos)
+        {
+            <tr>
+                <td>
+                    <p>
+                        @Html.DisplayFor(m => item.Title)
+                    </p>
+                    <video controls="controls" style="width: 300px;" src="@item.StreamingUrl">
+                        Your browser does not support playing a video.
+                    </video>
+                </td>
+            </tr>
+        }
+
+    </table>
+}
