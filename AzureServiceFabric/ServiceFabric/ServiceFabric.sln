@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ClustEncApplication", "ClustEncApplication\ClustEncApplication.sfproj", "{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClustEncActor", "ClustEncActor\ClustEncActor.csproj", "{78FA8B4D-1845-44E8-9DEE-676F691CF155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClustEncActor.Interfaces", "ClustEncActor.Interfaces\ClustEncActor.Interfaces.csproj", "{515AE851-B80B-496F-9E55-103C77E7A38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClustEncWebApi", "ClustEncWebApi\ClustEncWebApi.csproj", "{A3CE87A8-D09E-4804-AA93-EE91F3E7B0FF}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup", "AzureResourceGroup\AzureResourceGroup.deployproj", "{AF78828A-1DCC-4E38-B3FA-9BDE6F6D1C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Debug|x64.ActiveCfg = Debug|x64
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Debug|x64.Build.0 = Debug|x64
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Debug|x64.Deploy.0 = Debug|x64
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Release|x64.ActiveCfg = Release|x64
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Release|x64.Build.0 = Release|x64
+		{F28E0EC3-16B9-41F8-A2E9-FBA6DA04786F}.Release|x64.Deploy.0 = Release|x64
+		{78FA8B4D-1845-44E8-9DEE-676F691CF155}.Debug|x64.ActiveCfg = Debug|x64
+		{78FA8B4D-1845-44E8-9DEE-676F691CF155}.Debug|x64.Build.0 = Debug|x64
+		{78FA8B4D-1845-44E8-9DEE-676F691CF155}.Release|x64.ActiveCfg = Release|x64
+		{78FA8B4D-1845-44E8-9DEE-676F691CF155}.Release|x64.Build.0 = Release|x64
+		{515AE851-B80B-496F-9E55-103C77E7A38B}.Debug|x64.ActiveCfg = Debug|x64
+		{515AE851-B80B-496F-9E55-103C77E7A38B}.Debug|x64.Build.0 = Debug|x64
+		{515AE851-B80B-496F-9E55-103C77E7A38B}.Release|x64.ActiveCfg = Release|x64
+		{515AE851-B80B-496F-9E55-103C77E7A38B}.Release|x64.Build.0 = Release|x64
+		{A3CE87A8-D09E-4804-AA93-EE91F3E7B0FF}.Debug|x64.ActiveCfg = Debug|x64
+		{A3CE87A8-D09E-4804-AA93-EE91F3E7B0FF}.Debug|x64.Build.0 = Debug|x64
+		{A3CE87A8-D09E-4804-AA93-EE91F3E7B0FF}.Release|x64.ActiveCfg = Release|x64
+		{A3CE87A8-D09E-4804-AA93-EE91F3E7B0FF}.Release|x64.Build.0 = Release|x64
+		{AF78828A-1DCC-4E38-B3FA-9BDE6F6D1C26}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF78828A-1DCC-4E38-B3FA-9BDE6F6D1C26}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF78828A-1DCC-4E38-B3FA-9BDE6F6D1C26}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF78828A-1DCC-4E38-B3FA-9BDE6F6D1C26}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
