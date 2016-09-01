@@ -5,7 +5,7 @@ This GitHub repository provides instructional guides and code packets to help st
 
 ##Topic summaries
 ### Getting Started on Azure video series
- - **Overview of the Azure Console ()** - Tutorial providing an introduction to the Azure Console.
+ - [Overview of the Azure Console] () - Tutorial providing an introduction to the Azure Console.
  - **[Virtual Network] ()** - Tutorial describing how to set up a virtual network.  A virtual network is a representation of your own network in the cloud allowing you to control the IP address blocks, DNS setting, security policies, and routing tables.
  - **[Resource Groups] ()** - Tutorial describing what to consider and how to create and manage a resource group.  A resource group is simply a collection of Azure resources that you decide to group together.
  - **[Storage Accounts] ()** - Tutorial describing how to create and manage a storage account and to select the storage option that is right for you.  
