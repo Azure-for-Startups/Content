@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "dockerized-encoder-resource-group", "dockerized-encoder-resource-group\dockerized-encoder-resource-group.deployproj", "{BC480D89-C3AB-42E7-9D68-9C924EC05594}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{8F56A04E-BFCF-4AEE-B58D-4346F3E74953}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Web.NodeJS", "Web.NodeJS\Web.NodeJS.njsproj", "{7CA20B84-FBC5-468E-B498-A88E5ED6AE57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC480D89-C3AB-42E7-9D68-9C924EC05594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC480D89-C3AB-42E7-9D68-9C924EC05594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC480D89-C3AB-42E7-9D68-9C924EC05594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC480D89-C3AB-42E7-9D68-9C924EC05594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F56A04E-BFCF-4AEE-B58D-4346F3E74953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F56A04E-BFCF-4AEE-B58D-4346F3E74953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F56A04E-BFCF-4AEE-B58D-4346F3E74953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F56A04E-BFCF-4AEE-B58D-4346F3E74953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA20B84-FBC5-468E-B498-A88E5ED6AE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA20B84-FBC5-468E-B498-A88E5ED6AE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA20B84-FBC5-468E-B498-A88E5ED6AE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA20B84-FBC5-468E-B498-A88E5ED6AE57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

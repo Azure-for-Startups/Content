@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	h1= title
+	form(role='form'
+		method='post')
+		input(type='text'
+			placeholder='Paste URL to the source file'
+			name='fileUrl')
+		input(type='submit'
+			value='Send')
+	- each process in processes
+		li
+			div
+				p
+					span Task Status: 
+					if process.status == 'Success'
+						a(href='#{process.blobSource}') Download
+					else
+						span #{process.status}
