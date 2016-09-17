@@ -47,7 +47,7 @@ We are considering two actors (Subscriber and Publisher) and three major use cas
 
 <!-- -->
 
--   *Subscriber* downloads and installs the application built from the sample. On the first application start subscriber enters a tag to identify the device (such as John Smith). This tag is just a free text string which will be used by the *Publisher* to identify the user’s device.
+-   *Subscriber* downloads and installs the application built from the sample. On the first application start subscriber enters a tag to identify the device (such as John Smith). This tag is just a free text string which will be used by the *Publisher* to identify the userâ€™s device.
 
 <img src="media/image1.png" width="297" height="239" />
 
@@ -74,15 +74,15 @@ COMPONENTS AND IMPLEMENTATION DETAILS
 <span id="_Toc446449749" class="anchor"></span>Notification hub configuration
 Notification hub configuration consists of common part and platform dependent configuration. The platform dependent settings guide is available at the official quick start guides for every type of client platform. An official Microsoft Azure Notification Hub documentation and set of Get Started Guides is located here <https://azure.microsoft.com/en-us/documentation/services/notification-hubs/>. In addition, you can find a corresponding link to guide in every client application description later in the document. Here is a common part of these official guides:
 
--   Log on to the [Azure Portal](https://portal.azure.com/), and then click +NEW at the top of the screen.
+-   Log on to theÂ [Azure Portal](https://portal.azure.com/), and then clickÂ +NEWÂ at the top of the screen.
 
--   Click on Web + Mobile, then Notification Hub, and then Quick Create.
+-   Click onÂ Web + Mobile, thenÂ Notification Hub, and thenÂ Quick Create.
 
 <img src="media/image5.png" width="174" height="203" />
 
--   Make sure you specify a unique name in the Notification Hub field. Select your desired Region, Subscription and Resource Group (if you have one already).
+-   Make sure you specify a unique name in theÂ Notification HubÂ field. Select your desired Region,Â SubscriptionÂ andÂ Resource GroupÂ (if you have one already).
 
--   If you already have a service bus namespace that you want to create the hub in, select it through the Select Existing option in the Namespace field. Otherwise, you can use the default name that will be created based on the hub name as long as the namespace name is available. Once ready, click Create.
+-   If you already have a service bus namespace that you want to create the hub in, select it through theÂ Select ExistingÂ option in theÂ NamespaceÂ field. Otherwise, you can use the default name that will be created based on the hub name as long as the namespace name is available. Once ready, clickÂ Create.
 
 <img src="media/image6.png" width="110" height="262" />
 
@@ -90,7 +90,7 @@ Notification hub configuration consists of common part and platform dependent co
 
 <img src="media/image7.png" width="429" height="282" />
 
--   Click on Settings and then Access Policies - take note of the two connection strings that are made available to you, as you will need them to handle push notifications later.
+-   Click onÂ SettingsÂ and thenÂ Access PoliciesÂ - take note of the two connection strings that are made available to you, as you will need them to handle push notifications later.
 
 <img src="media/image8.png" width="517" height="214" />
 
@@ -98,7 +98,7 @@ User registration implementation
 
 The system needs to have a list of registered devices; at the same time, we would like to keep this sample as simple as possible to demonstrate push notification technology. To do this, we will not introduce any database backend which will be common in more real life applications. We will place the user information into a tag which represents a registered device in the Azure Notification Hub. User information is a JSON object containing required information, some salt data to make a user with the same information have a unique tag. For this sample, user information will look like this: {"name":"*John Smith*","s":"54b9d84a32"} (assuming *Subscriber* entered John Smith during device registration).
 
-The Notification Hub’s notification registration tag can contain only alphanumeric symbols, so we will encode JSON as a base64 string increasing a salt field size to be an 8 or more to avoid an ending ‘=’ symbols in the base64 string.
+The Notification Hubâ€™s notification registration tag can contain only alphanumeric symbols, so we will encode JSON as a base64 string increasing a salt field size to be an 8 or more to avoid an ending â€˜=â€™ symbols in the base64 string.
 
 <span id="OLE_LINK8" class="anchor"><span id="OLE_LINK9" class="anchor"><span id="OLE_LINK10" class="anchor"><span id="OLE_LINK11" class="anchor"><span id="OLE_LINK12" class="anchor"></span></span></span></span></span>ASP.NET 5.0 Web Application
 
@@ -114,7 +114,7 @@ Creating a site
 
 <img src="media/image9.png" width="432" height="298" />
 
--   Select an ASP.NET 5 web application template and turn off authentication and keep Host in the Cloud selected (please note that Visual Studio is still using the unchanged name for the technology – ASP.NET 5.0, so please don’t be confused).
+-   Select an ASP.NET 5 web application template and turn off authentication and keep Host in the Cloud selected (please note that Visual Studio is still using the unchanged name for the technology â€“ ASP.NET 5.0, so please donâ€™t be confused).
 
 <img src="media/image10.png" width="482" height="374" />
 
@@ -601,7 +601,7 @@ Create a Node.JS app and connect to the Notification Hub
 >
 > <span id="h.3yusupq9k26s" class="anchor"></span>});
 
--   Add function to get devices by Notification Hub’s registration tags:
+-   Add function to get devices by Notification Hubâ€™s registration tags:
 
 > function getNameByRegistrationTags(tags) {
 >
@@ -791,7 +791,7 @@ Please take the following steps below:
 
 <img src="media/image13.png" width="446" height="220" />
 
--   Click on the “Setup Connection” and create deployment account
+-   Click on the â€œSetup Connectionâ€� and create deployment account
 
     <img src="media/image14.png" width="500" height="237" />
 
@@ -807,7 +807,7 @@ Please take the following steps below:
 >
 > <span id="h.3s2oei2i0hl6" class="anchor"></span>git commit -m "initial commit"
 
--   To get URL for the remote repository, open all settings and click on the Properties and you can find “Git URL”
+-   To get URL for the remote repository, open all settings and click on the Properties and you can find â€œGit URLâ€�
 
 <img src="media/image15.png" width="299" height="299" />
 
@@ -899,7 +899,7 @@ There is a great starter guide available here: [*https://azure.microsoft.com/en-
 >
 > <span id="h.pcixu8ntk1oh" class="anchor"></span>}
 
-Note. User information is stored into the tag content as a json containing required information. Some salt data is added to make a tag with the same user information unique. The notification registration tag should contain alphanumeric symbols only. So the json is encoded as a base64 string increasing a salt field size to be 8 or more to avoid an ending ‘=’ symbols in the base64 string.
+Note. User information is stored into the tag content as a json containing required information. Some salt data is added to make a tag with the same user information unique. The notification registration tag should contain alphanumeric symbols only. So the json is encoded as a base64 string increasing a salt field size to be 8 or more to avoid an ending â€˜=â€™ symbols in the base64 string.
 
 -   Open a MainPage.xml and add a stackpanel instead of grid. Put a minimum of required UI elements like these:
 
@@ -1053,7 +1053,7 @@ Note. User information is stored into the tag content as a json containing requi
 
 -   You will receive a push sent.
 
-<img src="media/image4.png" width="145" height="265" />
+<img src="media/image18.png" width="145" height="265" />
 
 <span id="_Toc444384203" class="anchor"></span>Android Client
 
@@ -1107,7 +1107,7 @@ Note. User information is stored into the tag content as a json containing requi
 >
 > *}*
 
-<img src="media/image18.png" width="387" height="316" />
+<img src="media/image19.png" width="387" height="316" />
 
 <span id="h.iilzflep121l" class="anchor"><span id="_Toc444384204" class="anchor"></span></span>iOS Client
 
@@ -1167,9 +1167,9 @@ Class *UserInfo* handles device registration data and is very similar to the one
 >
 > }
 
-<img src="media/image19.png" width="436" height="298" />
+<img src="media/image20.png" width="436" height="298" />
 
-<img src="media/image20.jpeg" width="209" height="313" /><img src="media/image21.jpeg" width="205" height="308" />
+<img src="media/image21.png" width="209" height="313" /><img src="media/image22.png" width="205" height="308" />
 
 SUMMARY
 
