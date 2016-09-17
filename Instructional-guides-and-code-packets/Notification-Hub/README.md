@@ -67,7 +67,7 @@ We are considering two actors (Subscriber and Publisher) and three major use cas
 
     -   *Subscriber* receives push notification message in standard format for their specific mobile platform and can read the text message delivered.
 
-        <img src="media/image4.png" width="172" height="112" />
+        <img src="media/image4.png" width="352" height="644" />
 
 COMPONENTS AND IMPLEMENTATION DETAILS
 
