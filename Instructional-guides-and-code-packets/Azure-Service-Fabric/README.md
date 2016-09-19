@@ -1,11 +1,10 @@
-**
-**Abstract (July 2016)
+##Abstract (July 2016)
 
-In this sample we are going to present a typical flow to perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. We will describe how to build, deploy, scale and test your solution on Azure Service Fabric.
+In this sample we are going to present a typical flow to perform heavy computational tasks like video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. We will describe how to build, deploy, scale and test your solution on Azure Service Fabric.
 
-INTRODUCTION
+##INTRODUCTION
 
-Let’s imagine you are a .NET developer and need a Web API providing some kind of computation processing. You know about appropriate command line tool and command line parameters for an expected result. So you would like to use this tool, and get all the benefits of Web API. At the same time, you don’t want to become a computation tool source code expert and do things like corresponding library integration. This approach raises several important questions:
+Let's imagine you are a .NET developer and need a Web API providing some kind of computation processing. You know about appropriate command line tool and command line parameters for an expected result. So you would like to use this tool, and get all the benefits of Web API. At the same time, you don't want to become a computation tool source code expert and do things like corresponding library integration. This approach raises several important questions:
 
 -   How can you reuse your experience to convert command line tool into a Web API?
 
@@ -17,9 +16,9 @@ Let’s imagine you are a .NET developer and need a Web API providing some kind 
 
 Azure Service Fabric is a distributed systems platform that makes it possible to package, deploy, and manage micro-services. Please read the [Overview of Service Fabric](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-overview/) article to get more information about the concept of micro-services and details on Service Fabric.
 
-The command line tool approach is very helpful if someone needs to get a result fast and wants to get rid of corresponding SDK and API. We are going to provide a simple end-to-end example demonstrating how Service Fabric can be helpful to host and call an existing application making some kind of computation and facade as a Web API.<span id="h.wggp6uu0e09o" class="anchor"></span>
+The command line tool approach is very helpful if someone needs to get a result fast and wants to get rid of corresponding SDK and API. We are going to provide a simple end-to-end example demonstrating how Service Fabric can be helpful to host and call an existing application making some kind of computation and facade as a Web API.
 
-<span id="_Toc452975492" class="anchor"></span>Components
+#Components
 
 The most common high load operation is a video encoding. There is a popular open source command line tool ffmpeg (<https://ffmpeg.org/>) to perform a lot of encoding tasks. There are a number of startups using it. As an encoding task we are going to apply the following logic to make a short video cut from a source video file. The encoder skips the first 30 seconds and then takes only 10 seconds. The cut is scaled to fixed resolution and encoded as mp4. At the final step the resulting video file is uploaded to Azure Blob Storage container.
 
@@ -31,7 +30,7 @@ The sample system is implemented as a Service Fabric Application. You can find m
 
 -   Web API client. This is a simple AngularJS web site. For simplicity this site is hosted side by side with Web API, but can even be local file system hosted because it does not have any server side code.
 
-<span id="h.10jf42s387ih" class="anchor"><span id="_Toc452975493" class="anchor"></span></span>User flow
+#User flow
 
 User opens a sample web site in his browser. If this is a first time, then a unique id is generated for the user and stored in the browser cookie. The user is able to:
 
@@ -39,17 +38,17 @@ User opens a sample web site in his browser. If this is a first time, then a uni
 
 -   schedule a new task
 
--   delete results he doesn’t need
+-   delete results he doesn't need
 
 -   change a user id the browser is currently working with
 
 <img src="media/image1.png" width="601" height="265" />
 
-<span id="h.kyjv2fchtbpq" class="anchor"><span id="_Toc452975494" class="anchor"></span></span>Step-by-step how to development guide
+#Step-by-step how to development guide
 
 The complete source code is already available at **TODO**, but we will walk you through the development from scratch.
 
-<span id="h.c5qw28qjgmlk" class="anchor"><span id="_Toc452975495" class="anchor"></span></span>Prerequisites
+#Prerequisites
 
 -   Azure Subscription
 
@@ -63,9 +62,9 @@ The complete source code is already available at **TODO**, but we will walk you 
 
 -   An extractor for 7z archives is available at http://7-zip.org/.
 
-<span id="h.o5q8ydn5130y" class="anchor"><span id="_Toc452975496" class="anchor"></span></span>Create a solution skeleton
+#Create a solution skeleton
 
-Let’s create a new Service Fabric application with Service Fabric Actor Service.
+Let's create a new Service Fabric application with Service Fabric Actor Service.
 
 -   Open Visual Studio 2015 and create a new project from Service Fabric Application template. Solution name ServiceFabric, application name ClustEncApplication. Click OK.
 
@@ -85,13 +84,11 @@ Let’s create a new Service Fabric application with Service Fabric Actor Servic
 
 Warning. The Visual Studio Service Fabric tools may crash frequently with System.UnauthorizedAccessException at this step on Windows 7 and Windows 10 running computers. **As a result, Visual Studio may hang infinitely, the project ClustEncWebApi is not added to solution file and folder ClustEncWebApi is in inconsistent state after such hung**.
 
-If this occurs, please remove ClustEncWebApi folder and if you are try again. **We don’t see this occur when working on Windows 8.1**. The exception is thrown from Visual Studio Project system from the sfproj project support module. This issue should be fixed in the future releases Service Fabric SDK with Visual Studio Tools update.
+If this occurs, please remove ClustEncWebApi folder and if you are try again. **We don't see this occur when working on Windows 8.1**. The exception is thrown from Visual Studio Project system from the sfproj project support module. This issue should be fixed in the future releases Service Fabric SDK with Visual Studio Tools update.
 
-<span id="h.lbwhl1fvrn8z" class="anchor"><span id="_Toc452975497" class="anchor"></span></span>
+##Service Fabric Actor interface
 
-Service Fabric Actor interface
-
-Service Fabric Actor consists of two projects - an interface project and an implementation project. In our case these are ClustEncActor.Interfaces and ClustEncActor projects. Let’s get started with the required interface.
+Service Fabric Actor consists of two projects - an interface project and an implementation project. In our case these are ClustEncActor.Interfaces and ClustEncActor projects. Let's get started with the required interface.
 
 Here are the basic business requirements:
 
@@ -105,7 +102,7 @@ Here are the basic business requirements:
 
 Let's go deeper on technical requirements:
 
--   There are at least 3 state values of encoding state: Processing, Success and Error. We aren’t interested in idle encoders. Encoder task should be created on demand and released after completion.
+-   There are at least 3 state values of encoding state: Processing, Success and Error. We aren't interested in idle encoders. Encoder task should be created on demand and released after completion.
 
 -   The Azure Blob Storage is a good place to store the encoding result. The blob container permission can be modified to enable public access to blob by direct URL, but do not allow a container listing for an unauthorized user.
 
@@ -117,11 +114,11 @@ Let's go deeper on technical requirements:
 
 -   Interface looks like:
 
-    -   Schedule a new task (EncodeAsync).
+-   Schedule a new task (EncodeAsync).
 
-    -   Provide a list of both processing and finished tasks (GetEncoderResultsAsync)
+-   Provide a list of both processing and finished tasks (GetEncoderResultsAsync)
 
-    -   Delete finished task (DeleteEncoderResultAsync).
+-   Delete finished task (DeleteEncoderResultAsync).
 
 We offer the interface providing all of required methods, parameters and data classes.
 
@@ -273,7 +270,7 @@ public Guid TaskId = Guid.NewGuid();
 
 -   Build ClustEncActor.Interfaces project and ensure that build is completed without errors.
 
-<span id="h.hbswmi98bth" class="anchor"><span id="_Toc452975498" class="anchor"></span></span>Service Fabric Actor implementation
+#Service Fabric Actor implementation
 
 We are going to create a stateless actor. So StatePersistence attribute parameter under the class ClustEncActor will be later set to StatePersistence.None when you revise the class:
 
@@ -281,7 +278,7 @@ We are going to create a stateless actor. So StatePersistence attribute paramete
 
 ###### internal class ClustEncActor : *Actor*, IClustEncActor
 
-The statelessness of Actor does not mean we don’t need the state at all. We will track the state manually and use a state based on file names. Our actor will create file names on external storage to indicate a current encoding progress state. Blob naming is performed with following pattern: UserId/TaskId\_NamedState\_CreatedAt.FileExtension.
+The statelessness of Actor does not mean we don't need the state at all. We will track the state manually and use a state based on file names. Our actor will create file names on external storage to indicate a current encoding progress state. Blob naming is performed with following pattern: UserId/TaskId\_NamedState\_CreatedAt.FileExtension.
 
 Please add the following files with classes into ClustEncActor project:
 
@@ -829,7 +826,7 @@ return this.StateManager.TryAddStateAsync("count", 0);
 
 -   Build ClustEncActor project and ensure that the build is successfully completed.
 
-<span id="h.1kbctayzrkih" class="anchor"><span id="_Toc452975499" class="anchor"></span></span>Install ffmpeg executable
+#Install ffmpeg executable
 
 We recommend to append a pre-built step guard preventing build without required ffmpeg binary as a resource -
 
@@ -855,10 +852,9 @@ exit /b 1
 
 -   Build ClustEncActor project and ensure there are no any build errors.
 
-<span id="h.k0o4mtupa9as" class="anchor"><span id="_Toc452975500" class="anchor"></span></span>
-Service Fabric Web API implementation
+##Service Fabric Web API implementation
 
-<span id="h.mu957a9e1jrv" class="anchor"><span id="_Toc452975501" class="anchor"></span></span>Configuration
+#Configuration
 
 Connection credentials are required to connect to Azure Blob Storage. We are going to store credentials in the Service Fabric configuration.
 
@@ -878,7 +874,7 @@ Connection credentials are required to connect to Azure Blob Storage. We are goi
 
 &lt;/Section&gt;
 
-It is possible to enter storage parameters here but it is better to set concrete values depend on deployment direction. This is Local and Cloud by default. Let’s create different settings for both -
+It is possible to enter storage parameters here but it is better to set concrete values depend on deployment direction. This is Local and Cloud by default. Let's create different settings for both -
 
 -   Expand ClustEncApplication project in Solution Explorer
 
@@ -916,7 +912,7 @@ It is possible to enter storage parameters here but it is better to set concrete
 
 &lt;/ConfigOverrides&gt;
 
-So at the moment we have service parameters overridden by application parameters. Let’s allow to set storage account and key as application parameters in publish configurations.
+So at the moment we have service parameters overridden by application parameters. Let's allow to set storage account and key as application parameters in publish configurations.
 
 -   Open ApplicationParameters\\Cloud.xml
 
@@ -930,9 +926,9 @@ So at the moment we have service parameters overridden by application parameters
 
 Now we have storage account settings values placeholders \_Account\_ and \_Key\_ for both deployment directions independently.
 
-<span id="h.kseqwzbm84fs" class="anchor"><span id="_Toc452975502" class="anchor"></span></span>Controller
+#Controller
 
-Let’s create a web API controller EncoderTaskController for endpoint of our sample:
+Let's create a web API controller EncoderTaskController for endpoint of our sample:
 
 -   Open Package Manager Console, select ClustEncWebApi as a Default project and install required package with command:
 
@@ -1068,8 +1064,7 @@ public string UserId;
 
 -   Build ClustEncWebApi project and ensure the build successfully finished.
 
-<span id="h.16i7xe44pyy0" class="anchor"><span id="_Toc452975503" class="anchor"></span></span>
-Create Web Site Client
+##Create Web Site Client
 
 The web site we provide is not required to make a sample application working as a Web API backend. The site is just a simple client to demonstrate usage of the Web API. The site is developed based on AngularJS framework. Entire logic is a client side. So it will work in almost any environment:
 
@@ -1089,15 +1084,15 @@ We are going to show how to implement both use cases -
 
 -   In order to enable CORS to allow local file hosting:
 
-    -   Open Package Manager Console, select ClustEncWebApi as a Default project and install required package with command:
+-   Open Package Manager Console, select ClustEncWebApi as a Default project and install required package with command:
 
-> Install-Package Microsoft.AspNet.WebApi.Cors
+Install-Package Microsoft.AspNet.WebApi.Cors
 
 -   Append using:
 
-> using System.Web.Http.Cors;
+using System.Web.Http.Cors;
 
--   Append following code in the ConfigureApp method ***before*** appBuilder.UseWebApi… line:
+-   Append following code in the ConfigureApp method ***before*** appBuilder.UseWebApi line:
 
 // Removing xml formatter in order to leave JSON as a single output option.
 
@@ -1111,11 +1106,11 @@ config.EnableCors(cors);
 
 -   In order to enable simple file hosting for our client side:
 
-    -   Open Package Manager Console, select ClustEncWebApi as a Default project and install required package with command:
+-   Open Package Manager Console, select ClustEncWebApi as a Default project and install required package with command:
 
 ###### Install-Package Microsoft.Owin.StaticFiles
 
--   Append following code in the ConfigureApp method ***after*** appBuilder.UseWebApi… line:
+-   Append following code in the ConfigureApp method ***after*** appBuilder.UseWebApi line:
 
 // Simple file server is enough for AngularJS based site we use.
 
@@ -1143,14 +1138,13 @@ appBuilder.UseFileServer(fileServerOptions);
 
 -   And the final step is to keep the whole solution nugget packages versions updated and consolidated:
 
-    -   Open Package Manager console, select ClustEncWebApi as a Default project and execute:
+-   Open Package Manager console, select ClustEncWebApi as a Default project and execute:
 
-> Update-Package
+Update-Package
 
-<span id="h.jsav71k7sn7s" class="anchor"><span id="_Toc452975504" class="anchor"></span></span>
-Local Deployment
+##Local Deployment
 
-Before we start the deployment the actual Azure Blob Storage credentials should be provided. Please follow instructions on how to create a new Storage account if you don’t have one already here: <https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account>.
+Before we start the deployment the actual Azure Blob Storage credentials should be provided. Please follow instructions on how to create a new Storage account if you don't have one already here: <https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#create-a-storage-account>.
 Please read this article about how to retrieve storage account key: <https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/#view-and-copy-storage-access-keys>.
 
 Visual Studio is able to do all of the behind-of-scene work in order to start a local cluster, to build and publish a Service Fabric application and running it.
@@ -1163,15 +1157,13 @@ Visual Studio is able to do all of the behind-of-scene work in order to start a 
 
 More information about local cluster deployment is available here: <https://azure.microsoft.com/en-us/documentation/articles/service-fabric-get-started-with-a-local-cluster/>.
 
-<span id="_Toc452975505" class="anchor"></span>
-
-Azure Deployment
+##Azure Deployment
 
 Once we have everything running locally, the next step is deployment in your Azure environment.
 
-<span id="h.8uhzily13fuw" class="anchor"><span id="_Toc452975506" class="anchor"></span></span>Service Fabric Cluster set up
+#Service Fabric Cluster set up
 
-There is an article describing how to add an Azure Resource Group project into the solution in order to automate Azure cluster creation together with required endpoints: [Set up a Service Fabric cluster by using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-cluster-creation-via-visual-studio/). Let’s do a similar task but in order to avoid certificate installation step for simplicity we will use **unsecured** cluster. **Please do not use unsecured clusters for production environments.**
+There is an article describing how to add an Azure Resource Group project into the solution in order to automate Azure cluster creation together with required endpoints: [Set up a Service Fabric cluster by using Visual Studio](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-cluster-creation-via-visual-studio/). Let's do a similar task but in order to avoid certificate installation step for simplicity we will use **unsecured** cluster. **Please do not use unsecured clusters for production environments.**
 
 -   Add a new project of type Cloud -&gt; Azure Resource Group in the solution.
 
@@ -1181,7 +1173,7 @@ There is an article describing how to add an Azure Resource Group project into t
 
 <img src="media/image10.png" width="403" height="302" />
 
--   Click Build -&gt; Configuration Manager in Visual Studio Menu, Expand Active Solution Platform and click &lt;Edit…&gt;
+-   Click Build -&gt; Configuration Manager in Visual Studio Menu, Expand Active Solution Platform and click &lt;Edit&gt;
 
 <img src="media/image11.png" width="413" height="260" />
 
@@ -1201,25 +1193,25 @@ There is an article describing how to add an Azure Resource Group project into t
 
 -   Open ServiceFabricClusterUnsecured.json and:
 
-    -   Remove pair of sections with name "certificate":
+-   Remove pair of sections with name "certificate":
 
-> <img src="media/image13.png" width="488" height="114" />
+<img src="media/image13.png" width="488" height="114" />
 >
-> ***and***
+***and***
 >
-> <img src="media/image14.png" width="466" height="87" />
+<img src="media/image14.png" width="466" height="87" />
 
 -   Remove section with name "secrets":
 
-> <img src="media/image15.png" width="336" height="180" />
+<img src="media/image15.png" width="336" height="180" />
 
 -   Remove unnecessary template parameters:
 
-> <img src="media/image16.png" width="202" height="237" />
+<img src="media/image16.png" width="202" height="237" />
 
--   Remove content of “fabricSettings” array:
+-   Remove content of "fabricSettings" array:
 
-> <img src="media/image17.png" width="297" height="152" />
+<img src="media/image17.png" width="297" height="152" />
 
 -   Open ServiceFabricClusterUnsecured.parameters.json and remove all of parameters:
 
@@ -1243,9 +1235,9 @@ There is an article describing how to add an Azure Resource Group project into t
 
 <img src="media/image21.png" width="483" height="234" />
 
--   Be patient. Deployment can take more than 10 minutes to complete. See the progress in the Output Window and wait for “Successfully deployed template”
+-   Be patient. Deployment can take more than 10 minutes to complete. See the progress in the Output Window and wait for "Successfully deployed template"
 
--   Scroll output window up and locate OutputsString, then it’s parameter below named as “managementEndpoint”.
+-   Scroll output window up and locate OutputsString, then it's parameter below named as "managementEndpoint".
 
 <img src="media/image22.png" width="436" height="145" />
 
@@ -1253,8 +1245,7 @@ There is an article describing how to add an Azure Resource Group project into t
 
 <img src="media/image23.png" width="480" height="193" />
 
-<span id="h.ixhfrgullnz4" class="anchor"><span id="_Toc452975507" class="anchor"></span></span>
-Publish Application to cluster
+##Publish Application to cluster
 
 For different application deployment methods, please see the following article - <https://azure.microsoft.com/en-us/documentation/articles/service-fabric-deploy-remove-applications/>. In this sample Visual Studio will be used.
 
@@ -1286,10 +1277,10 @@ Enter Source file URL of a video you want to process, click Schedule new task an
 
 <img src="media/image27.png" width="601" height="97" />
 
-<span id="h.5tkn7llsjc9t" class="anchor"><span id="_Toc452975508" class="anchor"></span></span>Auto scaling
+#Auto scaling
 
 An auto scale ability was introduced for Azure Service Fabric in Spring 2016. Please read more at [Scale a Service Fabric cluster up or down using auto-scale rules](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-cluster-scale-up-down/).
 
-SUMMARY
+##SUMMARY
 
 We created a scalable Azure Service Fabric cluster to perform heavy computational tasks. This sample is universal and can be really helpful for startups using Azure as they grow and scalability becomes top priority. It is independent from any specific calculation algorithms and can be applied to any business areas requiring computational resources. The documents contain all necessary code to run this sample, but at the same time the full source code tree is attached for references.

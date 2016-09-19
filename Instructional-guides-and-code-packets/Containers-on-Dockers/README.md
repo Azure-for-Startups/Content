@@ -1,19 +1,18 @@
-**
-**Abstract (May 2016)
+##Abstract (May 2016)
 
 This sample covers a typical flow to perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and demonstrates how to make this process scalable and cost effective using Docker containers.
 
-INTRODUCTION
+##INTRODUCTION
 
 This demo scenario assumes the existence of a running service performing a heavy computational task (for example, video, audio encoding, hash calculation, or data encryption etc.). In this sample we use Azure blob storage to store input and output data. We emulate heavy calculation by using a standard method from the Linux world: dd if=/dev/zero of=/dev/null. For about 20% of the tasks we emulate error and for the remaining 80% we copy information from the source blob to the target blob. In order to make this process scalable and cost effective, the processing is encapsulated in Docker containers which are dynamically allocated if the service load grows and deallocated once resource demand goes down.
 
-Components
+#Components
 
 -   Worker Docker container performing heavy computational tasks
 
 -   Node.JS based website handling requests, showing completed tasks and initiating processing
 
-Flow
+#Flow
 
 -   The web site accepts the URL to the source blob and once the task has been completed it provides a temporary URL to download the results.
 
@@ -27,7 +26,7 @@ Flow
 
 The interface shows the user the list of tasks, status of each task, and allows the user to download task results for completed tasks. To simplify the sample, we are not using any database backend and will be using Azure Storage Blob naming convention to save data.
 
-PREREQUISITES
+##PREREQUISITES
 
 -   An Azure subscription
 
@@ -39,13 +38,13 @@ PREREQUISITES
 
 -   Optional: An existing SSH RSA Key if available. If not, follow the instructions in the document to create one.
 
-DURATION
+##DURATION
 
 This tutorial / guide can typically be completed within 60-90 minutes.
 
-CREATING AN ENVIRONMENT
+##CREATING AN ENVIRONMENT
 
-Generate certificates
+#Generate certificates
 
 When creating container services, SSH RSA key is required for access. In order to get a quick start, pre-generated sample keys are provided in the *DockerizedEncoder/Keys* subfolder. **NOTE: Do not use these keys on a production system!**
 
@@ -59,7 +58,7 @@ The following articles describe in detail how to create SSH RSA Key in a specifi
 
 For more detailed information, please visit the article: <https://github.com/Azure/azure-quickstart-templates/blob/master/101-acs-mesos/docs/SSHKeyManagement.md#ssh-key-generation>
 
-Deploy an Azure Container Service Cluster
+#Deploy an Azure Container Service Cluster
 
 We will provide steps you need to perform to deploy Azure Container service cluster. Detailed documentation is also available here: <https://azure.microsoft.com/en-us/documentation/articles/container-service-deployment>
 
@@ -103,7 +102,7 @@ Setup a target storage container
 
 At this point we have a fully functional docker swarm which is running on a single VM instance. This topology will allow us to spin up as many docker instances as the resources of the VM can handle. Now, in order to scale beyond the limit of a single VM, we will configure auto-scaling.
 
-Enable Azure Container Service cluster auto scale
+#Enable Azure Container Service cluster auto scale
 
 There are two documents publically available which describe this concept:
 
@@ -127,7 +126,7 @@ or Azure PowerShell command:
 
 > <img src="media/image11.png" width="352" height="212" />
 
--   Type “vmss” in the search box, select the found virtualMachineScaleSet item located in your resource group and press Enter.
+-   Type "vmss" in the search box, select the found virtualMachineScaleSet item located in your resource group and press Enter.
 
 > <img src="media/image12.png" width="266" height="139" />
 
@@ -135,7 +134,7 @@ or Azure PowerShell command:
 
 > <img src="media/image13.png" width="431" height="82" />
 
--   There are several ways you can execute a deployment template. We will use a portal UI: Press +New and enter a “template deployment” in the search box.
+-   There are several ways you can execute a deployment template. We will use a portal UI: Press +New and enter a "template deployment" in the search box.
 
 > <img src="media/image14.png" width="202" height="274" />
 
@@ -426,7 +425,7 @@ or Azure PowerShell command:
 
 -   Select resource group, accept legal terms and press Create
 
--   When deployment has been finished open the Resource Explorer and enter “autoscale” in the search box. Ensure you see an item in your resource group like this:
+-   When deployment has been finished open the Resource Explorer and enter "autoscale" in the search box. Ensure you see an item in your resource group like this:
 
 > <img src="media/image19.png" width="342" height="164" />
 
@@ -434,11 +433,11 @@ or Azure PowerShell command:
 
 > <img src="media/image20.png" width="326" height="201" />
 
-Connect to cluster master VM
+#Connect to cluster master VM
 
 Based on *<https://azure.microsoft.com/en-us/documentation/articles/container-service-connect/> *
 
-The ssh endpoint of cluster master VM is \[USERNAME\]@\[DNSPREFIX\]mgmt.\[REGION\].cloudapp.azure.com and port 2200. Certificate based authentication is used. Please use the private key file (id\_rsa.ppk or id\_rsa.pem) we generated earlier. If you forget an address, you can find this in your resource group resources by typing “master-ip”
+The ssh endpoint of cluster master VM is \[USERNAME\]@\[DNSPREFIX\]mgmt.\[REGION\].cloudapp.azure.com and port 2200. Certificate based authentication is used. Please use the private key file (id\_rsa.ppk or id\_rsa.pem) we generated earlier. If you forget an address, you can find this in your resource group resources by typing "master-ip"
 
 <img src="media/image21.png" width="520" height="222" />
 
@@ -458,7 +457,7 @@ The ssh endpoint of cluster master VM is \[USERNAME\]@\[DNSPREFIX\]mgmt.\[REGION
 >
 > *docker -H tcp://0.0.0.0:2375 run -i microsoft/azure-cli /bin/echo 'Hello world'*
 
-Create a new docker image
+#Create a new docker image
 
 We will create an image for our dockerized encoder from scratch. This image will be a dummy encoder. It downloads a file, makes a high CPU load for 1 processor core for 120 seconds and then copies the file to storage or creates an error (tuned to be in 20% of runs). Also the script removes expired results. This is not a production script sample. Be sure you have an active account on the docker hub. Read more details and signup here: <https://www.docker.com/products/docker-hub>. In order to avoid local docker installation I propose to use the master virtual machine of cluster just created.
 
@@ -726,7 +725,7 @@ or in the Visual Studio you can use the Node.js Interactive Window and execute:
 >
 > *"port":* 2375*,*
 >
-> *"imageName": "&lt;DockerImageName&gt;” ,*
+> *"imageName": "&lt;DockerImageName&gt;" ,*
 >
 > *"ssh": {*
 >
@@ -982,9 +981,9 @@ and the following code after creation app:
 
 > <img src="media/image25.png" width="247" height="239" />
 
-Deploy Node.JS as Azure Web App
+#Deploy Node.JS as Azure Web App
 
-1.  Create a Wep App in Azure. Go to <https://portal.azure.com/>, click on “+New”, select “Web + Mobile” and then “Web App”:
+1.  Create a Wep App in Azure. Go to <https://portal.azure.com/>, click on "+New", select "Web + Mobile" and then "Web App":
 
 > <img src="media/image26.png" width="282" height="213" />
 
@@ -992,7 +991,7 @@ Deploy Node.JS as Azure Web App
 
 > <img src="media/image27.png" width="156" height="262" />
 
-1.  To deploy your Node.JS app to the Azure Web App we can use a Local Git deployment model. Open the Web App you just created, click on the “All Settings” and select Deployment Source.
+1.  To deploy your Node.JS app to the Azure Web App we can use a Local Git deployment model. Open the Web App you just created, click on the "All Settings" and select Deployment Source.
 
 > <img src="media/image28.png" width="365" height="205" />
 
@@ -1034,6 +1033,6 @@ Deploy Node.JS as Azure Web App
 >
 > <img src="media/image32.png" width="265" height="93" />
 
-SUMMARY
+##SUMMARY
 
 We created auto scalable containers cluster to perform heavy computational tasks in an Azure cloud environment. This sample is universal and can be by leveraged by startups using Azure as they grow and scalability becomes a top priority. It is independent from any specific calculation and can be applied to any business area’s required computational resources. Also we demonstrated instantiation of tasks, and communication with docker containers from the Node.js web site. The documents contain all the necessary code to run this sample, but at the same time, a full source code tree is also attached for reference.
