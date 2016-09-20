@@ -1,5 +1,5 @@
-*Azure Service Fabric 
-**Video encoding using Azure Service Fabric end-to-end sample
+#Azure Service Fabric
+##Video encoding using Azure Service Fabric end-to-end sample
 Contact: Noga Tal nogat@microsoft.com
 
 **Abstract (July 2016)
@@ -8,11 +8,11 @@ Azure Search is a rich search-as-a-service. There is a preview feature available
 ==================================================================================================================================
 
 
-INTRODUCTION
+###INTRODUCTION
 
 This sample provides an end-to-end demo of how to conduct context searches of BLOB files using Azure Search indexing. This is a common scenario for large Azure Web app log files that are stored in BLOB file storage. You’ll create an Azure Search index for container content and a simple web client to search across this Azure Search index.
 
-Prerequisites
+###Prerequisites
 
 In order to complete this sample, you will need:
 
@@ -26,7 +26,7 @@ In order to complete this sample, you will need:
 
 -   Optional to open a sources solution: [*Visual Studio 2015*](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) with “PowerShell Tools for Visual Studio 2015” and “Microsoft ASP.NET Web Frameworks and Tools 2015” extensions installed.
 
-Scenario Flow
+###Scenario Flow
 <span id="h.976h0u9mcan6" class="anchor"><span id="h.k9xgj4jgggbl" class="anchor"><span id="_Toc446250707" class="anchor"></span></span></span>Azure Web App supports logging to Azure Storage Blob container. The logging core splits logs each hour and places them in a corresponding folder structure in the container. Generally, the log contains a lot of records in many blobs. Sometimes we need to find specific information in logs and there is no trivial way or tool to do it. In this scenario we are building a tool which utilizes Azure Search which helps to perform this task. In this sample we are going to search in logs produced by Azure Web App, but this is not a limitation.
 
 For information on how to create a dummy Azure Web App and configure Web App logging refer to the how-to instructions in the following article: [Enable diagnostics logging for web apps in Azure App Service](file://C:\Users\Shannon\AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\RZI10184\Azure%20Web%20App%20supports%20logging%20to%20Azure%20Storage%20Blob%20container.%20The%20logging%20core%20splits%20logs%20each%20hour%20and%20places%20them%20in%20a%20corresponding%20folder%20structure%20in%20container.%20Generally%20log%20contains%20a%20lot%20of%20records%20in%20many%20blobs.%20Sometimes%20we%20need%20to%20find%20specific%20information%20in%20logs%20and%20there%20is%20no%20trivial%20way%20or%20tool%20to%20do%20it.%20%20In%20this%20scenario%20we%20are%20building%20a%20tool%20which%20utilizes%20Azure%20Search%20which%20helps%20to%20perform%20this%20task.%20In%20this%20sample%20we%20are%20going%20to%20search%20in%20logs%20produced%20by%20Azure%20Web%20App,%20but%20this%20is%20not%20a%20limitation.).
@@ -35,7 +35,7 @@ A sample set of log files is available in the source archive which can be used a
 
 The tutorial is based on features and documentation links of the Azure Search PREVIEW, so some limitations are applied. You can find more detailed information on the following web page: <https://azure.microsoft.com/en-us/documentation/articles/search-limits-quotas-capacity/>
 
-COMPONENTS
+###COMPONENTS
 
 <span id="h.t3wltl1gaotb" class="anchor"></span>Azure Search Service
 
@@ -49,7 +49,7 @@ We will use the Azure Portal to create an Azure Search service.
 
 <img src="media/image1.png" width="430" height="166" />
 
-Source Package Preparing
+###Source Package Preparing
 
 This article is packaged with a source code archive. Please note that the source code needs to be prepared before being used by extracting the source code to a folder and updating the credential placeholder in the following three files:: Variables.ps1, settings.js and uploadLogset.cmd. You can edit them manually or replace placeholders at once by using ReplaceCredentials.ps1 script.
 
@@ -73,7 +73,7 @@ This article is packaged with a source code archive. Please note that the source
 
 -   Double check Variables.ps1, settings.js and uploadLogset.cmd contains actual values.
 
-Upload Sample Log Data
+###Upload Sample Log Data
 
 If you don’t have any Web App blob logs available, then you are welcome to use the sample dummy log set provided in the source code archive folder. You will need to create a new container and upload sample files using AzCopy utility. Read more about AzCopy here: [Copy or move data to Storage with AzCopy](https://azure.microsoft.com/en-us/documentation/articles/storage-use-azcopy/).
 
@@ -81,7 +81,7 @@ If you don’t have any Web App blob logs available, then you are welcome to use
 
 -   Execute uploadLogset.cmd
 
-Azure Search Index
+###Azure Search Index
 
 At the moment, the REST API is the only management method available for Azure blob data source and indexer at preview mode. So the REST API for index creation is used as well to be consistent. Please read [Indexing Documents in Azure Blob Storage with Azure Search](https://azure.microsoft.com/en-us/documentation/articles/search-howto-indexing-azure-blob-storage/) for more details.
 
@@ -99,7 +99,7 @@ PowerShell scripts are used as a REST API client. Using PowerShell is a good way
 
 Please note the index requires some additional time to be built after the script is completed. Read the following section about script details and how to obtain current indexer execution status and index statistics.
 
-Status, statistics, update scripts
+###Status, statistics, update scripts
 
 Three helper scripts make corresponding Azure search API calls:
 
@@ -111,7 +111,7 @@ Three helper scripts make corresponding Azure search API calls:
 
 The returning results are in the indented JSON format and are quite readable.
 
-CreareAzureSearchChain.ps1 script details
+####CreareAzureSearchChain.ps1 script details
 
 Let’s briefly inspect script content. Every management call should contain the api-key header and api version parameter. We specially defined these variables in the included Variables.ps1:
 
@@ -125,7 +125,7 @@ In order to allow re-creation on the script re-run, delete the existing data sou
 
 <img src="media/image7.png" width="601" height="33" />
 
-Data Source
+###Data Source
 
 The first step is a data source creation using data sources from Azure Search REST API endpoint. Script makes a POST request with json configuration of new data source.
 
@@ -133,7 +133,7 @@ The first step is a data source creation using data sources from Azure Search RE
 
 Read [Create Data Source](https://azure.microsoft.com/en-us/documentation/articles/search-api-indexers-2015-02-28-preview/#create-data-source) for more details about data sources.
 
-Index
+###Index
 
 The second step is creating an index using indexes Azure Search REST API endpoint. The script creates an index containing 4 fields:
 
@@ -173,7 +173,7 @@ Finally, we allowed CORS in order to be able to call search from AJAX requests.
 
 Read [Create Index (Azure Search Service REST API) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/azure/dn798941.aspx) for more details about index creation.
 
-Indexer
+###Indexer
 
 The third step is an indexer creation. Indexer performs scan data source to populate index with updated data.
 
@@ -195,7 +195,7 @@ Errors can be obtained by an indexer status API call later.
 
 > <img src="media/image17.png" width="184" height="22" />
 
-Search in Azure Search Index
+###Search in Azure Search Index
 
 A simple web client based on AngularJS is used to call the index created. This site can be called locally if just double clicking on index.html or hosted somewhere. Local file hosting has disadvantage - the settings are not stored in cookies. For any other HTTP hosting settings are stored in cookies.
 
@@ -213,6 +213,6 @@ A simple web client based on AngularJS is used to call the index created. This s
 
 -   Read Query your [Azure Search index](https://azure.microsoft.com/en-us/documentation/articles/search-query-overview/) for more about querying
 
-CONCLUSION
+##CONCLUSION
 
 In this scenario we covered the creation and usage of Azure Search indexes, configuring and query data by calling REST API endpoints via PowerShell scripts. We created custom tokenizers and filters and illustrated the flexible and customizable nature of Azure Search. We enabled calling the Azure Search API via AJAX requests and how to build a tiny Angular.JS web site which can be hosted anywhere starting from the local file system.
