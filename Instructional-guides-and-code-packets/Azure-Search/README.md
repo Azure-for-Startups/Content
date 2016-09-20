@@ -4,35 +4,6 @@
 Azure Search is a rich search-as-a-service. There is a preview feature available allowing to index and search a set of blob files 
 ==================================================================================================================================
 
-[Introduction 2](#_Toc454502314)
-
-[Prerequisites 2](#_Toc454502315)
-
-[Scenario flow 3](#_Toc454502316)
-
-[Components 3](#_Toc454502317)
-
-[Azure Search Service 3](#_Toc454502318)
-
-[Source package preparing 4](#_Toc454502319)
-
-[Upload sample log data 5](#_Toc454502320)
-
-[Azure Search Index 5](#_Toc454502321)
-
-[Status, statistics, update scripts 5](#_Toc454502322)
-
-[CreareAzureSearchChain.ps1 script details 6](#_Toc454502323)
-
-[Data source 6](#_Toc454502324)
-
-[Index 6](#_Toc454502325)
-
-[Indexer 8](#_Toc454502326)
-
-[Search in Azure Search Index 9](#_Toc454502327)
-
-[Conclusion 10](#_Toc454502328)
 
 INTRODUCTION
 
