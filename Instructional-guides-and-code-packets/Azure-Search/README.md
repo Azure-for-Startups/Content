@@ -1,4 +1,7 @@
-**
+*Azure Service Fabric 
+**Video encoding using Azure Service Fabric end-to-end sample
+Contact: Noga Tal nogat@microsoft.com
+
 **Abstract (July 2016)
 
 Azure Search is a rich search-as-a-service. There is a preview feature available allowing to index and search a set of blob files 
