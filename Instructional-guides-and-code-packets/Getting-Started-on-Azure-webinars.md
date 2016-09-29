@@ -7,9 +7,9 @@ This webinar provides and introduction to the Azure Portal covering navigation a
 <video>
 
 ###Additional related content:
--	Overview of the Azure Portal Webinar script
+-	**[Overview of the Azure Portal Webinar script] ()**
 -	**[Azure Portal] ()** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
--	Introducing Microsoft Azure - Azure Portal - a foundation for understanding the fundamentals of Azure, even if you don't know anything about cloud computing.
+-	**[Introducing Microsoft Azure - Azure Portal] ()** - a foundation for understanding the fundamentals of Azure, even if you don't know anything about cloud computing.
 
 
 ##Set up a Resource Group
