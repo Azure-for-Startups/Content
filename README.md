@@ -3,22 +3,139 @@
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
 
 
-##Topic summaries
-### Getting Started on Azure video series
- - [Overview of the Azure Console] () - Tutorial providing an introduction to the Azure Console.
- - **[Virtual Network] ()** - Tutorial describing how to set up a virtual network.  A virtual network is a representation of your own network in the cloud allowing you to control the IP address blocks, DNS setting, security policies, and routing tables.
- - **[Resource Groups] ()** - Tutorial describing what to consider and how to create and manage a resource group.  A resource group is simply a collection of Azure resources that you decide to group together.
- - **[Storage Accounts] ()** - Tutorial describing how to create and manage a storage account and to select the storage option that is right for you.  
- - **[Virtual Machines] ()** - Tutorial describing how to set up a virtual machine.  A storage account is required to be set up prior to setting up a virtual machine.
- 
-### Azure services Instruction guides and code packets
-- **[Azure IoT] (Instructional-guides-and-code-packets/Azure-IoT)** - This tutorial provides an end-to-end demonstration of the IoT sample system on Azure which includes: IoT hub for communication with devices, Stream Analytic for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization. 
+##Getting Started on Azure
+- **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
+- **[Interactive Azure Map] (https://aka.ms/azmap)** - Explore this interactive overview of services available on the Azure platform, grouped by type. Click on service names to learn about them and get links to get started.
+- **[Azure Learning Paths] (https://azure.microsoft.com/en-us/documentation/learning-paths/)** - Get started with these learning paths for different Azure Services.
+- **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
+-	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
+-	**[Offers] ()** - 
 
-- **[Azure Search] (Instructional-guides-and-code-packets/Azure-Search)** - This sample provides an end-to-end demo of how to conduct context searches of BLOB files using Azure Search indexing.  This is a common scenario for large Azure Web app log files that are stored in BLOB file storage.  You’ll create an Azure Search index for container content and a simple web client to search across this Azure Search index.
-- **[Amazon S3 to Azure Blob Storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** - This tutorial illustrates the basic principles of copying data from Amazon S3 to Azure storage. 
-- **[Azure Machine Learning] (Instructional-guides-and-code-packets/Azure-Machine-Learning)** - This tutorial demonstrates how to apply Azure Machine Learning technology to perform analysis of a dummy system in order to detect and alert about any anomaly or unusual behavior. You will build a Machine Learning model/experiment for the system which performs data transfers between different Azure datacenters. You will also build a watchdog to monitor data transfer response time. 
-- **[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)** - This sample covers a typical flow to perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. We describe how to build, deploy, scale and test your solution on Azure Service Fabric.
-- **[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)** - This sample covers a typical flow to perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and demonstrates how to make this process scalable and cost effective using Docker containers.
-- **[Media Services] (Instructional-guides-and-code-packets/Media-Services)** - This tutorial provides an end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.
+##Working with Azure
+-	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
+-	**[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
+-	**[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
+-	**[Azure CLI] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)** – Create/manage Azure resources using a set of open-source shell-based commands. For Linux, Mac, and Windows.
+-	**[Azure API Reference] (https://msdn.microsoft.com/en-us/library/azure/mt420159.aspx)** - Reference for Azure REST and .NET APIs.
+-	**[Azure Resource Explorer] (http://resources.azure.com/)** - A very useful web application to explore the Azure REST API.
+-	**[Azure Storage Explorer] (http://storageexplorer.com/)** - A client application for Linux, Mac or Windows to easily work with storage accounts on Azure.
+-	**[Azure Solutions] (https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
+-	**[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
 
-- **[Notification Hub] (Instructional-guides-and-code-packets/Notification-Hub)** - This tutorial and associated code sample illustrate how to use the Azure Notification Hub to deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms.
+##Azure Resource Manager (ARM)
+The Azure Resource Manager is at the core of the Azure platform and is used to deploy and manage Azure services. Every resource in Azure managed under ARM can be described and managed in a consistent way. It's very helpful to understand the Azure Resource Manager and how to work with Resource Groups.
+-	**[ARM Overview] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)** - Get an overview of the Azure Resource Manager.
+-	**[ARM vs. Classic] (https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/)** - Understand the difference between ARM the Classic (ASM) deployment model.
+-	**[Azure portal availability chart] (https://azure.microsoft.com/en-us/features/azure-portal/availability/)** – use the availability chart to determine what services are supported by ARM and the Azure portal
+
+##ARM Templates
+ARM templates are JSON descriptions of ARM deployments which can be used for "Infrastructure as Code".
+-	**[Deploying ARM Templates] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-template-deploy/)** – Learn how to deploy ARM templates using PowerShell, Azure CLI or REST API.
+-	**[Quick Start Templates] (https://github.com/Azure/azure-quickstart-templates)** - A Github maintained, vast collection of templates for common use cases to help you get started authoring your own templates or deploying simple solutions.
+-	**[Template Authoring] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-authoring-templates/)** - How to author custom templates.
+
+##Migration to Azure 
+-	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
+-	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
+-	**[MongoDB to Azure Migration resources] (https://github.com/XynergiesLLC/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
+
+###Tools & Services
+-	**[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
+-	**[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
+-	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage
+
+   Tutorials and Sample code
+    **[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)** - Tutorial
+    **[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)** - Tutorial
+    **[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** - Tutorial
+    **[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)** -Tutorial
+
+
+#Infrastructure Services (IaaS)
+Infrastructure as a service (IaaS) refers to the compute, networking and storage building blocks which allow you to build any kind of cloud solution. IaaS allows you to have maximum control on how you manage virtual machines, network configuration but requires you to invest in attaining robustness, availability and scalability in the cloud.  
+
+##Webinar series: Getting started on Azure Infrastructure services
+-	**[Overview of the Azure Portal] ()** – (Video) Tutorial providing an introduction to the Azure Portal.
+-	**[Resource Groups] ()** - (Video) Learn what to consider and how to create and manage a resource group.
+-	**[Storage Accounts] ()** - (Video) Learn how to create and manage a storage account and to select the storage option that is right for you.
+-	**[Virtual Network] ()** - (Video) Learn how to set up a virtual network incl. IP address blocks, DNS setting, security policies, and routing tables.
+-	**[Virtual Machines] ()** - (Video) Learn how to set up a virtual machine.
+
+##Compute 
+-	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage about VMs. 
+-	**[Linux VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/)** – Get started creating a Linux VM on the Azure Portal.
+-	**[Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/)** – Get started creating a Windows VM on the Azure Portal
+-	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Learn about extension to virtual machines such as the Chef, Docker or custom script extensions.
+-	**[VM Scale Sets Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machine-scale-sets-overview/)** - Learn about deploying and managing VM scale sets.
+-	**[Service Fabric Overview] (https://azure.microsoft.com/en-us/documentation/services/service-fabric/)** – a distributed systems platform that makes it easy to package, deploy, and manage scalable, reliable microservices.
+-	**[Choose between App Services, Service Fabric and VMs] (https://azure.microsoft.com/en-us/documentation/articles/choose-web-site-cloud-service-vm/)** - including scenarios and recommendations.
+-	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
+
+###Tutorials and Sample code
+**[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)** - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. 
+**[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)** - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.	
+**[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)**  - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define
+
+##Networking
+-	**[Virtual Networks (Vnets) Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)** – Learn about Azure Virtual Networks and how to create them.
+-	**[Network Security Groups] (https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)** – Learn about Network Security Groups (NSGs) and how to configure them.
+-	**[Load-Balancers] (https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)** – Learn about Azure Load Balancer and to configure one.
+
+##Storage
+-	**[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn about Storage accounts and how to set them including blobs, tables, queues, and files.
+-	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn about Storage accounts, how to set them up and the two storage accounts: general purpose and blob.
+
+#Platform Services (PaaS)
+Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
+
+##Web & Mobile
+-	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/https:/azure.microsoft.com/en-us/documentation/services/app-service/mobile)** – Learn about Web Apps, Mobile Apps, API apps.
+-	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
+-	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
+-	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
+      Media & CDN
+-	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
+
+###Tutorials and Sample code
+- **[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)** - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub	
+- **[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)** – Conduct context searches of BLOB files using Azure Search indexing.	
+- **[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)** - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service	
+- **[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)** – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.
+
+##Internet of Things & Machine Learning
+-	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/learning-paths/iot-hub/)** - Overview and tutorial on Machine Learning on IoT.
+-	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/
+)** - Overview and tutorial on Machine Learning.
+-	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
+
+###Tutorials and Sample code
+-**[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)** – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization	
+-**[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)** – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior	
+-**[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)** – learn how to collect streaming data from IoT devices and analyze the streaming data 
+
+
+##Data 
+-	**[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB.
+-	**[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
+-	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and managed DocumentDB applications.
+-	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
+
+###Tutorials and Sample code
+-**[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)** – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB	
+-**[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)** – Learn how to install MongoDB on a Windows VM in Azure.	
+-**[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)** - Learn how to install MongoDB on a Linux VM in Azure.	
+-**[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)** – Learn how to create a web page in Azure that connects to MongoDB running on a VM.
+
+
+##Intelligence & Analytics
+-	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview - (Core documentation) 
+-	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?filter=web-mobile)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
+
+###Tutorials and Sample code
+-**[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)**  – learn how to use Hive for Big Data Analysis
+-**[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)** – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets
+
+#Cloud Architecture
+-	**[Cloud Patterns & Practices] (https://aka.ms/mspnp)** - Best practices for building cloud solutions. Including checklists and design patterns. 
+-	**[Architecture Blueprints] (https://msdn.microsoft.com/architects-blueprints-msdn)** - Architectures for an array of different cloud scenarios.
+
