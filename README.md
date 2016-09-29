@@ -9,7 +9,7 @@ This GitHub repository provides instructional guides and code packets to help st
 - **[Azure Learning Paths] (https://azure.microsoft.com/en-us/documentation/learning-paths/)** - Get started with these learning paths for different Azure Services.
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
 -	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
--	**[Offers] ()** - 
+-	**[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
 
 ##Working with Azure
 -	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
