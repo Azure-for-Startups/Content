@@ -1,5 +1,5 @@
 #Getting Started on Azure Webinar series
-
+This webinar searies covers the basics of the Azure portal and the components and steps to set up a Virtual Machine.  At the end of this webinar series you will understand how to set up a Resource Group, Storage account, Virtual Network, and Virtual Machine.  
 
 ##Overview of the Azure Portal
 This webinar provides and introduction to the Azure Portal covering navigation and key elements of the portal including the Azure dashboard, marketplace, and resources.
