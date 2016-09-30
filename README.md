@@ -2,7 +2,6 @@
 
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
 
-
 ##Getting Started on Azure
 - **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
 - **[Interactive Azure Map] (https://aka.ms/azmap)** - Explore this interactive overview of services available on the Azure platform, grouped by type. Click on service names to learn about them and get links to get started.
@@ -10,6 +9,7 @@ This GitHub repository provides instructional guides and code packets to help st
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
 -	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
 -	**[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
+
 
 <p> </p>
 <p> </p>
@@ -36,6 +36,7 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[Quick Start Templates] (https://github.com/Azure/azure-quickstart-templates)** - A Github maintained, vast collection of templates for common use cases to help you get started authoring your own templates or deploying simple solutions.
 -	**[Template Authoring] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-authoring-templates/)** - How to author custom templates.
 
+
 ##Migration to Azure 
 -	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
@@ -46,10 +47,19 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
 -	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
 
-   ###*Tutorials and Sample code*
-   | | | | |
-   | --- | --- | --- | --- |
-   | **[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)** - Tutorial | **[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)** - Tutorial | **[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** - Tutorial | **[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)** -Tutorial |
+###*Tutorials and Sample code*
+
+ <table class="table table-bordered table-striped table-hover">
+					<tr>
+					   <td><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
+					   <td><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
+                  <td><b>[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)</b> - Tutorial</td>
+					   <td><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>                  
+				 </table>
+
+
+
+
 
 
 #Infrastructure Services (IaaS)
