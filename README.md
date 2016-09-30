@@ -29,7 +29,7 @@ This GitHub repository provides instructional guides and code packets to help st
 -	**[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
 
 
-##Migration to Azure 
+##Migrating to Azure 
 -	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
 -	**[MongoDB to Azure Migration resources] (https://github.com/XynergiesLLC/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
