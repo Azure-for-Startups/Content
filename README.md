@@ -1,26 +1,10 @@
 # Title
 
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
-   <table class="table table-bordered table-striped table-hover">
+   <table class="table table-bordered table-striped table-hover border-0px">
 	<tr>
-	<td><b>Getting Started on Azure<br>Working with Azure<br>Migration to Azure<br>Infrastructure Services</b></td>
-	  <td><b>Platform Services<br>Cloud Architecure<br>Additional Useful Tools and Links<br>Azure Resource Manager</b></td>
-	</tr>
-     </table>
-
-   <table class="table table-bordered table-striped table-hover">
-	<tr>
-	  <td><b>Getting Started on Azure
-	         Working with Azure
-		 Migration to Azure
-		 Infrastructure Services
-		    </b> </td>
-	  <td><b>Platform Services
-	  	 Cloud Architecure
-		 Additional Useful Tools and Links
-		 Azure Resource Manager
-		 </b></td>
-
+	<td>Getting Started on Azure<br>Working with Azure<br>Migration to Azure<br>Infrastructure Services</td>
+	  <td>Platform Services<br>Cloud Architecure<br>Additional Useful Tools and Links<br>Azure Resource Manager</td>
 	</tr>
      </table>
 
@@ -194,4 +178,3 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[Deploying ARM Templates] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-template-deploy/)** – Learn how to deploy ARM templates using PowerShell, Azure CLI or REST API.
 -	**[Quick Start Templates] (https://github.com/Azure/azure-quickstart-templates)** - A Github maintained, vast collection of templates for common use cases to help you get started authoring your own templates or deploying simple solutions.
 -	**[Template Authoring] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-authoring-templates/)** - How to author custom templates.
-
