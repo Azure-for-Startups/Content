@@ -5,7 +5,7 @@ This GitHub repository provides instructional guides and code packets to help st
 
 ##Getting Started on Azure
 - **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
-- **[Interactive Azure Map] (https://aka.ms/azmap)** - Explore this interactive overview of services available on the Azure platform, grouped by type. Click on service names to learn about them and get links to get started.
+- **[Interactive Azure Map] (https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
 - **[Azure Learning Paths] (https://azure.microsoft.com/en-us/documentation/learning-paths/)** - Get started with these learning paths for different Azure Services.
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
 -	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
@@ -18,24 +18,10 @@ This GitHub repository provides instructional guides and code packets to help st
 -	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
 -	**[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
 -	**[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
--	**[Azure CLI] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)** – Create/manage Azure resources using a set of open-source shell-based commands. For Linux, Mac, and Windows.
+-	**[Azure CLI] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)** – Create/manage Azure resources using a set of open-source shell-based commands.
 -	**[Azure API Reference] (https://msdn.microsoft.com/en-us/library/azure/mt420159.aspx)** - Reference for Azure REST and .NET APIs.
--	**[Azure Resource Explorer] (http://resources.azure.com/)** - A very useful web application to explore the Azure REST API.
--	**[Azure Storage Explorer] (http://storageexplorer.com/)** - A client application for Linux, Mac or Windows to easily work with storage accounts on Azure.
 -	**[Azure Solutions] (https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
 -	**[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
-
-##Azure Resource Manager (ARM)
-The Azure Resource Manager is at the core of the Azure platform and is used to deploy and manage Azure services. Every resource in Azure managed under ARM can be described and managed in a consistent way. It's very helpful to understand the Azure Resource Manager and how to work with Resource Groups.
--	**[ARM Overview] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)** - Get an overview of the Azure Resource Manager.
--	**[ARM vs. Classic] (https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/)** - Understand the difference between ARM the Classic (ASM) deployment model.
--	**[Azure portal availability chart] (https://azure.microsoft.com/en-us/features/azure-portal/availability/)** – use the availability chart to determine what services are supported by ARM and the Azure portal
-
-##ARM Templates
-ARM templates are JSON descriptions of ARM deployments which can be used for "Infrastructure as Code".
--	**[Deploying ARM Templates] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-template-deploy/)** – Learn how to deploy ARM templates using PowerShell, Azure CLI or REST API.
--	**[Quick Start Templates] (https://github.com/Azure/azure-quickstart-templates)** - A Github maintained, vast collection of templates for common use cases to help you get started authoring your own templates or deploying simple solutions.
--	**[Template Authoring] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-authoring-templates/)** - How to author custom templates.
 
 
 ##Migration to Azure 
@@ -168,4 +154,23 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 #Cloud Architecture
 -	**[Cloud Patterns & Practices] (https://aka.ms/mspnp)** - Best practices for building cloud solutions. Including checklists and design patterns. 
 -	**[Architecture Blueprints] (https://msdn.microsoft.com/architects-blueprints-msdn)** - Architectures for an array of different cloud scenarios.
+
+#Additional Useful Tools & Links
+-	**[Azure Price Calculator] (https://aka.ms/azurecalc)** - Easily calculate pricing of Azure Services. 
+-	**[Azure Trust Center] (https://azure.microsoft.com/en-us/support/trust-center/)** - Learn about Azure security, compliance, privacy and transparency.
+-	**[Azure Subscription Service Limits] (https://azure.microsoft.com/en-us/documentation/articles/azure-subscription-service-limits/)** - Learn about Azure subscription and service limits, quotas, and constraints.
+-	**[Azure Resource Explorer] (http://resources.azure.com/)** - A very useful web application to explore the Azure REST API.
+-	**[Azure Storage Explorer] (http://storageexplorer.com/)** - A client application for Linux, Mac or Windows to easily work with storage accounts on Azure.
+
+#Azure Resource Manager (ARM)
+The Azure Resource Manager is at the core of the Azure platform and is used to deploy and manage Azure services. Every resource in Azure managed under ARM can be described and managed in a consistent way. It's very helpful to understand the Azure Resource Manager and how to work with Resource Groups.
+-	**[ARM Overview] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)** - Get an overview of the Azure Resource Manager.
+-	**[ARM vs. Classic] (https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/)** - Understand the difference between ARM the Classic (ASM) deployment model.
+-	**[Azure portal availability chart] (https://azure.microsoft.com/en-us/features/azure-portal/availability/)** – use the availability chart to determine what services are supported by ARM and the Azure portal
+
+##ARM Templates
+ARM templates are JSON descriptions of ARM deployments which can be used for "Infrastructure as Code".
+-	**[Deploying ARM Templates] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-template-deploy/)** – Learn how to deploy ARM templates using PowerShell, Azure CLI or REST API.
+-	**[Quick Start Templates] (https://github.com/Azure/azure-quickstart-templates)** - A Github maintained, vast collection of templates for common use cases to help you get started authoring your own templates or deploying simple solutions.
+-	**[Template Authoring] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-authoring-templates/)** - How to author custom templates.
 
