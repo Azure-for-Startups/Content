@@ -2,6 +2,7 @@
 
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
 
+
 ##Getting Started on Azure
 - **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
 - **[Interactive Azure Map] (https://aka.ms/azmap)** - Explore this interactive overview of services available on the Azure platform, grouped by type. Click on service names to learn about them and get links to get started.
@@ -47,8 +48,9 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
 -	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
 
-###*Tutorials and Sample code*
-  <table class="table table-bordered table-striped table-hover">
+
+   ###*Tutorials and Sample code*
+   <table class="table table-bordered table-striped table-hover">
 					<tr>
 					   <td><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
 					   <td><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
@@ -58,7 +60,20 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 				 </table>
 
 
-
+<div class="panel panel-default">
+   <div class="panel-heading">
+    <h3 class="panel-title"><i>Tutorials and Sample code</i></h3>
+       </div>
+            <div class="panel-body">
+               <table class="table table-bordered table-striped table-hover">
+			<tr>
+			   <td><b>Complimentary Course Content</b></td>
+			   <td><b>Complimentary Course Content</b></td>
+			   <td><b>Complimentary Course Content</b></td>
+			</tr>
+		 </table>
+		</div>
+</div>
 
 
 #Infrastructure Services (IaaS)
@@ -82,9 +97,13 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
 
    ###*Tutorials and Sample code*
-   | | | | |
-   | --- | --- | --- | --- |
-   | **[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)** - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. | **[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)** - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers. | **[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)**  - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define |
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
+	  <td><b>[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+          <td><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
+	</tr>
+     </table>
 
 ##Networking
 -	**[Virtual Networks (Vnets) Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)** – Learn about Azure Virtual Networks and how to create them.
