@@ -108,8 +108,7 @@ ASP.NET MVC Web Application to Azure WebApp via Visual Studio:
     Succeeded" message. There will be the link to your web application,
     click it and ensure that the project has deployed successfully:
 
-> ![](media/03/image4.png){width="4.7386472003499565in"
-> height="2.6458333333333335in"}
+> ![](media/03/image4.png)
 >
 > You can monitor and manage your web app in the Azure portal -
 > <https://portal.azure.com/>.
@@ -130,8 +129,7 @@ In the case of AWS S3 Service we are going to use standard AWSSDK.S3
 NuGet package provided for easy access to S3 API. The implementation of
 the *IImageService* interface looks like:
 
-![](media/03/image6.png){width="4.677083333333333in"
-height="6.520833333333333in"}
+![](media/03/image6.png)
 
 Here is the specific implementation of the interface for the Azure Blob
 Storage Service (using WindowsAzure.Storage NuGet package):
