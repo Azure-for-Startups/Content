@@ -49,8 +49,8 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
 
 
-###*Tutorials and Sample code*
-   <table class="table table-bordered table-striped table-hover">
+   ###*Tutorials and Sample code*
+     <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
 	  <td><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
@@ -79,6 +79,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Service Fabric Overview] (https://azure.microsoft.com/en-us/documentation/services/service-fabric/)** – a distributed systems platform that makes it easy to package, deploy, and manage scalable, reliable microservices.
 -	**[Choose between App Services, Service Fabric and VMs] (https://azure.microsoft.com/en-us/documentation/articles/choose-web-site-cloud-service-vm/)** - including scenarios and recommendations.
 -	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
+
 
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
@@ -109,21 +110,30 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
       Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-###*Tutorials and Sample code*
-| | | | |
-| --- | --- | --- | --- |
-| **[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)** - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub | **[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)** – Conduct context searches of BLOB files using Azure Search indexing.	| **[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)** - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service	| **[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)** – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend. |
+   ###*Tutorials and Sample code*
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+	  <td><b>[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
+          <td><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+          <td><b>[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
+	</tr>
+     </table>
+
 
 ##Internet of Things & Machine Learning
 -	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/learning-paths/iot-hub/)** - Overview and tutorial on Machine Learning on IoT.
 -	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.
 -	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
 
-
    ###*Tutorials and Sample code*
-   | | | |
-   | --- | --- | --- |
-   | **[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)** – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization	| **[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)** – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior	| **[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)** – learn how to collect streaming data from IoT devices and analyze the streaming data |
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)</b> – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization</td>
+	  <td><b>[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)</b> – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior.</td>
+          <td><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
+	</tr>
+     </table>
 
 
 ##Data 
@@ -133,19 +143,27 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
 
    ###*Tutorials and Sample code*
-   | | | | |
-   | --- | --- | --- | --- |
-   | **[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)** – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB | **[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)** – Learn how to install MongoDB on a Windows VM in Azure. | -**[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)** - Learn how to install MongoDB on a Linux VM in Azure. | **[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)** – Learn how to create a web page in Azure that connects to MongoDB running on a VM. |
-
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
+	  <td><b>[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)</b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
+          <td><b>[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)</b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
+          <td><b>[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)</b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
+	  </tr>
+     </table>
 
 ##Intelligence & Analytics
 -	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview - (Core documentation) 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?filter=web-mobile)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
    ###*Tutorials and Sampl e code*
-   | | |
-   | --- | --- |
-   |**[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)**  – learn how to use Hive for Big Data Analysis | **[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)** – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets |
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – learn how to use Hive for Big Data Analysis</td>
+          <td><b>[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)</b> – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
+	  </tr>
+     </table>
+
 
 #Cloud Architecture
 -	**[Cloud Patterns & Practices] (https://aka.ms/mspnp)** - Best practices for building cloud solutions. Including checklists and design patterns. 
