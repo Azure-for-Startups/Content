@@ -1,9 +1,0 @@
-extends layout
-
-block content
-	h2 #{title}
-	div
-		div
-			- each registration in regisrations
-				li
-					a(href='/push/send?tags=#{registration.tags}&registrationType=#{registration.registrationType}') #{registration.name}

@@ -1,7 +1,0 @@
-﻿<Application
-    x:Class="PushMeNow.Client.WindowsPhone.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:PushMeNow.Client.WindowsPhone">
-
-</Application>
