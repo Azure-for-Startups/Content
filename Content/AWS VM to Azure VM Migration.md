@@ -50,7 +50,7 @@ Keith Mayer has published a great video series about the Migration
 Windows driven Virtual Machine from AWS to Azure. You can find the
 entire series on Channel 9
 [*here*](https://channel9.msdn.com/Series/Migrating-Virtual-Machines-from-Amazon-AWS-to-Microsoft-Azure)
-(including an episode named â€œWhy Migrate from Amazon AWS to Azure?â€�) or
+(including an episode named "Why Migrate from Amazon AWS to Azure?") or
 [*here*](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-How-to-Migrate-Your-Virtual-Machines-from-Amazon-Web-Services-to-Windows-Azure)
 as one video file.
 
@@ -104,7 +104,7 @@ recommendations are:
 > height="2.121563867016623in"}
 
 1.  This User Name has been constructed from the AWS Instance ID +
-    â€œAdministratorâ€� account name:
+    "Administrator" account name:
 
 > ![](media/04/image6.png){width="3.0972222222222223in"
 > height="0.9463735783027122in"}
@@ -114,8 +114,8 @@ recommendations are:
 > ![](media/04/image7.png){width="2.8958333333333335in"
 > height="1.9305555555555556in"}
 
-1.  During the Target Server configuration, the empty â€œmaster target
-    serverâ€� list appears to be empty in the Azure Portal:
+1.  During the Target Server configuration, the empty "master target
+    server" list appears to be empty in the Azure Portal:
 
 > ![](media/04/image8.png){width="3.7751662292213473in"
 > height="3.1180555555555554in"}
@@ -150,7 +150,7 @@ guide by Rayne Wiselman, with a few recommended adjustments:
     You can find the latest version of LIS along with instructions on
     how to install it
     [*here*](https://www.microsoft.com/en-us/download/details.aspx?id=46842).
-    The PDF file (â€œLinux Integration Services v4-0-11.pdfâ€�) includes an
+    The PDF file ("Linux Integration Services v4-0-11.pdf") includes an
     installation guide.
 
 2.  During install of the Additional Software for the Master Target

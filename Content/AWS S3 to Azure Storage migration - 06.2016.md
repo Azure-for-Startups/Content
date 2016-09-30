@@ -26,7 +26,7 @@ Beanstalk service, please follow the instructions below:
 
 2.  Enter your login and password at the opened AWS Elastic Beanstalk
     service page. After that you will be redirected to the Amazon Web
-    Services page. Find â€œComputeâ€� area and choose â€œElastic Beanstalkâ€�
+    Services page. Find "Compute" area and choose "Elastic Beanstalk"
     item:
 
 > ![](media/03/image1.png){width="5.16296697287839in" height="3.15625in"}
@@ -42,14 +42,14 @@ Beanstalk service, please follow the instructions below:
     height="2.4270833333333335in"}
 
     Here choose a Predefined configuration (for our example it should
-    be â€œIISâ€�) and Environment type (â€œSingle instanceâ€�). Click Next.
+    be "IIS") and Environment type ("Single instance"). Click Next.
 
-3.  Choose â€œUpload your ownâ€� radiobutton and select your project archive
-    at the next page called Application Version (â€œ*AWS Elastic Beanstalk
+3.  Choose "Upload your own" radiobutton and select your project archive
+    at the next page called Application Version ("*AWS Elastic Beanstalk
     is an easy-to-use service for deploying and scaling web applications
     and services developed with Java, .NET, PHP, Node.js, Python, Ruby,
     Go, and Docker on familiar servers such as Apache, Nginx, Passenger,
-    and IIS*â€� (c)). Please make sure that your file meets the
+    and IIS*" (c)). Please make sure that your file meets the
     requirements (see AWS Documentation
     <https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deployment.source.html>).
     Click Next. Wait while the application version is uploading.
@@ -98,15 +98,15 @@ ASP.NET MVC Web Application to Azure WebApp via Visual Studio:
     a hidden user-specific file in the
     Properties\\PublishProfiles folder.
 
-2.  At the opened window on the Profile tab choose â€œMicrosoft Azure App
-    Serviceâ€� target.
+2.  At the opened window on the Profile tab choose "Microsoft Azure App
+    Service" target.
 
 3.  At the opened window App Service fill Subscription and View fields,
     choose an App Service to publish.
 
 4.  On the Connection, Settings and Preview tabs enter the needed data
-    and click Publish. Wait until you see the â€œPublish
-    Succeededâ€� message. There will be the link to your web application,
+    and click Publish. Wait until you see the "Publish
+    Succeeded" message. There will be the link to your web application,
     click it and ensure that the project has deployed successfully:
 
 > ![](media/03/image4.png){width="4.7386472003499565in"
