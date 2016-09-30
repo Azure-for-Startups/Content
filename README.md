@@ -1,7 +1,28 @@
 # Title
 
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
+   <table class="table table-bordered table-striped table-hover">
+	<tr>
+	<td><b>Getting Started on Azure<br>Working with Azure<br>Migration to Azure<br>Infrastructure Services</b></td>
+	  <td><b>Platform Services<br>Cloud Architecure<br>Additional Useful Tools and Links<br>Azure Resource Manager</b></td>
+	</tr>
+     </table>
 
+   <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td><b>Getting Started on Azure
+	         Working with Azure
+		 Migration to Azure
+		 Infrastructure Services
+		    </b> </td>
+	  <td><b>Platform Services
+	  	 Cloud Architecure
+		 Additional Useful Tools and Links
+		 Azure Resource Manager
+		 </b></td>
+
+	</tr>
+     </table>
 
 ##Getting Started on Azure
 - **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
