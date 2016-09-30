@@ -48,16 +48,21 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
 
 ###*Tutorials and Sample code*
-
- <table class="table table-bordered table-striped table-hover">
+  <div class="panel panel-default">
+            <div class="panel-heading">
+               <h3 class="panel-title">Available academic resources</h3>
+            </div>
+            <div class="panel-body">
+               <table class="table table-bordered table-striped table-hover">
 					<tr>
 					   <td><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
 					   <td><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
                   <td><b>[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)</b> - Tutorial</td>
-					   <td><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>                  
+					   <td><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>  
+					</tr>
 				 </table>
-
-
+			</div>
+      </div>
 
 
 
