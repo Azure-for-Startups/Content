@@ -3,8 +3,8 @@
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
    <table class="table table-bordered table-striped table-hover border-0px">
 	<tr>
-	<td>Getting Started on Azure<br>Working with Azure<br>Migration to Azure<br>Infrastructure Services</td>
-	  <td>Platform Services<br>Cloud Architecure<br>Additional Useful Tools and Links<br>Azure Resource Manager</td>
+	<td>[Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)<br>[Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)</td>
+	  <td>[Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>[Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
 	</tr>
      </table>
 
