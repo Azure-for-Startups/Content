@@ -43,11 +43,10 @@ deployed on the AWS RDS MS SQL Express instance.
 adds the database trigger named "rds\_deny\_backups\_trigger" which
 contains the "RAISERROR () WITH LOG" call.
 
-![](media/02/image1.png){width="6.1046511373578305in"
-height="2.790194663167104in"}
+![](media/02/image1.png)
 
 <span id="h.oymnw3nlvwib" class="anchor"></span>This call prevents the
-database from being migrated to Azure SQL. So donâ€™t forget to remove
+database from being migrated to Azure SQL. So don't forget to remove
 this trigger before starting the migration.
 
 GOALS
@@ -61,16 +60,15 @@ SERVER INSTANCE
 
 Create the Azure SQL Server instance via the Azure Management Console:
 
-![](media/02/image2.png){width="3.1770833333333335in"
-height="6.239583333333333in"}
+![](media/02/image2.png)
 
-Donâ€™t forget to go to the SQL Server Instance configuration tab and
+Don't forget to go to the SQL Server Instance configuration tab and
 allow your IP address to connect to the server (SQL server -&gt;
 Settings -&gt; All Settings -&gt; Firewall):
 
 ![](media/02/image3.png)
 
-Do the same on the AWS RDS side as well, if you havenâ€™t done this
+Do the same on the AWS RDS side as well, if you haven't done this
 before.
 
 <span id="h.rf1p01hoz6yd" class="anchor"></span>MIGRATION PROCESS
@@ -86,14 +84,12 @@ After that you will see the Introduction window, click Next. The Export
 Settings window will be opened, choose "Save to local disc" setting,
 click Browse and choose the path to file, which will be generated:
 
-![](media/02/image5.png){width="4.325580708661417in"
-height="4.012253937007874in"}
+![](media/02/image5.png)
 
 Click Next and Finish in the next window. Wait for the processing. In
 several seconds you will see the result window:
 
-![](media/02/image6.png){width="4.291873359580053in"
-height="4.003455818022747in"}
+![](media/02/image6.png)
 
 The next step is to connect to the Azure SQL Server Instance.
 Right-click on the Database item, select the "Import Data-tier
@@ -105,15 +101,13 @@ After the Introduction window you will see the Import Settings window.
 Choose "Import from local disk", click Browse and choose the path to
 file, which was generated during exporting operation before:
 
-![](media/02/image8.png){width="4.662790901137358in"
-height="4.355924103237095in"}
+![](media/02/image8.png)
 
 Click Next. In Database Settings window enter the new database name,
 click Next and Finish in the next window. Wait for the processing. In
 several minutes you will see the result window:
 
-![](media/02/image9.png){width="4.492878390201225in"
-height="4.197673884514436in"}
+![](media/02/image9.png)
 
 Click Close and check that the database has been migrated correctly:
 

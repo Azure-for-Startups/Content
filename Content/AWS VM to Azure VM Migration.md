@@ -58,8 +58,7 @@ as one video file.
 
 MIGRATIONS USING THE AZURE SITE RECOVERY SERVICE
 
-![](media/04/image1.png){width="3.236111111111111in"
-height="1.8185837707786527in"}
+![](media/04/image1.png)
 
 <span id="h.qat45t5bjxwh" class="anchor"></span>Migration of the Windows
 Driven VM
@@ -83,48 +82,40 @@ recommendations are:
     Microsoft Azure Network. So you have to configure the Azure Network
     before starting the Configuration Server creation, as shown below.
 
-> ![](media/04/image2.png){width="2.3402777777777777in"
-> height="2.665317147856518in"}
+> ![](media/04/image2.png)
 >
 > *Here is the sample of the created Azure Network:*
 >
-> ![](media/04/image3.png){width="2.6597222222222223in"
-> height="1.6197014435695538in"}
+> ![](media/04/image3.png)
 
-1.  If you donâ€™t see created instances in the Virtual Machine list use
+1.  If you don't see created instances in the Virtual Machine list use
     the F5 button to reload the page.
 
-    ![](media/04/image4.png){width="3.5146423884514437in"
-    height="2.451388888888889in"}
+    ![](media/04/image4.png)
 
 2.  During configuration of the Microsoft Azure Site Recovery
     Configuration Server, Rajesh has used a partially hidden User Name.
 
-> ![](media/04/image5.png){width="2.2916666666666665in"
-> height="2.121563867016623in"}
+> ![](media/04/image5.png)
 
 1.  This User Name has been constructed from the AWS Instance ID +
     "Administrator" account name:
 
-> ![](media/04/image6.png){width="3.0972222222222223in"
-> height="0.9463735783027122in"}
+> ![](media/04/image6.png)
 
 1.  And you will see it show up on the next screen in the video:
 
-> ![](media/04/image7.png){width="2.8958333333333335in"
-> height="1.9305555555555556in"}
+> ![](media/04/image7.png)
 
 1.  During the Target Server configuration, the empty "master target
     server" list appears to be empty in the Azure Portal:
 
-> ![](media/04/image8.png){width="3.7751662292213473in"
-> height="3.1180555555555554in"}
+> ![](media/04/image8.png)
 
 1.  To refresh the list, you have to refresh the Configuration Server as
     shown below:
 
-> ![](media/04/image9.png){width="4.708333333333333in"
-> height="2.0624114173228345in"}
+> ![](media/04/image9.png)
 
 1.  Refreshing the Configuration Server is the same job as creating and
     could be tracked via the JOBS tab. After the job is done you can
@@ -135,8 +126,7 @@ recommendations are:
     Group you will be asked to select the Storage Account. Please create
     it before adding the Physical Machines.
 
-> ![](media/04/image10.png){width="4.680555555555555in"
-> height="1.6701979440069992in"}
+> ![](media/04/image10.png)
 
 <span id="h.1pw2o97vjuy6" class="anchor"></span>Migrating a Linux Driven
 VM
@@ -162,7 +152,7 @@ guide by Rayne Wiselman, with a few recommended adjustments:
 >
 > [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)
 >
-> Also donâ€™t forget to create the directory and extract the archive as
+> Also don't forget to create the directory and extract the archive as
 > it contains the needed batch of files inside.
 
 1.  Be sure to enable the password based SSH authentication on the

@@ -29,7 +29,7 @@ Beanstalk service, please follow the instructions below:
     Services page. Find "Compute" area and choose "Elastic Beanstalk"
     item:
 
-> ![](media/03/image1.png){width="5.16296697287839in" height="3.15625in"}
+> ![](media/03/image1.png)
 
 1.  At the AWS Elastic Beanstalk dashboard, click on Create New
     Application to create and configure your application, then enter the
@@ -38,8 +38,7 @@ Beanstalk service, please follow the instructions below:
 2.  The next step is to configure the environment - click on Create web
     server button, you will see the Environment Type page:
 
-    ![](media/03/image2.png){width="6.07419728783902in"
-    height="2.4270833333333335in"}
+    ![](media/03/image2.png)
 
     Here choose a Predefined configuration (for our example it should
     be "IIS") and Environment type ("Single instance"). Click Next.
@@ -88,7 +87,7 @@ ASP.NET MVC Web Application to Azure WebApp via Visual Studio:
 1.  When you have already created the project (we are using a template),
     right-click the project, and choose Publish:
 
-![](media/03/image3.png){width="3.5625in" height="2.447409230096238in"}
+![](media/03/image3.png)
 
 1.  In a few seconds, the Publish Web wizard appears. The wizard opens
     to a publish profile that has settings for deploying the web project
@@ -125,7 +124,7 @@ example of the interface, which allows you to perform basic typical
 operations such as Upload, Enumerate and Delete (there is no need to get
 content because you have the URI to download it directly from storage):
 
-![](media/03/image5.png){width="3.84375in" height="1.3125in"}
+![](media/03/image5.png)
 
 In the case of AWS S3 Service we are going to use standard AWSSDK.S3
 NuGet package provided for easy access to S3 API. The implementation of
@@ -137,7 +136,7 @@ height="6.520833333333333in"}
 Here is the specific implementation of the interface for the Azure Blob
 Storage Service (using WindowsAzure.Storage NuGet package):
 
-![](media/03/image7.png){width="4.34375in" height="6.664385389326334in"}
+![](media/03/image7.png)
 
 As you can see both implementations are similar with the only difference
 in the libraries used to access the Storage Client. You can find the
