@@ -98,9 +98,9 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
 ###*Tutorials and Sample code*
-   | | | | |
-   | --- | --- | --- | --- |
-   | **[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)** - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub | **[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)** – Conduct context searches of BLOB files using Azure Search indexing.	| **[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)** - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service	| **[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)** – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend. |
+| | | | |
+| --- | --- | --- | --- |
+| **[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)** - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub | **[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)** – Conduct context searches of BLOB files using Azure Search indexing.	| **[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)** - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service	| **[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)** – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend. |
 
 ##Internet of Things & Machine Learning
 -	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/learning-paths/iot-hub/)** - Overview and tutorial on Machine Learning on IoT.
