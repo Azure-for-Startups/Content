@@ -156,7 +156,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview - (Core documentation) 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?filter=web-mobile)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
-   ###*Tutorials and Sampl e code*
+   ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td><b>[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – learn how to use Hive for Big Data Analysis</td>
