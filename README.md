@@ -39,13 +39,12 @@ ARM templates are JSON descriptions of ARM deployments which can be used for "In
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
 -	**[MongoDB to Azure Migration resources] (https://github.com/XynergiesLLC/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
 
-###Tools & Services
+###*Tools & Services*
 -	**[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
 -	**[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
 -	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
--	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
-   ###Tutorials and Sample code
+   ###*Tutorials and Sample code*
    | | | | |
    | --- | --- | --- | --- |
    | **[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)** - Tutorial | **[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)** - Tutorial | **[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** - Tutorial | **[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)** -Tutorial |
@@ -71,7 +70,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Choose between App Services, Service Fabric and VMs] (https://azure.microsoft.com/en-us/documentation/articles/choose-web-site-cloud-service-vm/)** - including scenarios and recommendations.
 -	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
 
-###Tutorials and Sample code
+###*Tutorials and Sample code*
 **[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)** - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform. 
 **[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)** - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.	
 **[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)**  - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define
@@ -96,7 +95,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
       Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-###Tutorials and Sample code
+###*Tutorials and Sample code*
 - **[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)** - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub	
 - **[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)** – Conduct context searches of BLOB files using Azure Search indexing.	
 - **[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)** - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service	
@@ -108,7 +107,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 )** - Overview and tutorial on Machine Learning.
 -	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
 
-###Tutorials and Sample code
+###*Tutorials and Sample code*
 -**[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)** – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization	
 -**[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)** – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior	
 -**[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)** – learn how to collect streaming data from IoT devices and analyze the streaming data 
@@ -120,7 +119,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and managed DocumentDB applications.
 -	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
 
-###Tutorials and Sample code
+###*Tutorials and Sample code*
 -**[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)** – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB	
 -**[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)** – Learn how to install MongoDB on a Windows VM in Azure.	
 -**[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)** - Learn how to install MongoDB on a Linux VM in Azure.	
@@ -131,7 +130,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview - (Core documentation) 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?filter=web-mobile)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
-###Tutorials and Sample code
+###*Tutorials and Sample code*
 -**[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)**  – learn how to use Hive for Big Data Analysis
 -**[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)** – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets
 
