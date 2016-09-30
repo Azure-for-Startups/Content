@@ -50,7 +50,7 @@ Keith Mayer has published a great video series about the Migration
 Windows driven Virtual Machine from AWS to Azure. You can find the
 entire series on Channel 9
 [*here*](https://channel9.msdn.com/Series/Migrating-Virtual-Machines-from-Amazon-AWS-to-Microsoft-Azure)
-(including an episode named “Why Migrate from Amazon AWS to Azure?”) or
+(including an episode named â€œWhy Migrate from Amazon AWS to Azure?â€�) or
 [*here*](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-How-to-Migrate-Your-Virtual-Machines-from-Amazon-Web-Services-to-Windows-Azure)
 as one video file.
 
@@ -58,7 +58,7 @@ as one video file.
 
 MIGRATIONS USING THE AZURE SITE RECOVERY SERVICE
 
-![](media/image1.png){width="3.236111111111111in"
+![](media/04/image1.png){width="3.236111111111111in"
 height="1.8185837707786527in"}
 
 <span id="h.qat45t5bjxwh" class="anchor"></span>Migration of the Windows
@@ -83,47 +83,47 @@ recommendations are:
     Microsoft Azure Network. So you have to configure the Azure Network
     before starting the Configuration Server creation, as shown below.
 
-> ![](media/image2.png){width="2.3402777777777777in"
+> ![](media/04/image2.png){width="2.3402777777777777in"
 > height="2.665317147856518in"}
 >
 > *Here is the sample of the created Azure Network:*
 >
-> ![](media/image3.png){width="2.6597222222222223in"
+> ![](media/04/image3.png){width="2.6597222222222223in"
 > height="1.6197014435695538in"}
 
-1.  If you don’t see created instances in the Virtual Machine list use
+1.  If you donâ€™t see created instances in the Virtual Machine list use
     the F5 button to reload the page.
 
-    ![](media/image4.png){width="3.5146423884514437in"
+    ![](media/04/image4.png){width="3.5146423884514437in"
     height="2.451388888888889in"}
 
 2.  During configuration of the Microsoft Azure Site Recovery
     Configuration Server, Rajesh has used a partially hidden User Name.
 
-> ![](media/image5.png){width="2.2916666666666665in"
+> ![](media/04/image5.png){width="2.2916666666666665in"
 > height="2.121563867016623in"}
 
 1.  This User Name has been constructed from the AWS Instance ID +
-    “Administrator” account name:
+    â€œAdministratorâ€� account name:
 
-> ![](media/image6.png){width="3.0972222222222223in"
+> ![](media/04/image6.png){width="3.0972222222222223in"
 > height="0.9463735783027122in"}
 
 1.  And you will see it show up on the next screen in the video:
 
-> ![](media/image7.png){width="2.8958333333333335in"
+> ![](media/04/image7.png){width="2.8958333333333335in"
 > height="1.9305555555555556in"}
 
-1.  During the Target Server configuration, the empty “master target
-    server” list appears to be empty in the Azure Portal:
+1.  During the Target Server configuration, the empty â€œmaster target
+    serverâ€� list appears to be empty in the Azure Portal:
 
-> ![](media/image8.png){width="3.7751662292213473in"
+> ![](media/04/image8.png){width="3.7751662292213473in"
 > height="3.1180555555555554in"}
 
 1.  To refresh the list, you have to refresh the Configuration Server as
     shown below:
 
-> ![](media/image9.png){width="4.708333333333333in"
+> ![](media/04/image9.png){width="4.708333333333333in"
 > height="2.0624114173228345in"}
 
 1.  Refreshing the Configuration Server is the same job as creating and
@@ -135,7 +135,7 @@ recommendations are:
     Group you will be asked to select the Storage Account. Please create
     it before adding the Physical Machines.
 
-> ![](media/image10.png){width="4.680555555555555in"
+> ![](media/04/image10.png){width="4.680555555555555in"
 > height="1.6701979440069992in"}
 
 <span id="h.1pw2o97vjuy6" class="anchor"></span>Migrating a Linux Driven
@@ -150,7 +150,7 @@ guide by Rayne Wiselman, with a few recommended adjustments:
     You can find the latest version of LIS along with instructions on
     how to install it
     [*here*](https://www.microsoft.com/en-us/download/details.aspx?id=46842).
-    The PDF file (“Linux Integration Services v4-0-11.pdf”) includes an
+    The PDF file (â€œLinux Integration Services v4-0-11.pdfâ€�) includes an
     installation guide.
 
 2.  During install of the Additional Software for the Master Target
@@ -162,7 +162,7 @@ guide by Rayne Wiselman, with a few recommended adjustments:
 >
 > [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)
 >
-> Also don’t forget to create the directory and extract the archive as
+> Also donâ€™t forget to create the directory and extract the archive as
 > it contains the needed batch of files inside.
 
 1.  Be sure to enable the password based SSH authentication on the

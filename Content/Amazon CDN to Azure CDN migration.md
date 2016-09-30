@@ -32,13 +32,13 @@ CREATE A TEST ENVIRONMENT ON AMAZON AWS
 > [https://console.aws.amazon.com.](https://console.aws.amazon.com/) To
 > create a test Amazon S3 storage please click on Services and then on S3.
 >
-> ![](media/image4.jpg){width="4.1418755468066495in"
+> ![](media/01/image4.jpg){width="4.1418755468066495in"
 > height="3.749385389326334in"}
 >
 > 4\. Create folders and upload some files. (Below we created a folder
 > named Images and uploaded a set of One Drive’s sample images).
 
-![](media/image10.jpg){width="5.071875546806649in"
+![](media/01/image10.jpg){width="5.071875546806649in"
 height="3.697080052493438in"}
 
 6.  Double-check the permissions and address of some of the files in
@@ -46,36 +46,36 @@ height="3.697080052493438in"}
     properties page. Everyone should be able to open the hyperlink of
     this file.
 
-> ![](media/image14.jpg){width="4.355542432195976in"
+> ![](media/01/image14.jpg){width="4.355542432195976in"
 > height="3.3927734033245844in"}
 
 6.  To create a test Amazon CDN please click on Services and then
     on CloudFront.
 
-![](media/image16.jpg){width="3.543264435695538in"
+![](media/01/image16.jpg){width="3.543264435695538in"
 height="5.249023403324585in"}
 
 10. Click in the Origin Domain Name on the Create distribution page and
     select a bucket created during the previous steps.
 
-![](media/image22.jpg){width="2.4883333333333333in"
+![](media/01/image22.jpg){width="2.4883333333333333in"
 height="0.6783333333333333in"}
 
 10. Leave other options untouched and click on Create Distribution.
 
-![](media/image24.jpg){width="3.4583333333333335in" height="0.245in"}
+![](media/01/image24.jpg){width="3.4583333333333335in" height="0.245in"}
 
 10. Your distribution is being prepared while the status is
     ‘In Progress’.
 
-![](media/image26.jpg){width="3.5016666666666665in"
+![](media/01/image26.jpg){width="3.5016666666666665in"
 height="0.6483333333333333in"}
 
 10. Please wait for the Deployed status. You can now check that Amazon
     Bucket objects are available both directly and through the
     Amazon CDN.
 
-> ![](media/image28.jpg){width="3.5806255468066492in"
+> ![](media/01/image28.jpg){width="3.5806255468066492in"
 > height="2.044996719160105in"}
 
 PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE 
@@ -86,26 +86,26 @@ PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE
 > CREATE. Select the ORIGIN TYPE as Custom Origin. Type a S3 bucket URL as
 > ORIGIN URL. Press CREATE.
 >
-> ![](media/image32.jpg){width="5.1386253280839895in"
+> ![](media/01/image32.jpg){width="5.1386253280839895in"
 > height="3.118817804024497in"}
 
 3.  Your CDN address is located at CDN ENDPOINT.
 
-> ![](media/image36.jpg){width="3.9588757655293088in"
+> ![](media/01/image36.jpg){width="3.9588757655293088in"
 > height="2.1216633858267717in"}
 
 3.  Please wait some time while your CDN is preparing. You will get 404
     error trying to load the resource by Azure CDN based address at
     this time.
 
-> ![](media/image38.jpg){width="1.9383333333333332in"
+> ![](media/01/image38.jpg){width="1.9383333333333332in"
 > height="0.5316666666666666in"}
 
 3.  After 1 hour (in our case) we checked the address and found the
     image to be available. So now, we have an Azure CDN endpoint using
     Amazon S3 bucket as an origin.
 
-![](media/image40.jpg){width="3.835in" height="0.65in"}
+![](media/01/image40.jpg){width="3.835in" height="0.65in"}
 
 COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
 ======================================================================================
@@ -116,29 +116,29 @@ COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZUR
     -&gt; STORAGE -&gt; QUICK CREATE. Assign a unique URL, select
     location and press on CREATE STORAGE ACCOUNT.
 
-> ![](media/image42.jpg){width="4.372292213473316in"
+> ![](media/01/image42.jpg){width="4.372292213473316in"
 > height="1.922567804024497in"}
 
 1.  Click on the name of the account that was just created.
 
-> ![](media/image44.jpg){width="4.393958880139983in"
+> ![](media/01/image44.jpg){width="4.393958880139983in"
 > height="1.4614566929133859in"}
 
 1.  Select a CONTAINERS tab and press ADD to create a new container.
 
-> ![](media/image46.jpg){width="4.435625546806649in"
+> ![](media/01/image46.jpg){width="4.435625546806649in"
 > height="1.2752055993000875in"}
 
 1.  Type a NAME for a new container and select ACCESS as
     Public Container.
 
-> ![](media/image48.jpg){width="1.8720144356955382in"
+> ![](media/01/image48.jpg){width="1.8720144356955382in"
 > height="1.3371511373578302in"}
 
 1.  Remember the container’s URL. We will use it later on for the CDN
     endpoint step.
 
-![](media/image50.jpg){width="4.803333333333334in"
+![](media/01/image50.jpg){width="4.803333333333334in"
 height="1.5716666666666668in"}
 
 1.  To copy data from Amazon S3 bucket to Azure Blob Storage I will use
@@ -234,7 +234,7 @@ height="1.5716666666666668in"}
     container name. Open Microsoft Azure PowerShell from the Windows
     Start Menu. Type a path to your script and press Enter.
 
-![](media/image51.jpg){width="5.806666666666667in" height="3.875in"}
+![](media/01/image51.jpg){width="5.806666666666667in" height="3.875in"}
 
 > **Please note the script is not intendent for huge amount of data and
 > is not performance efficient for many small files.**
@@ -249,18 +249,18 @@ height="1.5716666666666668in"}
 
 > Press CREATE.
 >
-> ![](media/image52.jpg){width="5.080625546806649in"
+> ![](media/01/image52.jpg){width="5.080625546806649in"
 > height="2.253538932633421in"}
 
 10. The new endpoint is here. Please wait approx. 1 hour for this step
     to complete, though time may vary so please be patient.
 
-> ![](media/image54.jpg){width="5.247292213473316in"
+> ![](media/01/image54.jpg){width="5.247292213473316in"
 > height="1.5871511373578302in"}
 >
 > Once complere, we have a migrated Azure powered CDN with Azure
 > storage, as origin. You can now check and see that Azure Blobs are
 > available both directly and via Azure CDN.
 >
-> ![](media/image56.jpg){width="5.250972222222222in"
+> ![](media/01/image56.jpg){width="5.250972222222222in"
 > height="2.1292344706911637in"}

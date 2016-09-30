@@ -26,10 +26,10 @@ Beanstalk service, please follow the instructions below:
 
 2.  Enter your login and password at the opened AWS Elastic Beanstalk
     service page. After that you will be redirected to the Amazon Web
-    Services page. Find “Compute” area and choose “Elastic Beanstalk”
+    Services page. Find â€œComputeâ€� area and choose â€œElastic Beanstalkâ€�
     item:
 
-> ![](media/image1.png){width="5.16296697287839in" height="3.15625in"}
+> ![](media/03/image1.png){width="5.16296697287839in" height="3.15625in"}
 
 1.  At the AWS Elastic Beanstalk dashboard, click on Create New
     Application to create and configure your application, then enter the
@@ -38,18 +38,18 @@ Beanstalk service, please follow the instructions below:
 2.  The next step is to configure the environment - click on Create web
     server button, you will see the Environment Type page:
 
-    ![](media/image2.png){width="6.07419728783902in"
+    ![](media/03/image2.png){width="6.07419728783902in"
     height="2.4270833333333335in"}
 
     Here choose a Predefined configuration (for our example it should
-    be “IIS”) and Environment type (“Single instance”). Click Next.
+    be â€œIISâ€�) and Environment type (â€œSingle instanceâ€�). Click Next.
 
-3.  Choose “Upload your own” radiobutton and select your project archive
-    at the next page called Application Version (“*AWS Elastic Beanstalk
+3.  Choose â€œUpload your ownâ€� radiobutton and select your project archive
+    at the next page called Application Version (â€œ*AWS Elastic Beanstalk
     is an easy-to-use service for deploying and scaling web applications
     and services developed with Java, .NET, PHP, Node.js, Python, Ruby,
     Go, and Docker on familiar servers such as Apache, Nginx, Passenger,
-    and IIS*” (c)). Please make sure that your file meets the
+    and IIS*â€� (c)). Please make sure that your file meets the
     requirements (see AWS Documentation
     <https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deployment.source.html>).
     Click Next. Wait while the application version is uploading.
@@ -88,7 +88,7 @@ ASP.NET MVC Web Application to Azure WebApp via Visual Studio:
 1.  When you have already created the project (we are using a template),
     right-click the project, and choose Publish:
 
-![](media/image3.png){width="3.5625in" height="2.447409230096238in"}
+![](media/03/image3.png){width="3.5625in" height="2.447409230096238in"}
 
 1.  In a few seconds, the Publish Web wizard appears. The wizard opens
     to a publish profile that has settings for deploying the web project
@@ -98,18 +98,18 @@ ASP.NET MVC Web Application to Azure WebApp via Visual Studio:
     a hidden user-specific file in the
     Properties\\PublishProfiles folder.
 
-2.  At the opened window on the Profile tab choose “Microsoft Azure App
-    Service” target.
+2.  At the opened window on the Profile tab choose â€œMicrosoft Azure App
+    Serviceâ€� target.
 
 3.  At the opened window App Service fill Subscription and View fields,
     choose an App Service to publish.
 
 4.  On the Connection, Settings and Preview tabs enter the needed data
-    and click Publish. Wait until you see the “Publish
-    Succeeded” message. There will be the link to your web application,
+    and click Publish. Wait until you see the â€œPublish
+    Succeededâ€� message. There will be the link to your web application,
     click it and ensure that the project has deployed successfully:
 
-> ![](media/image4.png){width="4.7386472003499565in"
+> ![](media/03/image4.png){width="4.7386472003499565in"
 > height="2.6458333333333335in"}
 >
 > You can monitor and manage your web app in the Azure portal -
@@ -119,25 +119,25 @@ BUSINESS LOGIC MIGRATION
 
 The most interesting part here is the Storage Service interaction layer
 implementation. Best practices recommend using a generic interface to
-manage data in the storage. If you design the solution this way – you
+manage data in the storage. If you design the solution this way â€“ you
 will be able to change the service provider very easily. Here is the
 example of the interface, which allows you to perform basic typical
 operations such as Upload, Enumerate and Delete (there is no need to get
 content because you have the URI to download it directly from storage):
 
-![](media/image5.png){width="3.84375in" height="1.3125in"}
+![](media/03/image5.png){width="3.84375in" height="1.3125in"}
 
 In the case of AWS S3 Service we are going to use standard AWSSDK.S3
 NuGet package provided for easy access to S3 API. The implementation of
 the *IImageService* interface looks like:
 
-![](media/image6.png){width="4.677083333333333in"
+![](media/03/image6.png){width="4.677083333333333in"
 height="6.520833333333333in"}
 
 Here is the specific implementation of the interface for the Azure Blob
 Storage Service (using WindowsAzure.Storage NuGet package):
 
-![](media/image7.png){width="4.34375in" height="6.664385389326334in"}
+![](media/03/image7.png){width="4.34375in" height="6.664385389326334in"}
 
 As you can see both implementations are similar with the only difference
 in the libraries used to access the Storage Client. You can find the
