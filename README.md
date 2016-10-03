@@ -1,11 +1,12 @@
 # Title
 
-This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
+The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on key Azure services.  You'll find links to key documentation, tutorials and code packets focused.  If you have feedback on the content please submit an [issue] (https://github.com/XynergiesLLC/Content/issues).
+<br><br>Table of contents
    <table class="table table-bordered table-striped table-hover border-0px">
    <tr>
-	<td valign="top">[Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
-	<td valign="top">[Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
-	<td valign="top">[Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
+	<td valign="top">[- Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[- Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
+	<td valign="top">[- Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[- Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
+	<td valign="top">[- Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[- Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[- Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
 	</tr>
      </table>
 
