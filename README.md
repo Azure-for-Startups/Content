@@ -11,12 +11,12 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
      </table>
 
 ##Getting Started on Azure
-- **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
+- <a href="https://azure.microsoft.com/en-us/get-started/" target="_blank">**[Get started on Azure]**</a> – Link to azure.com Getting Started page.
 - **[Interactive Azure Map] (https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
 - **[Azure Learning Paths] (https://azure.microsoft.com/en-us/documentation/learning-paths/)** - Get started with these learning paths for different Azure Services.
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
--	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
--	**[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
+- **[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
+- **[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
 
 
 <p> </p>
@@ -37,11 +37,11 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 -	**[MongoDB to Azure Migration resources] (https://github.com/XynergiesLLC/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
 
 ###*Tools & Services*
--	**[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
--	**[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
--	**[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
+- **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
+- **[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
+- **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
-
+<p></p>
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
