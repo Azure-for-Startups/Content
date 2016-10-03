@@ -2,10 +2,10 @@
 
 This GitHub repository provides instructional guides and code packets to help startups quickly engage and get up and running on key Azure services.
    <table class="table table-bordered table-striped table-hover border-0px">
-	<tr>
-	<td>[Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
-	<td>[Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
-	<td>[Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
+   <tr>
+	<td valign="top">[Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
+	<td valign="top">[Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
+	<td valign="top">[Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
 	</tr>
      </table>
 
@@ -44,10 +44,10 @@ This GitHub repository provides instructional guides and code packets to help st
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
-	  <td><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
-          <td><b>[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)</b> - Tutorial</td>
-          <td><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>
 	</tr>
      </table>
 
@@ -76,9 +76,9 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
-	  <td><b>[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
-          <td><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
+	  <td valign="top"><b>[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
+	  <td valign="top"><b>[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+          <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
 	</tr>
      </table>
 
@@ -105,10 +105,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-	  <td><b>[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
-          <td><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-          <td><b>[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
+	  <td valign="top"><b>[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+	  <td valign="top"><b>[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
+          <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+          <td valign="top"><b>[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
 	</tr>
      </table>
 
@@ -121,9 +121,9 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)</b> – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization</td>
-	  <td><b>[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)</b> – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior.</td>
-          <td><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
+	  <td valign="top"><b>[Azure IoT end-to-end demo] (Instructional-guides-and-code-packets/Azure-IoT)</b> – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization</td>
+	  <td valign="top"><b>[Azure Machine Learning demo] (Instructional-guides-and-code-packets/Azure-Machine-Learning)</b> – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior.</td>
+          <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
 	</tr>
      </table>
 
@@ -137,10 +137,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
-	  <td><b>[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)</b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
-          <td><b>[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)</b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
-          <td><b>[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)</b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
+	  <td valign="top"><b>[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
+	  <td valign="top"><b>[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)</b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
+          <td valign="top"><b>[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)</b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
+          <td valign="top"><b>[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)</b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
 	  </tr>
      </table>
 
@@ -151,8 +151,8 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td><b>[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – learn how to use Hive for Big Data Analysis</td>
-          <td><b>[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)</b> – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
+	  <td valign="top"><b>[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – learn how to use Hive for Big Data Analysis</td>
+          <td valign="top"><b>[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)</b> – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
 	  </tr>
      </table>
 
