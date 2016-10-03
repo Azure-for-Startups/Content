@@ -42,7 +42,8 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 - **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
 <p></p>
-   ###*Tutorials and Sample code*
+
+###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM migration)</b> - Tutorial</td>
