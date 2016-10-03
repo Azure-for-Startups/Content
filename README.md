@@ -45,10 +45,10 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[AWS VM to Azure VM migration] (Instructional-guides-and-code-packets/AWS VM to Azure VM migration)</b> - Tutorial</td>
-	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Instructional-guides-and-code-packets/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
-          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)</b> - Tutorial</td>
-          <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Instructional-guides-and-code-packets/AWS-CDN-to-Azure-CDN-Migration)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM migration)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (https://github.com/XynergiesLLC/Amazon-S3-to-Azure-Storage-demo)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Content/Amazon CDN to Azure CDN Migration)</b> - Tutorial</td>
 	</tr>
      </table>
 
@@ -77,8 +77,8 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Azure Service Fabric] (Instructional-guides-and-code-packets/Azure-Service-Fabric)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
-	  <td valign="top"><b>[Containers on Dockers] (Instructional-guides-and-code-packets/Containers-on-Dockers)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/XynergiesLLC/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
+	  <td valign="top"><b>[Containers on Dockers] (https://github.com/XynergiesLLC/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
 	</tr>
      </table>
@@ -106,10 +106,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Notification Hub demo] (Instructional-guides-and-code-packets/Notification-Hub)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-	  <td valign="top"><b>[Azure Search demo] (Instructional-guides-and-code-packets/Azure-Search)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
+	  <td valign="top"><b>[Notification Hub demo] (https://github.com/XynergiesLLC/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+	  <td valign="top"><b>[Azure Search demo] (https://github.com/XynergiesLLC/Azure-Search-demo)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
           <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-          <td valign="top"><b>[Azure Media Services (AIMS) demo] (Instructional-guides-and-code-packets/Media-Services)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
+          <td valign="top"><b>[Azure Media Services (AIMS) demo] (https://github.com/XynergiesLLC/Media-Services-VideoHosting-demo)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
 	</tr>
      </table>
 
@@ -146,8 +146,8 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      </table>
 
 ##Intelligence & Analytics
--	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview - (Core documentation) 
--	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?filter=web-mobile)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
+-	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics 
+-	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
