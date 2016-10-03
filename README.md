@@ -11,7 +11,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
      </table>
 
 ##Getting Started on Azure
-- **[Get started on Azure] (https://azure.microsoft.com/en-us/get-started/)** – Link to azure.com Getting Started page.
+- [Get started on Azure](https://azure.microsoft.com/en-us/get-started/){:target="_blank"} – Link to azure.com Getting Started page.
 - **[Interactive Azure Map] (https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
 - **[Azure Learning Paths] (https://azure.microsoft.com/en-us/documentation/learning-paths/)** - Get started with these learning paths for different Azure Services.
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
