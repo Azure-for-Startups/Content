@@ -39,7 +39,8 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ###*Tools & Services*
 - **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
 - **[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
-- **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.<p></p>
+- **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
+<p></p>
 
 
    ###*Tutorials and Sample code*
