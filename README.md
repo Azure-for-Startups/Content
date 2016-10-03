@@ -41,9 +41,8 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 - **[CloudBerry Cloud Migrator] (http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
 - **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
-
-   ###*Tutorials and Sample code*
-     <table class="table table-bordered table-striped table-hover">
+###*Tutorials and Sample code*
+   <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM migration)</b> - Tutorial</td>
 	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
