@@ -92,8 +92,8 @@ We recommend using [*this*](https://azure.microsoft.com/en-us/documentation/arti
 
 <li>During install of the Additional Software for the Master Target Server use the following link:    </li> [*http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR\_UA\_8.4.0.0\_RHEL6-64\_GA\_28Jul2015\_release.tar.gz*](http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR_UA_8.4.0.0_RHEL6-64_GA_28Jul2015_release.tar.gz)
 
-To download via the widget instead of the original one use the following link: [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)
-Also don't forget to create the directory and extract the archive as it contains the needed batch of files inside.
+<p>To download via the widget instead of the original one use the following link: [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)</p>
+<p>Also don't forget to create the directory and extract the archive as it contains the needed batch of files inside.</p>
 
 <li>Be sure to enable the password based SSH authentication on the machine, because AWS enables authentication by key by default.  </li>
 </ol>
