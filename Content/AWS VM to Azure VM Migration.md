@@ -44,7 +44,8 @@ Several good resources have been published, among our top recommendations are:
 
 - •	A great video guide by Rajesh Goli about migration using Azure Site Recovery service which you can view [*here*](https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/).  A few important notes and clarification on this video:
 
-1.	During the Configuration Server setup Rajesh selects the related Microsoft Azure Network. So you have to configure the Azure Network before starting the Configuration Server creation, as shown below.  
+<ol type="1">
+<li>During the Configuration Server setup Rajesh selects the related Microsoft Azure Network. So you have to configure the Azure Network before starting the Configuration Server creation, as shown below.  </li>
 
 > ![](media/04/image2.png)
 >
@@ -52,33 +53,33 @@ Several good resources have been published, among our top recommendations are:
 >
 > ![](media/04/image3.png)
 
-2.	If you don’t see created instances in the Virtual Machine list use the F5 button to reload the page.  
+<li>If you don’t see created instances in the Virtual Machine list use the F5 button to reload the page.  </li>
 
     ![](media/04/image4.png)
 
-3.	During configuration of the Microsoft Azure Site Recovery Configuration Server, Rajesh has used a partially hidden User Name.   
+<li>During configuration of the Microsoft Azure Site Recovery Configuration Server, Rajesh has used a partially hidden User Name.   </li>
 
 > ![](media/04/image5.png)
 
-4.	This User Name has been constructed from the AWS instance ID + “Administrator” account name:  
+<li>This User Name has been constructed from the AWS instance ID + “Administrator” account name:  </li>
 
 > ![](media/04/image6.png)
 
-5.	And you will see it show upon the next screen in the video: 
+<li>And you will see it show upon the next screen in the video: </li>
 
 > ![](media/04/image7.png)
 
-6.	During the Target Server configuration, the empty “master target server” list appears to be empty in the Azure Portal:  
+<li>During the Target Server configuration, the empty “master target server” list appears to be empty in the Azure Portal:  </li>
 
 > ![](media/04/image8.png)
 
-7.	To refresh the list, you have to refresh the Configuration Server as shown below:  
+<li>To refresh the list, you have to refresh the Configuration Server as shown below:  </li>
 
 > ![](media/04/image9.png)
 
-8.	Refreshing the Configuration Server is the same job as creating and could be tracked via the JOBS tab. After the job is done you can come back to the list and you should see the created Target Server in the list.  
+<li>Refreshing the Configuration Server is the same job as creating and could be tracked via the JOBS tab. After the job is done you can come back to the list and you should see the created Target Server in the list.  </li>
   
-9.	During the step of adding the Physical Machines to the Protection Group you will be asked to select the Storage Account. Please create it before adding the Physical Machines.  
+<li>During the step of adding the Physical Machines to the Protection Group you will be asked to select the Storage Account. Please create it before adding the Physical Machines.  </li>
 
 
 > ![](media/04/image10.png)
