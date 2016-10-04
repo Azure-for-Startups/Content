@@ -15,13 +15,28 @@ There are two most common NoSQL solutions to be deployed in Microsoft Azure: Mic
 
 The Azure Cloud Computing stack provides the following levels: Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS).  The table below shows possible deployments of MongoDB and DocumentDB. 
 
-
-                                MongoDB   DocumentDB
-  ----------------------------- --------- ------------
-  Software as a Service         +         +
-  Platform As a Service         +         -
-  Infrastructure as a Service   +         -
-
+   <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td valign="top"><b></b></td>
+	  <td valign="top"><b>MongoDB</b></td>
+    <td valign="top"><b>DocumentDB</b></td>
+ 	</tr>
+	<tr>
+	  <td valign="top">Infrastructure as a Service</td>
+	  <td valign="top" align="center">+</td>
+    <td valign="top" align="center">-</td>
+ 	</tr>
+	<tr>
+	  <td valign="top">Platform As a Service</td>
+	  <td valign="top" align="center">+</td>
+    <td valign="top" align="center">-</td>
+ 	</tr>
+	<tr>
+	  <td valign="top">Software as a Service</td>
+	  <td valign="top" align="center">+</td>
+    <td valign="top" align="center">+</td>
+ 	</tr>
+  </table>
 
 ###MongoDB IaaS/PaaS deployment
 MongoDB can be deployed on a Virtual Machine in Azure (IaaS) running Windows or Linux OS. 
