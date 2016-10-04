@@ -1,7 +1,8 @@
 # Title
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on key Azure services.  You'll find links to key documentation, tutorials and code packets focused.  If you have feedback on the content please submit an [issue] (https://github.com/XynergiesLLC/Content/issues).
-<br><br>##Table of contents
+<br><br>
+##Table of contents
    <table class="table table-bordered table-striped table-hover border-0px">
    <tr>
 	<td valign="top">[- Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[- Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
