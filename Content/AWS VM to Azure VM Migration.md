@@ -73,13 +73,13 @@ Several good resources have been published, among our top recommendations are:
 
 ![](media/04/image8.png)
 
-- 7. To refresh the list, you have to refresh the Configuration Server as shown below: 
+- 7.To refresh the list, you have to refresh the Configuration Server as shown below: 
 
  ![](media/04/image9.png)
 
-- 8. Refreshing the Configuration Server is the same job as creating and could be tracked via the JOBS tab. After the job is done you can come back to the list and you should see the created Target Server in the list. 
+- 8.Refreshing the Configuration Server is the same job as creating and could be tracked via the JOBS tab. After the job is done you can come back to the list and you should see the created Target Server in the list. 
   
-- 9. During the step of adding the Physical Machines to the Protection Group you will be asked to select the Storage Account. Please create it before adding the Physical Machines.
+- 9.During the step of adding the Physical Machines to the Protection Group you will be asked to select the Storage Account. Please create it before adding the Physical Machines.
 
 
 > ![](media/04/image10.png)
