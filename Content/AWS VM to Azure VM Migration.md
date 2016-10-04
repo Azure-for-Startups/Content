@@ -47,11 +47,11 @@ Several good resources have been published, among our top recommendations are:
 <ol type="1">
 <li>During the Configuration Server setup Rajesh selects the related Microsoft Azure Network. So you have to configure the Azure Network before starting the Configuration Server creation, as shown below.  </li>
 
-> ![](media/04/image2.png)
->
-> *Here is the sample of the created Azure Network:*
->
-> ![](media/04/image3.png)
+<p> ![](media/04/image2.png) </p>
+
+*Here is the sample of the created Azure Network:*
+
+<p> ![](media/04/image3.png) </p>
 
 <li>If you don’t see created instances in the Virtual Machine list use the F5 button to reload the page.  </li>
 
@@ -59,28 +59,28 @@ Several good resources have been published, among our top recommendations are:
 
 <li>During configuration of the Microsoft Azure Site Recovery Configuration Server, Rajesh has used a partially hidden User Name.   </li>
 
-> ![](media/04/image5.png)
+<p> ![](media/04/image5.png) </p>
 
 <li>This User Name has been constructed from the AWS instance ID + “Administrator” account name:  </li>
 
-> ![](media/04/image6.png)
+<p> ![](media/04/image6.png) </p>
 
 <li>And you will see it show upon the next screen in the video: </li>
 
-> ![](media/04/image7.png)
+<p> ![](media/04/image7.png)</p>
 
 <li>During the Target Server configuration, the empty “master target server” list appears to be empty in the Azure Portal:  </li>
 
-> ![](media/04/image8.png)
+<p> ![](media/04/image8.png)</p>
 
 <li>To refresh the list, you have to refresh the Configuration Server as shown below:  </li>
 
-> ![](media/04/image9.png)
+<p> ![](media/04/image9.png)</p>
 
 <li>Refreshing the Configuration Server is the same job as creating and could be tracked via the JOBS tab. After the job is done you can come back to the list and you should see the created Target Server in the list.  </li>
   
 <li>During the step of adding the Physical Machines to the Protection Group you will be asked to select the Storage Account. Please create it before adding the Physical Machines.  </li>
-
+</ol>
 
 > ![](media/04/image10.png)
 
