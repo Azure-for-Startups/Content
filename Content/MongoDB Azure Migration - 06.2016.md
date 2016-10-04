@@ -22,9 +22,9 @@ The Azure Cloud Computing stack provides the following levels: Software as a Ser
     <td valign="top"><b>DocumentDB</b></td>
  	</tr>
 	<tr>
-	  <td valign="top">Infrastructure as a Service</td>
+	  <td valign="top">Software as a Service</td>
 	  <td valign="top" align="center">+</td>
-    <td valign="top" align="center">-</td>
+    <td valign="top" align="center">+</td>
  	</tr>
 	<tr>
 	  <td valign="top">Platform As a Service</td>
@@ -32,9 +32,9 @@ The Azure Cloud Computing stack provides the following levels: Software as a Ser
     <td valign="top" align="center">-</td>
  	</tr>
 	<tr>
-	  <td valign="top">Software as a Service</td>
+	  <td valign="top">Infrastructure as a Service</td>
 	  <td valign="top" align="center">+</td>
-    <td valign="top" align="center">+</td>
+    <td valign="top" align="center">-</td>
  	</tr>
   </table>
 
