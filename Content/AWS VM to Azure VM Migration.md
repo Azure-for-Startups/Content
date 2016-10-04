@@ -87,13 +87,13 @@ Several good resources have been published, among our top recommendations are:
 VM
 
 We recommend using [*this*](https://azure.microsoft.com/en-us/documentation/articles/site-recovery-migrate-aws-to-azure/) guide by Rayne Wiselman, with a few recommended adjustments:
+<ol type="1">
+<li>Ensure that you have installed the latest Linux Integration Services (LIS) before you install the Master Target Server software. You can find the latest version of LIS along with instructions on how to install it [*here*](https://www.microsoft.com/en-us/download/details.aspx?id=46842).  The PDF file (“Linux Integration Services v4-0-11.pdf”) includes an installation guide.   </li>
 
-1.  Ensure that you have installed the latest Linux Integration Services (LIS) before you install the Master Target Server software. You can find the latest version of LIS along with instructions on how to install it [*here*](https://www.microsoft.com/en-us/download/details.aspx?id=46842).  The PDF file (“Linux Integration Services v4-0-11.pdf”) includes an installation guide.   
-
-2.  During install of the Additional Software for the Master Target Server use the following link:     [*http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR\_UA\_8.4.0.0\_RHEL6-64\_GA\_28Jul2015\_release.tar.gz*](http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR_UA_8.4.0.0_RHEL6-64_GA_28Jul2015_release.tar.gz)
+<li>During install of the Additional Software for the Master Target Server use the following link:    </li> [*http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR\_UA\_8.4.0.0\_RHEL6-64\_GA\_28Jul2015\_release.tar.gz*](http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR_UA_8.4.0.0_RHEL6-64_GA_28Jul2015_release.tar.gz)
 
 To download via the widget instead of the original one use the following link: [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)
-
 Also don't forget to create the directory and extract the archive as it contains the needed batch of files inside.
 
-3.	Be sure to enable the password based SSH authentication on the machine, because AWS enables authentication by key by default.  
+<li>Be sure to enable the password based SSH authentication on the machine, because AWS enables authentication by key by default.  </li>
+</ol>
