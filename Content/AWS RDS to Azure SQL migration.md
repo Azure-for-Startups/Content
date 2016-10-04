@@ -5,7 +5,7 @@
 
 This article describes the migration of a sample MS SQL Server database from Amazon Relational Database Service (Amazon RDS) to Azure SQL Service.  This article is also available in PDF format [here] (media/PDF-files/AWS RDS to Azure SQL migration.pdf).
 
-Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
+If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues).
 
 
 ###PREREQUISITES
