@@ -16,36 +16,40 @@ We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft 
 ========================================
 
 > 1\. Login to [https://console.aws.amazon.com.](https://console.aws.amazon.com/) To create a test Amazon S3 storage please click on Services and then on S3.
-> ![](media/01/image1a.png)
+
+> ![](media/01/Image1a.png)
 
 > 2\. Press on Create Bucket.
-> ![](media/01/image2a.png)
+
+> ![](media/01/Image2a.png)
 
 > 3\. Assign a unique bucket name and press Create.
 
-> ![](media/01/image3a.png)
+> ![](media/01/Image3a.png)
 >
 > 4\. Create folders and upload some files. (Below we created a folder
 > named Images and uploaded a set of One Drive’s sample images).
 
-![](media/01/image5a.png)
+![](media/01/Image5a.png)
 
 > 5\. Toggle on your folder(s), press on Actions and make the folder publicly available.
-![](media/01/image5b.png)
+![](media/01/Image5b.png)
 
 > 6\. Double-check the permissions and address of some of the files in your folder to ensure they are publically available on the properties page. Everyone should be able to open the hyperlink of this file. 
 
-> ![](media/01/image3.png)
+> ![](media/01/image3.jpg)
 
 > 7\.  To create a test Amazon CDN please click on Services and then on CloudFront.
 
-![](media/01/image7a.png)
+![](media/01/Image7a.png)
 
 > 8\.  Click on Create Distribution.
-![](media/01/image8a.png)
+
+![](media/01/Image8a.png)
 
 > 9\.  We need a web delivery method so click on Get Started.
-![](media/01/image9a.png)
+
+![](media/01/Image9a.png)
 
 >10\. Click in the Origin Domain Name on the Create distribution page and
     select a bucket created during the previous steps.
@@ -56,12 +60,12 @@ We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft 
 
 ![](media/01/image6.jpg)
 
-> 12|. Your distribution is being prepared while the status is
+> 12\. Your distribution is being prepared while the status is
     ‘In Progress’.
 
 ![](media/01/image7.jpg)
 
->13\. Please wait for the Deployed status. You can now check that Amazon
+> 13\. Please wait for the Deployed status. You can now check that Amazon
     Bucket objects are available both directly and through the
     Amazon CDN.
 
@@ -93,7 +97,7 @@ PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE
 COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
 ======================================================================================
 
-1.  Login to
+> 1\.  Login to
     [https://manage.windowsazure.com.](https://manage.windowsazure.com/)
     To create a new storage account, click on NEW -&gt; DATA SERVICES
     -&gt; STORAGE -&gt; QUICK CREATE. Assign a unique URL, select
@@ -101,37 +105,29 @@ COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZUR
 
 > ![](media/01/image13.jpg)
 
-1.  Click on the name of the account that was just created.
+> 2\.  Click on the name of the account that was just created.
 
 > ![](media/01/image14.jpg)
 
-1.  Select a CONTAINERS tab and press ADD to create a new container.
+> 3\.  Select a CONTAINERS tab and press ADD to create a new container.
 
 > ![](media/01/image15.jpg)
 
-1.  Type a NAME for a new container and select ACCESS as Public Container.
+> 4\.  Type a NAME for a new container and select ACCESS as Public Container.
 
 > ![](media/01/image16.jpg)
 
-1.  Remember the container’s URL. We will use it later on for the CDN endpoint step.
+> 5\.  Remember the container’s URL. We will use it later on for the CDN endpoint step.
 
 ![](media/01/image17.jpg)
 
-1.  To copy data from Amazon S3 bucket to Azure Blob Storage I will use
-    a PowerShell script. In order to use PowerShell script, your system
-    should meet the requirements. You should have enough disk space on
-    your user TEMP folder to copy the largest files of the stored ones
-    in the S3 bucket you are going to copy. Prerequisites are AWS Tools
-    for Windows PowerShell and Azure PowerShell.
+> 6\.  To copy data from Amazon S3 bucket to Azure Blob Storage I will use a PowerShell script. In order to use PowerShell script, your system should meet the requirements. You should have enough disk space on your user TEMP folder to copy the largest files of the stored ones in the S3 bucket you are going to copy. Prerequisites are AWS Tools for Windows PowerShell and Azure PowerShell.
 
-2.  Download and install AWS Tools for Windows PowerShell from
-    [*http://aws.amazon.com/powershell/*
-    ](http://aws.amazon.com/powershell/)
+> 7\.  Download and install AWS Tools for Windows PowerShell from [*http://aws.amazon.com/powershell/*](http://aws.amazon.com/powershell/)
 
-3.  Download and install Azure PowerShell as described here:
-    [*https://azure.microsoft.com/enus/documentation/articles/powershell-install-configure/*](https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/)
+> 8\.  Download and install Azure PowerShell as described here: [*https://azure.microsoft.com/enus/documentation/articles/powershell-install-configure/*](https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/)
 
-4.  Please save a content of subsequent script as a CopyS3ToAzure.ps1 file.
+> 9\.  Please save a content of subsequent script as a CopyS3ToAzure.ps1 file.
 
         $accessKey = "YOUR_accessKey" 
         $secretKey = "YOUR_secretKey" 
