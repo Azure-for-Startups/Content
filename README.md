@@ -43,15 +43,23 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 - **[Azure Import/Export Service] (https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
    ###*Tutorials and Sample code*
-   <table class="table table-bordered table-striped table-hover">
+     <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM migration)</b> - Tutorial</td>
-	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM Migration.md)</b> - Tutorial</td>
+	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration.md)</b> - Tutorial</td>
           <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (https://github.com/XynergiesLLC/Amazon-S3-to-Azure-Storage-demo)</b> - Tutorial</td>
-          <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Content/Amazon CDN to Azure CDN Migration)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Content/Amazon CDN to Azure CDN migration.md)</b> - Tutorial</td>
 	</tr>
      </table>
 
+   ###*Tutorials and Sample code*
+     <table class="table table-bordered table-striped table-hover">
+	<tr>
+	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/XynergiesLLC/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
+	  <td valign="top"><b>[Containers on Dockers] (https://github.com/XynergiesLLC/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+          <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
+	</tr>
+     </table>
 
 #Infrastructure Services (IaaS)
 Infrastructure as a service (IaaS) refers to the compute, networking and storage building blocks which allow you to build any kind of cloud solution. IaaS allows you to have maximum control on how you manage virtual machines, network configuration but requires you to invest in attaining robustness, availability and scalability in the cloud.  
