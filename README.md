@@ -153,8 +153,8 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Data Analysis using Hadoop- Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – learn how to use Hive for Big Data Analysis</td>
-          <td valign="top"><b>[Data Science and Machine Learning - Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)</b> – learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
+	  <td valign="top"><b>[Data Analysis using Hadoop] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – Microsoft Imagine course content - learn how to use Hive for Big Data Analysis</td>
+          <td valign="top"><b>[Data Science and Machine Learning] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5)</b> – Microsoft Imagine course content - learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
 	  </tr>
      </table>
 
