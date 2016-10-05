@@ -1,7 +1,4 @@
-```javascript
-var s = "JavaScript test";
-alert(s);
-```
+```javascript alert("quick test");```
 
 # Azure for Startups
 
