@@ -1,3 +1,8 @@
+```javascript
+var s = "JavaScript test";
+alert(s);
+```
+
 # Azure for Startups
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/XynergiesLLC/Content/issues).
