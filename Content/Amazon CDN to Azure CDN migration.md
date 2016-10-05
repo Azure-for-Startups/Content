@@ -1,7 +1,7 @@
 ##Amazon CDN to Azure CDN Migration
 
 This article illustrates the basics of how to migrate existing content delivery from Amazon CDN to Azure CDN. The article illustrates how to prepare a test environment and perform migration tasks on this environment. The migration can be a partial or a complete one. The partial migration means you keep an origin for CDN in Amazon untouched and use the Azure CDN as content delivery only. The complete migration means you copy the origin data into Azure Storage and Azure CDN uses this storage as its origin. Let’s have a look on both solutions.  
-This article is also available in PDF format [here] (media/PDF-files/AWS VM to Azure VM migration.pdf).
+This article is also available in PDF format [here] (media/PDF-files/Amazon CDN to Azure CDN migration.pdf).
 
 If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues).
 
