@@ -68,7 +68,7 @@ We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft 
 
 ![](media/01/image8.jpg)
 
-PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE 
+###PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE 
 =====================================================
 
 1\. Login to https://manage.windowsazure.com. To create a new CDN endpoint please click on NEW --> APP SERVICES --> CDN --> QUICK CREATE. Select the ORIGIN TYPE as Custom Origin. Type a S3 bucket URL as ORIGIN URL. Press CREATE.
@@ -88,7 +88,7 @@ PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE
 
 ![](media/01/image12.jpg)
 
-COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
+###COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
 ======================================================================================
 
 1\.  Login to [https://manage.windowsazure.com.](https://manage.windowsazure.com/) To create a new storage account, click on NEW > DATA SERVICES > STORAGE > QUICK CREATE. Assign a unique URL, select location and press on CREATE STORAGE ACCOUNT.
@@ -150,22 +150,22 @@ COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZUR
         } while ($objects) 
 
 
-> 10\. Please replace YOUR_accessKey, YOUR_secretKey, YOUR_bucketName with S3 storage access keys and source bucket name. Replace YOUR_storageAccountName , YOUR_storageAccountKey, YOUR_containerName with Azure Storage credentials and container name. Open Microsoft Azure PowerShell from the Windows Start Menu. Type a path to your script and press Enter.  
+10\. Please replace YOUR_accessKey, YOUR_secretKey, YOUR_bucketName with S3 storage access keys and source bucket name. Replace YOUR_storageAccountName , YOUR_storageAccountKey, YOUR_containerName with Azure Storage credentials and container name. Open Microsoft Azure PowerShell from the Windows Start Menu. Type a path to your script and press Enter.  
 
 ![](media/01/image18.jpg)
 
-> **Please note the script is not intendent for huge amount of data and is not performance efficient for many small files.**
+**Please note the script is not intendent for huge amount of data and is not performance efficient for many small files.**
 
-> 11\.	To create a new Azure CDN endpoint using Azure Storage blob container please click on NEW -> APP SERVICES -> CDN -> QUICK CREATE. Select the ORIGIN TYPE as Custom Origin. We will not be using a Storage Accounts origin type because we are going to use a concrete container as a CDN root instead of using all storage account containers. Enter a container URL with replaced https to http in the ORIGIN URL. 
+11\.	To create a new Azure CDN endpoint using Azure Storage blob container please click on NEW -> APP SERVICES -> CDN -> QUICK CREATE. Select the ORIGIN TYPE as Custom Origin. We will not be using a Storage Accounts origin type because we are going to use a concrete container as a CDN root instead of using all storage account containers. Enter a container URL with replaced https to http in the ORIGIN URL. 
 
-> Press CREATE.
->
-> ![](media/01/image19.jpg)
+Press CREATE.
 
-> 12\.	The new endpoint is here. Please wait approx. 1 hour for this step to complete, though time may vary so please be patient. 
+![](media/01/image19.jpg)
 
-> ![](media/01/image20.jpg)
->
+12\.	The new endpoint is here. Please wait approx. 1 hour for this step to complete, though time may vary so please be patient. 
+
+![](media/01/image20.jpg)
+
 Once complete, we have a migrated Azure powered CDN with Azure storage, as origin. You can now check and see that Azure Blobs are available both directly and via Azure CDN. 
->
-> ![](media/01/image21.jpg)
+
+![](media/01/image21.jpg)
