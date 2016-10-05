@@ -80,7 +80,8 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/XynergiesLLC/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
 	  <td valign="top"><b>[Containers on Dockers] (https://github.com/XynergiesLLC/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
-	</tr>
+          <td valign="top"><b>[Ruby on Rails web app on Azure] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b> - tutorial</td>
+</tr>
      </table>
 
 ##Networking
