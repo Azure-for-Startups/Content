@@ -1,8 +1,6 @@
 #How to Guide - Azure migration scenario
 ##Web applications on Azure using Node.js, PHP, and Python
 
-November 2015
-
 ###OVERVIEW
 This article outlines the most relevant resources on how to build and deploy Web applications based on non-Microsoft technologies on Microsoft Azure. The focus of the article is to serve as a starting point if you’re looking to learn how to deploy your application on Azure (rather than how to build it from scratch) and so is especially useful if you are looking to migrate applications. The following technologies are covered: Node.js, PHP, and Python.  
 
