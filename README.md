@@ -35,7 +35,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ##Migrating to Azure 
 -	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
--	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
+-	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)** 
 
 ###*Tools & Services*
 - **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
