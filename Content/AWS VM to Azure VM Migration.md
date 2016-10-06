@@ -5,12 +5,10 @@ This article describes how to migrate a Windows or Linux driven Virtual Machine 
 
 If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues).
 
-###<span id="h.e2w4a2lg01ys" class="anchor"></span>Migration via the VHD
-file export-conversion-import
+###<span id="h.e2w4a2lg01ys" class="anchor"></span>Migration via the VHD file export-conversion-import
 This is a standard migration flow using export/import of the machine image. AWS allows you to download a VM from their service. The downloaded image can be converted to format-ready for Hyper-V use and uploaded to Azure, however, this would involve a lengthy down time of the service during the download, conversion, and upload. Also the process involves utilizing a Disk2VHD tool which is available for Windows only. For Linux you will have to use an alternative tool (dd or other).  
 
-###<span id="h.9sexun7bmltl" class="anchor"></span>Migration using the
-Azure site recovery service
+###<span id="h.9sexun7bmltl" class="anchor"></span>Migration using the Azure site recovery service
 Another way is to use the [free Microsoft Migration Accelerator] (https://azure.microsoft.com/en-us/blog/introducing-microsoft-migration-accelerator/), which uses the same technology as [Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/) and is based on the [InMage Scout] (http://windowsitpro.com/azure/inmage-scout) technology.  
 
 <span id="h.818wt9bahtb8" class="anchor"></span>
