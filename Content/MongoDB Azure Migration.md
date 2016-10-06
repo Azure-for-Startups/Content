@@ -5,7 +5,7 @@ This article provides a brief overview of NoSQL databases on a Microsoft Azure C
 
 This article is also available in PDF format [here] (media/PDF-files/MongoDB Azure Migration.pdf).
 
-Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
+Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
 
 ###DEPLOYMENT
 There are two most common NoSQL solutions to be deployed in Microsoft Azure: Microsoft DocumentDB and MongoDB. 

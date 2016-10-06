@@ -6,7 +6,7 @@ This article outlines the most relevant resources on how to build and deploy Web
 
 This article is also available in PDF format [here] (media/PDF-files/Node.js PHP and Python.pdf).
 
-If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues).
+If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues).
 
 
 ###App Deployment General Info. 

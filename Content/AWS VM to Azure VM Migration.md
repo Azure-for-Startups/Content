@@ -3,7 +3,7 @@
 ###OVERVIEW
 This article describes how to migrate a Windows or Linux driven Virtual Machine from Amazon Web Services (AWS) to Azure Cloud Services. We describe the two most popular migration flows: the first requires quite a bit of manual work while the second is the latest method which uses the latest features of the Azure Cloud Services.  This article is also available in PDF format [here] (media/PDF-files/AWS VM to Azure VM migration.pdf).
 
-If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues).
+If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues).
 
 ###<span id="h.e2w4a2lg01ys" class="anchor"></span>Migration via the VHD
 file export-conversion-import

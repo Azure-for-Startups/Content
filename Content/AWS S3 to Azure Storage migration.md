@@ -4,7 +4,7 @@
 ###OVERVIEW
 This article describes how to migrate a sample ASP.NET MVC Web Application from Amazon Web Services (AWS) to Azure Cloud Service.   This article is also available in PDF format [here] (media/PDF-files/AWS S3 to Azure Storage migration.pdf ).
 
-If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/XynergiesLLC/Azure-IoT-demo/issues).
+If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues).
 
 ###PREREQUISITES
 As the starting point, you have an ASP.NET MVC Web Application published to the AWS Elastic Beanstalk service. As the owner of the application you have access to its source code. It is required because you have to reimplement code responsible for the interaction with the Storage Service. Also we assume that your application is live, so you have some data to migrate as well.  

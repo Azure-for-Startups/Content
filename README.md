@@ -1,13 +1,13 @@
 # Azure for Startups
 
-The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/XynergiesLLC/Content/issues).
+The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/Azure-for-Startups/Content/issues).
 <br><br>
 ##Table of contents
    <table class="table table-bordered table-striped table-hover border-0px">
    <tr>
-	<td valign="top">[- Getting Started on Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#working-with-azure)<br>[- Migration to Azure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#migrating-to-azure)</td>
-	<td valign="top">[- Infrastructure Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[- Platform Services] (https://github.com/XynergiesLLC/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
-	<td valign="top">[- Cloud Architecure] (https://github.com/XynergiesLLC/Content/blob/master/README.md#cloud-architecture)<br>[- Additional Useful Tools and Links] (https://github.com/XynergiesLLC/Content/blob/master/README.md#additional-useful-tools--links)<br>[- Azure Resource Manager] (https://github.com/XynergiesLLC/Content/blob/master/README.md#azure-resource-manager-arm)</td>
+	<td valign="top">[- Getting Started on Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure)<br>[- Migration to Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure)</td>
+	<td valign="top">[- Infrastructure Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas)<br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>[- Platform Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas)<br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
+	<td valign="top">[- Cloud Architecure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture)<br>[- Additional Useful Tools and Links] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links)<br>[- Azure Resource Manager] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm)</td>
 	</tr>
      </table>
 
@@ -35,7 +35,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ##Migrating to Azure 
 -	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
--	**[MongoDB to Azure Migration resources] (https://github.com/XynergiesLLC/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
+-	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/tree/master/Instructional-guides-and-code-packets/Amazon-S3-to-Azure-Blog-Storage)** 
 
 ###*Tools & Services*
 - **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
@@ -47,7 +47,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 	<tr>
 	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM Migration.md)</b> - Tutorial</td>
 	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration.md)</b> - Tutorial</td>
-          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (https://github.com/XynergiesLLC/Amazon-S3-to-Azure-Storage-demo)</b> - Tutorial</td>
+          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo)</b> - Tutorial</td>
           <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Content/Amazon CDN to Azure CDN migration.md)</b> - Tutorial</td>
 	</tr>
      </table>
@@ -77,8 +77,8 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/XynergiesLLC/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
-	  <td valign="top"><b>[Containers on Dockers] (https://github.com/XynergiesLLC/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/Azure-for-Startups/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
+	  <td valign="top"><b>[Containers on Dockers] (https://github.com/Azure-for-Startups/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
           <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b> - tutorial</td>
 </tr>
@@ -107,10 +107,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Notification Hub demo] (https://github.com/XynergiesLLC/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-	  <td valign="top"><b>[Azure Search demo] (https://github.com/XynergiesLLC/Azure-Search-demo)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
+	  <td valign="top"><b>[Notification Hub demo] (https://github.com/Azure-for-Startups/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+	  <td valign="top"><b>[Azure Search demo] (https://github.com/Azure-for-Startups/Azure-Search-demo)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
           <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-          <td valign="top"><b>[Azure Media Services (AIMS) demo] (https://github.com/XynergiesLLC/Media-Services-VideoHosting-demo)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
+          <td valign="top"><b>[Azure Media Services (AIMS) demo] (https://github.com/Azure-for-Startups/Media-Services-VideoHosting-demo)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
 	</tr>
      </table>
 
