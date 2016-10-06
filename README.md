@@ -56,12 +56,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 #Infrastructure Services (IaaS)
 Infrastructure as a service (IaaS) refers to the compute, networking and storage building blocks which allow you to build any kind of cloud solution. IaaS allows you to have maximum control on how you manage virtual machines, network configuration but requires you to invest in attaining robustness, availability and scalability in the cloud.  
 
-##Webinar series: Getting started on Azure Infrastructure services
--	**[Overview of the Azure Portal] ()** – (Video) Tutorial providing an introduction to the Azure Portal.
--	**[Resource Groups] ()** - (Video) Learn what to consider and how to create and manage a resource group.
--	**[Storage Accounts] ()** - (Video) Learn how to create and manage a storage account and to select the storage option that is right for you.
--	**[Virtual Network] ()** - (Video) Learn how to set up a virtual network incl. IP address blocks, DNS setting, security policies, and routing tables.
--	**[Virtual Machines] ()** - (Video) Learn how to set up a virtual machine.
 
 ##Compute 
 -	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage about VMs. 
