@@ -1,4 +1,4 @@
-# Azure for Startups
+m# Azure for Startups
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/Azure-for-Startups/Content/issues).
 <br><br>
@@ -19,7 +19,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 -	**[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
 -	**[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
 
-
+![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/AzureMap.png)
 <p> </p>
 <p> </p>
 ##Working with Azure
@@ -31,6 +31,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 -	**[Azure Solutions] (https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
 -	**[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
 
+![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/PortalImage.png)
 
 ##Migrating to Azure 
 -	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
