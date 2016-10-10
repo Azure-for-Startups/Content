@@ -1,6 +1,6 @@
 Azure for Startups
 
-Copyright (c) Microsoft Corporation
+Copyright (c) 2016 Microsoft Corporation
 
 All rights reserved. 
 
