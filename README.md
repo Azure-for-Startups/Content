@@ -89,6 +89,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn about Storage accounts, how to set them up and the two storage accounts: general purpose and blob.
 
 #Platform Services (PaaS)
+
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
 
 ##Web & Mobile
@@ -118,7 +119,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Azure IoT end-to-end demo] (https://github.com/Azure-for-Startups/Azure-IoT-demo)</b> – Demo showing IoT hub for communication with devices, Stream Analytics for data analysis and aggregation, Azure SQL database for storage of the aggregated information and Power BI for visualization</td>
+	  <td valign="top"><b>[Azure Machine Learning demo] (https://github.com/Azure-for-Startups/Machine-Learning-demo)</b> – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior.</td>
           <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
 	</tr>
      </table>
