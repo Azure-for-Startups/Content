@@ -1,7 +1,7 @@
 #Deploying Node.js, PHP, and Python Web applications on Azure 
 
 ##OVERVIEW
-This article provides a brief overview of how to build and mainly deploy Web applications based on non-Microsoft technologies (Node.js, PHP, and Python) on Microsoft Azure. This is not a step-by-step how to because there is a huge amount of information on these topics for the variety of platforms, however, it can be considered as a starting point and collection of the live links that have comprehensive info. The focus of the article is more about how to deploy your application in Azure, rather than how to build it from scratch, so it can be useful if you are looking for application migration.
+This article provides a brief overview of how to build and mainly deploy Node.js, PHP, and Python Web applications on Microsoft Azure. This is not a step-by-step how to because there is a huge amount of information on these topics for the variety of platforms, however, it can be considered as a starting point and collection of the live links that have comprehensive info. The focus of the article is more about how to deploy your application in Azure, rather than how to build it from scratch, so it can be useful if you are looking for application migration.
 
 General information about the deployment of the applications.  
 Understand best options to deploy your web (and mobile, or API) app to Azure App Service independent of dev langugage: https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/
