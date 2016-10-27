@@ -60,7 +60,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 
 ##Compute 
 -	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage about VMs. 
--	**[Linux VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/)** – Get started creating a Linux VM on the Azure Portal.
+-	**[Linux VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/)** – Get started creating a Linux VM on the Azure Portal and utilize [proven practices] (https://azure.microsoft.com/en-us/documentation/articles/guidance-compute-single-vm-linux/) to run the Linux VM.
 -	**[Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/)** – Get started creating a Windows VM on the Azure Portal
 -	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Learn about extension to virtual machines such as the Chef, Docker or custom script extensions.
 -	**[VM Scale Sets Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machine-scale-sets-overview/)** - Learn about deploying and managing VM scale sets.
@@ -72,7 +72,6 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Azure Service Fabric] (https://github.com/Azure-for-Startups/Azure-Service-Fabric-demo)</b> - Perform heavy computational tasks – video encoding using ffmpeg library based on Azure Service Fabric micro-services platform.</td>
 	  <td valign="top"><b>[Containers on Dockers] (https://github.com/Azure-for-Startups/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
           <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b> - tutorial</td>
@@ -104,9 +103,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Notification Hub demo] (https://github.com/Azure-for-Startups/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-	  <td valign="top"><b>[Azure Search demo] (https://github.com/Azure-for-Startups/Azure-Search-demo)</b> – Conduct context searches of BLOB files using Azure Search indexing.</td>
           <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-          <td valign="top"><b>[Azure Media Services (AIMS) demo] (https://github.com/Azure-for-Startups/Media-Services-VideoHosting-demo)</b> – An end-to-end demonstration of the video hosting system on Azure which includes: Azure Storage, Azure Media Services, Azure SQL database, and Azure Web application as a frontend.l</td>
 	</tr>
      </table>
 
@@ -119,7 +116,6 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Azure Machine Learning demo] (https://github.com/Azure-for-Startups/Machine-Learning-demo)</b> – demo showing how to perform analysis of a dummy system in order to detect and alert on any anomaly or unusual behavior.</td>
           <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
 	</tr>
      </table>
