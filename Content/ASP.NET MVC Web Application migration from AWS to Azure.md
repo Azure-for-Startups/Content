@@ -1,4 +1,4 @@
-
+ 
 ##OVERVIEW
 This article describes how to migrate a sample ASP.NET MVC Web Application from Amazon Web Services (AWS) to Azure Cloud Service.
 
@@ -34,7 +34,7 @@ Since you have a source code for the application you can create the Azure WebApp
  
  ![](Content/media/05/aws-s3-03.png)
  
-2. In a few seconds, the Publish Web wizard appears. The wizard opens to a publish profile that has settings for deploying the web project to the new web app. The publish profile includes a user name and password for deployment. These credentials have been generated for you, and you don't have to enter them. The password is encrypted in a hidden user-specific file in the Properties\PublishProfiles folder.  
+ 2. In a few seconds, the Publish Web wizard appears. The wizard opens to a publish profile that has settings for deploying the web project to the new web app. The publish profile includes a user name and password for deployment. These credentials have been generated for you, and you don't have to enter them. The password is encrypted in a hidden user-specific file in the Properties\PublishProfiles folder.  
  3. At the opened window on the Profile tab choose “Microsoft Azure App Service” target.  
  4. At the opened window App Service fill Subscription and View fields, choose an App Service to publish.  
  5. On the Connection, Settings and Preview tabs enter the needed data and click Publish. Wait until you see the “Publish Succeeded” message. There will be the link to your web application, click it and ensure that the project has deployed successfully:  
