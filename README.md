@@ -37,7 +37,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ##Migrating to Azure 
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
 -	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
-- **[ASP.NET MVC Web App migration from AWS to Azure] (Content/ASP.NET%20MVC%20Web%20App%20migration%20from%20AWS%20to%20Azure.md)**  
+- **[ASP.NET MVC Web App migration from AWS to Azure] (https://github.com/Azure-for-Startups/Content/blob/master/Content/ASP.NET%20MVC%20Web%20App%20migration%20from%20AWS%20to%20Azure.md)**  
 
 ###*Tools & Services*
 - **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
