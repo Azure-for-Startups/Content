@@ -1,12 +1,10 @@
-#Azure migration scenario - Web applications on Azure using Node.js, PHP, and Python
+#Deploying Node.js, PHP, and Python Web applications on Azure 
 
 ##OVERVIEW
-This article provides a brief overview of how to build and deploy Web applications based on non-Microsoft technologies on Microsoft Azure. This is not a step-by-step how to because there is a huge amount of information on these topics for the variety of platforms, however, it can be considered as a starting point and collection of the live links that have comprehensive info. The focus of the article is more about how to deploy your application in Azure, rather than how to build it from scratch, so it can be useful if you are looking for application migration.
+This article provides a brief overview of how to build and mainly deploy Web applications based on non-Microsoft technologies (Node.js, PHP, and Python) on Microsoft Azure. This is not a step-by-step how to because there is a huge amount of information on these topics for the variety of platforms, however, it can be considered as a starting point and collection of the live links that have comprehensive info. The focus of the article is more about how to deploy your application in Azure, rather than how to build it from scratch, so it can be useful if you are looking for application migration.
 
-The following technologies are covered: Node.js, PHP, and Python. 
-
-General information about the deployment of the applications. 
-Understand best options to to deploy your web, mobile, or API app to Azure App Service independent of dev langugage: https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/
+General information about the deployment of the applications.  
+Understand best options to deploy your web (and mobile, or API) app to Azure App Service independent of dev langugage: https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/
 
 ##Node.js 
 -	Discover how to use Web.deploy technology for deploying Node.js applications: https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy
