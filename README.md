@@ -94,19 +94,20 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 ##Web & Mobile
 -	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/https:/azure.microsoft.com/en-us/documentation/services/app-service/mobile)** – Learn about Web Apps, Mobile Apps, API apps.
+- **[Deploy Node.js, PHP, and Python Web applications on Azure] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md)** 
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
+- **[Using Git and GIT Workflows to Add Azure Web Apps] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 
  ###Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
-- **[Using Git and GIT Workflows to Add Azure Web Apps] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Notification Hub demo] (https://github.com/Azure-for-Startups/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-          <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy a PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+          <td valign="top"><b>[PHP, Node.js and Python] (https://azure.microsoft.com/en-us/documentation/articles/app-service-web-nodejs-get-started/)</b> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
 	</tr>
      </table>
 
