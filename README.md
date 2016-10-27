@@ -23,6 +23,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <p> </p>
 <p> </p>
 ##Working with Azure
+
 -	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
 -	**[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
 -	**[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
@@ -34,9 +35,9 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/PortalImage.png)
 
 ##Migrating to Azure 
--	**[Migrate your application from AWS to Azure in four simple steps] (https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/)**
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
--	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)** 
+-	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
+- **[ASP.NET MVC Web App migration from AWS to Azure] (Content/ASP.NET%20MVC%20Web%20App%20migration%20from%20AWS%20to%20Azure.md)**  
 
 ###*Tools & Services*
 - **[AWCopy] (https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
@@ -74,7 +75,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 	<tr>
 	  <td valign="top"><b>[Containers on Dockers] (https://github.com/Azure-for-Startups/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
-          <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b> - tutorial</td>
+           <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b> - tutorial</td>
 </tr>
      </table>
 
@@ -96,9 +97,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
-      Media & CDN
+
+ ###Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
--       **[Using Git and GIT Workflows to Add Azure Web Apps] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
+- **[Using Git and GIT Workflows to Add Azure Web Apps] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
