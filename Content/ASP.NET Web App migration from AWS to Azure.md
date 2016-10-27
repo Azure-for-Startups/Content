@@ -1,4 +1,4 @@
-##ASP.NET MVC Web App migration from AWS to Azure
+#ASP.NET MVC Web App migration from AWS to Azure
 ##OVERVIEW
 This article describes how to migrate a sample ASP.NET MVC Web Application from Amazon Web Services (AWS) to Azure Cloud Service.
 
@@ -10,17 +10,15 @@ If you do not know how to publish your application to the AWS Elastic Beanstalk 
  2. Enter your login and password at the opened AWS Elastic Beanstalk service page. You'll then be redirected to the Amazon Web Services page. Find “Compute” area and choose “Elastic Beanstalk” item:  
  
    <img src="media/05/aws-s3-01.png" width="450"  />
-i 
  3. At the AWS Elastic Beanstalk dashboard, click on Create New Application to create and configure your application, then enter the Application name and the Description field. Click Next to continue.  
  4.	The next step is to configure the environment - click on Create web server button, you will see the Environment Type page:  
  
  <img src="media/05/aws-s3-02.png" height="300"  />
  
   Here choose a Predefined configuration (for our example it should be “IIS”) and Environment type (“Single instance”). Click Next.  
-  
  5. Choose “Upload your own” radiobutton and select your project archive at the next page called Application Version *(“AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS”* (c)). Please make sure that your file meets the requirements (see AWS Documentation https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deployment.source.html). Click Next. Wait while the application version is uploading.  
  6.	The next step is to enter your environment information: name, URL, description. Click Next. At the new page mark the checkbox next to Create this environment inside a VPC. Click Next.  
-e 7.	Please leave Configuration Details, Environment Tags and Permissions pages unaltered. Turn to VPC Configuration page and select the first availability zone listed by checking the box under the EC2 column. Click Next.  
+ 7.	Please leave Configuration Details, Environment Tags and Permissions pages unaltered. Turn to VPC Configuration page and select the first availability zone listed by checking the box under the EC2 column. Click Next.  
  8.	Then review your environment configuration on the next screen and click Launch to deploy your application. Launching may take a few minutes.  
 
 ##GOALS
