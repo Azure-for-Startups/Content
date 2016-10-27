@@ -1,4 +1,4 @@
-#ASP.NET MVC Web App migration from AWS to Azure
+#ASP.NET Web App migration from AWS to Azure
 ##OVERVIEW
 This article describes how to migrate a sample ASP.NET MVC Web Application from Amazon Web Services (AWS) to Azure Cloud Service.
 
