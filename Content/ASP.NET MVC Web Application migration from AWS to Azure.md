@@ -9,7 +9,7 @@ If you do not know how to publish your application to the AWS Elastic Beanstalk 
  1. Start from going to the AWS Management Console page - https://aws.amazon.com/console/ - and clicking Sign in to the AWS Console button.  
  2. Enter your login and password at the opened AWS Elastic Beanstalk service page. After that you will be redirected to the Amazon Web Services page. Find “Compute” area and choose “Elastic Beanstalk” item:  
  
-![](Content/media/05/aws-s3-01.png)
+ ![](Content/media/05/aws-s3-01.png)
  
  3. At the AWS Elastic Beanstalk dashboard, click on Create New Application to create and configure your application, then enter the Application name and the Description field. Click Next to continue.  
  4.	The next step is to configure the environment - click on Create web server button, you will see the Environment Type page:  
@@ -18,10 +18,10 @@ If you do not know how to publish your application to the AWS Elastic Beanstalk 
  
   Here choose a Predefined configuration (for our example it should be “IIS”) and Environment type (“Single instance”). Click Next.  
   
-5. Choose “Upload your own” radiobutton and select your project archive at the next page called Application Version *(“AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS”* (c)). Please make sure that your file meets the requirements (see AWS Documentation https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deployment.source.html). Click Next. Wait while the application version is uploading.  
-6.	The next step is to enter your environment information: name, URL, description. Click Next. At the new page mark the checkbox next to Create this environment inside a VPC. Click Next.  
-7.	Please leave Configuration Details, Environment Tags and Permissions pages unaltered. Turn to VPC Configuration page and select the first availability zone listed by checking the box under the EC2 column. Click Next.  
-8.	Then review your environment configuration on the next screen and click Launch to deploy your application. Launching may take a few minutes.  
+ 5. Choose “Upload your own” radiobutton and select your project archive at the next page called Application Version *(“AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS”* (c)). Please make sure that your file meets the requirements (see AWS Documentation https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deployment.source.html). Click Next. Wait while the application version is uploading.  
+ 6.	The next step is to enter your environment information: name, URL, description. Click Next. At the new page mark the checkbox next to Create this environment inside a VPC. Click Next.  
+ 7.	Please leave Configuration Details, Environment Tags and Permissions pages unaltered. Turn to VPC Configuration page and select the first availability zone listed by checking the box under the EC2 column. Click Next.  
+ 8.	Then review your environment configuration on the next screen and click Launch to deploy your application. Launching may take a few minutes.  
 
 ##GOALS
 1.	Migrate the existing ASP.NET MVC Web Application from AWS to Azure. 
@@ -34,7 +34,7 @@ Since you have a source code for the application you can create the Azure WebApp
  
  ![](Content/media/05/aws-s3-03.png)
  
- 2. In a few seconds, the Publish Web wizard appears. The wizard opens to a publish profile that has settings for deploying the web project to the new web app. The publish profile includes a user name and password for deployment. These credentials have been generated for you, and you don't have to enter them. The password is encrypted in a hidden user-specific file in the Properties\PublishProfiles folder.  
+2. In a few seconds, the Publish Web wizard appears. The wizard opens to a publish profile that has settings for deploying the web project to the new web app. The publish profile includes a user name and password for deployment. These credentials have been generated for you, and you don't have to enter them. The password is encrypted in a hidden user-specific file in the Properties\PublishProfiles folder.  
  3. At the opened window on the Profile tab choose “Microsoft Azure App Service” target.  
  4. At the opened window App Service fill Subscription and View fields, choose an App Service to publish.  
  5. On the Connection, Settings and Preview tabs enter the needed data and click Publish. Wait until you see the “Publish Succeeded” message. There will be the link to your web application, click it and ensure that the project has deployed successfully:  
