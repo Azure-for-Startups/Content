@@ -111,7 +111,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 
 ##Internet of Things & Machine Learning
--	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/learning-paths/iot-hub/)** - Overview and tutorial on Machine Learning on IoT.
+-	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
 -	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.
 -	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
 
