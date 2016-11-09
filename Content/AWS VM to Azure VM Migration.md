@@ -40,7 +40,7 @@ Several good resources have been published, among our top recommendations are:
 
 - A PowerPoint presentation by Alexandre Verkinderen [*here*](http://www.slideshare.net/alexandreverkinderen/expertslive-azure-site-recovery)
 
-- A great video guide by Rajesh Goli about migration using Azure Site Recovery service which you can view [*here*](https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/).  A few important notes and clarification on this video:
+- A great blog and video guide by Rajesh Goli about migration using Azure Site Recovery service which you can view [*here*](https://azure.microsoft.com/en-us/blog/seamlessly-migrate-your-application-from-aws-to-azure-in-4-simple-steps/).  A few important notes and clarification on this video:
 
 
 - 1. During the Configuration Server setup Rajesh selects the related Microsoft Azure Network. So you have to configure the Azure Network before starting the Configuration Server creation, as shown below.
