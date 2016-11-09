@@ -6,6 +6,9 @@ This article provides a brief overview of how to build and mainly deploy Node.js
 General information about the deployment of the applications.  
 Understand best options to deploy your web (and mobile, or API) app to Azure App Service independent of dev langugage: https://azure.microsoft.com/en-us/documentation/articles/web-sites-deploy/
 
+This article is also available in PDF format [here] (media/PDF-files/Node.js PHP and Python.pdf).
+If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Content/issues).
+
 ##Node.js 
 -	Discover how to use Web.deploy technology for deploying Node.js applications: https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy
 -	Learn more about the Git based publishing of Node.js applications along with tips and tweaks of applications to support Git publishing: https://azure.microsoft.com/en-us/documentation/articles/web-sites-nodejs-develop-deploy-mac/#publish-your-application
