@@ -58,10 +58,10 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 Infrastructure as a service (IaaS) refers to the compute, networking and storage building blocks which allow you to build any kind of cloud solution. IaaS allows you to have maximum control on how you manage virtual machines, network configuration but requires you to invest in attaining robustness, availability and scalability in the cloud.  
 
 ##Compute 
--	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage about VMs. 
+-	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage VMs. 
 -	**[Linux VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/)** – Get started creating a Linux VM on the Azure Portal and utilize [proven practices] (https://azure.microsoft.com/en-us/documentation/articles/guidance-compute-single-vm-linux/) to run the Linux VM.
 -	**[Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/)** – Get started creating a Windows VM on the Azure Portal
--	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Learn about extension to virtual machines such as the Chef, Docker or custom script extensions.
+-	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Learn about extensions to virtual machines such as the Chef, Docker or custom script extensions.
 -	**[VM Scale Sets Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machine-scale-sets-overview/)** - Learn about deploying and managing VM scale sets.
 -	**[Service Fabric Overview] (https://azure.microsoft.com/en-us/documentation/services/service-fabric/)** – a distributed systems platform that makes it easy to package, deploy, and manage scalable, reliable microservices.
 -	**[Choose between App Services, Service Fabric and VMs] (https://azure.microsoft.com/en-us/documentation/articles/choose-web-site-cloud-service-vm/)** - including scenarios and recommendations.
@@ -71,7 +71,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    ###*Tutorials and Sample code*
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Containers on Dockers] (https://github.com/Azure-for-Startups/Containers-on-Dockers-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+	  <td valign="top"><b>[Containers on Azure] (https://github.com/Azure-for-Startups/Containers-on-Azure-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
            <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b></td>
 </tr>
@@ -83,15 +83,15 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Load-Balancers] (https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)** – Learn about Azure Load Balancer and to configure one.
 
 ##Storage
--	**[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn about Storage accounts and how to set them including blobs, tables, queues, and files.
--	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn about Storage accounts, how to set them up and the two storage accounts: general purpose and blob.
+-	**[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
+-	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
 
 #Platform Services (PaaS)
 
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
 
 ##Web & Mobile
--	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/https:/azure.microsoft.com/en-us/documentation/services/app-service/mobile)** – Learn about Web Apps, Mobile Apps, API apps.
+-	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/)** – Learn about Web Apps, Mobile Apps, API apps.
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
@@ -123,9 +123,9 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 
 ##Data 
--	**[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB.
+-	**[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
 -	**[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
--	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and managed DocumentDB applications.
+-	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
 -	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
 
    ###*Tutorials and Sample code*
@@ -139,7 +139,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      </table>
 
 ##Intelligence & Analytics
--	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics 
+-	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
    ###*Tutorials and Sample code*
@@ -165,7 +165,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 #Azure Resource Manager (ARM)
 The Azure Resource Manager is at the core of the Azure platform and is used to deploy and manage Azure services. Every resource in Azure managed under ARM can be described and managed in a consistent way. It's very helpful to understand the Azure Resource Manager and how to work with Resource Groups.
 -	**[ARM Overview] (https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/)** - Get an overview of the Azure Resource Manager.
--	**[ARM vs. Classic] (https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/)** - Understand the difference between ARM the Classic (ASM) deployment model.
+-	**[ARM vs. Classic] (https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/)** - Understand the difference between ARM and the Classic (ASM) deployment model.
 -	**[Azure portal availability chart] (https://azure.microsoft.com/en-us/features/azure-portal/availability/)** – use the availability chart to determine what services are supported by ARM and the Azure portal
 
 ##ARM Templates
