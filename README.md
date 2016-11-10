@@ -43,9 +43,9 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 	<tr>
 	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM Migration.md)</b></td>
 	  <td valign="top"><b>[AWS RDS to Azure SQL migration] (Content/AWS RDS to Azure SQL migration.md)</b></td>
-          <td valign="top"><b>[AWS S3 to Azure Blob storage migration] (https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo)</b></td>
+          <td valign="top"><b>[AWS S3 to Azure Storage migration] (https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo)</b></td>
           <td valign="top"><b>[AWS CDN to Azure CDN Migration] (Content/Amazon CDN to Azure CDN migration.md)</b></td>
-	  <td valign="top"><b>[ASP.NET Web App migration from AWS to Azure] (Content/ASP.NET Web App migration from AWS to% Azure.md)</b></td>
+	  <td valign="top"><b>[ASP.NET Web App migration from AWS to Azure] (Content/ASP.NET Web App migration from AWS to Azure.md)</b></td>
 	 </tr>
      </table>
 
@@ -95,7 +95,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
-- **[Using Git and GIT Workflows to Add Azure Web Apps] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
+- **[Azure Deployment Using Git] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 
  ###Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
