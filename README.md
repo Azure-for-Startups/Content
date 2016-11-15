@@ -37,7 +37,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
 -	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
 
-  <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[AWS VM to Azure VM migration] (Content/AWS VM to Azure VM Migration.md)</b></td>
@@ -67,7 +67,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
 
 
-   <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Containers on Azure] (https://github.com/Azure-for-Startups/Containers-on-Azure-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
@@ -99,7 +99,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
  ###Media & CDN
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-  <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Notification Hub demo] (https://github.com/Azure-for-Startups/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
@@ -113,7 +113,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.
 -	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
 
-  <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
           <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
@@ -127,7 +127,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
 -	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
 
-  <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
@@ -141,7 +141,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 
-  <h3>:bulb:<i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
 	  <td valign="top"><b>[Data Analysis using Hadoop] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4)</b>  – Microsoft Imagine course content - learn how to use Hive for Big Data Analysis</td>
