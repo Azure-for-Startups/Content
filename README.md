@@ -1,3 +1,4 @@
+
 # Azure for Startups
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/Azure-for-Startups/Content/issues).
@@ -21,6 +22,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 ![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/AzureMap.png)
 <p> </p>
 <p> </p>
+
 ##Working with Azure
 
 -	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
