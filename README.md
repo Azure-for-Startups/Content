@@ -94,9 +94,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
-- **[Azure Deployment Using Git] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
-
- ###Media & CDN
+-	**[Azure Deployment Using Git] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 -	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
   <h3><i> Tutorials and Sample code</i></h3>
