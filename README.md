@@ -106,6 +106,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 ##Web & Mobile
 -	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/)** – Learn about Web Apps, Mobile Apps, API apps.
+-       **[Getting Started with Xamarin] (https://azure.microsoft.com/en-us/features/xamarin/)** - Create cloud-powered mobile apps faster across iOS, Android, and Windows.  Overview of Xamarin and how to use it.
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
@@ -121,6 +122,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      </table>
 
 
+
 ##Internet of Things & Machine Learning
 -	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
 -	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.
@@ -130,6 +132,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      <table class="table table-bordered table-striped table-hover">
 	<tr>
           <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
+          <td valign="top"><b>[MyDriving App IoT sample] (https://azure.microsoft.com/en-us/campaigns/mydriving/)</b> – MyDriving uses a wide range of Azure services to process and analyze car telemetry data for both real-time insights and long-term patterns and trends</td>
 	</tr>
      </table>
 
@@ -138,18 +141,22 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 -	**[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
 -	**[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
 -	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
--	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** ¬- Learn about MongoDB on Azure and deployment recommendations.
+-	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** – Learn about MongoDB on Azure and deployment recommendations.
 
   <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
+     <table class="table table-bordered table-hover">
 	<tr>
 	  <td valign="top"><b>[Import data to DocumentDB with the Database Migration tool] (https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
 	  <td valign="top"><b>[Install MongoDB on a Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)</b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
           <td valign="top"><b>[Install MongoDB on Linux] (https://docs.mongodb.com/v3.0/administration/install-on-linux/)</b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
           <td valign="top"><b>[Create a web app that connects to MongoDB] (https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)</b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
 	  </tr>
+     <tr>
+          <td colspan="4" valign="top" align="left"><b>[SQL DB and Elastic pool feature tutorials] (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials)</b> – simple step-by-start tutorial for different SQL feature areas</td>
+     <tr>	  
      </table>
 
+     
 ##Intelligence & Analytics
 -	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
 -	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
