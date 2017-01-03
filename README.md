@@ -1,6 +1,6 @@
 # Azure for Startups
 
-The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an [issue] (https://github.com/Azure-for-Startups/Content/issues).
+The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue] (https://github.com/Azure-for-Startups/Content/issues)**.
 <br><br>
 ##Table of Contents
    <table class="table table-bordered table-striped table-hover border-0px">
@@ -37,13 +37,13 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <p> </p>
 
 ##Working with Azure
--	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
--	**[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
--	**[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
--	**[Azure CLI] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)** – Create/manage Azure resources using a set of open-source shell-based commands.
--	**[Azure API Reference] (https://msdn.microsoft.com/en-us/library/azure/mt420159.aspx)** - Reference for Azure REST and .NET APIs.
--	**[Azure Solutions] (https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
--	**[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
+- **[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
+- **[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
+- **[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
+- **[Azure CLI] (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)** – Create/manage Azure resources using a set of open-source shell-based commands.
+- **[Azure API Reference] (https://msdn.microsoft.com/en-us/library/azure/mt420159.aspx)** - Reference for Azure REST and .NET APIs.
+- **[Azure Solutions] (https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
+- **[Azure Products and services] (https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
 
 ![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/PortalImage.png)
 
@@ -106,15 +106,15 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
 
 ##Web & Mobile
--	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/services/app-service/)** – Learn about Web Apps, Mobile Apps, API apps.
--	**[Azure Web Apps] (https://azure.microsoft.com/en-us/services/app-service/web/)** – Create and deploy mission-critical web apps that scale with your business.
--	**[Azure Mobile Apps] (https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-value-prop)** – Build engaging iOS, Android, and Windows apps.
--       **[Getting Started with Xamarin] (https://azure.microsoft.com/en-us/features/xamarin/)** - Create cloud-powered mobile apps faster across iOS, Android, and Windows.  Overview of Xamarin and how to use it.
--	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
--	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
--	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
--	**[Azure Deployment Using Git] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
--	**[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
+- **[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/services/app-service/)** – Learn about Web Apps, Mobile Apps, API apps.
+- **[Azure Web Apps] (https://azure.microsoft.com/en-us/services/app-service/web/)** – Create and deploy mission-critical web apps that scale with your business.
+- **[Azure Mobile Apps] (https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-value-prop)** – Build engaging iOS, Android, and Windows apps.
+- **[Getting Started with Xamarin] (https://azure.microsoft.com/en-us/features/xamarin/)** - Create cloud-powered mobile apps faster across iOS, Android, and Windows.  Overview of Xamarin and how to use it.
+- **[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
+- **[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
+- **[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
+- **[Azure Deployment Using Git] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
+- **[Azure Media Services (AMS) Overview] (https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
@@ -125,21 +125,8 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      </table>
 
 ##Active Directory, Identify, and Access Management
--	**[Azure AD B2C] (https://azure.microsoft.com/en-us/services/active-directory-b2c/)** - Gain an understanding of how Azure active directory B2C can help you reliably and cost effectively manage your online consumers enabling them to log on to all your applications.
--	**[Azure AD B2B collaboration] (https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/)** - Learn how Azure Directory can enable and support B2B collaboration.
-
-##Internet of Things & Machine Learning
--	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
--	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.  Or explore further [Machine Learning] (https://azure.microsoft.com/en-us/services/machine-learning/)
--	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
-
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-          <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
-          <td valign="top"><b>[MyDriving App IoT sample] (https://azure.microsoft.com/en-us/campaigns/mydriving/)</b> – MyDriving uses a wide range of Azure services to process and analyze car telemetry data for both real-time insights and long-term patterns and trends</td>
-	</tr>
-     </table>
+- **[Azure AD B2C] (https://azure.microsoft.com/en-us/services/active-directory-b2c/)** - Gain an understanding of how Azure active directory B2C can help you reliably and cost effectively manage your online consumers enabling them to log on to all your applications.
+- **[Azure AD B2B collaboration] (https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/)** - Learn how Azure Directory can enable and support B2B collaboration.
 
 
 ##Data 
@@ -162,12 +149,14 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
      </table>
 
      
-##Intelligence & Analytics
--	**[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
--	**[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
--       **[Get started with Microsoft Cognitive Services] (https://channel9.msdn.com/Events/Connect/2016/102)** – Learn how to easily add powerful artificial intelligence capabilities to your applications with Microsoft Cognitive Services.  See [Cognitive Services] (http://www.microsoft.com/cognitive) for more information.
--      **[Cognitive Services: Making AI Easy] (https://channel9.msdn.com/Events/Machine-Learning-and-Data-Sciences-Conference/Data-Science-Summit-2016/MSDSS08)** – The rise of machine learning has produced an explosion of APIs to make your applications more intelligent.  Learn about more than 20 Cognitive Services APIs.  You'll see powerful demos, experience the simplicity of calling this code, and get ideas for adding this functionality to your own applications.
--	.
+##Intelligence & Analytics *(incl. Machine learning and Cognitive services)*
+- **[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
+- **[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
+- **[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.  Or explore further [Machine Learning] (https://azure.microsoft.com/en-us/services/machine-learning/)
+- **[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions.
+- **[Get started with Microsoft Cognitive Services] (https://channel9.msdn.com/Events/Connect/2016/102)** – Learn how to easily add powerful artificial intelligence capabilities to your applications with Microsoft Cognitive Services.  See [Cognitive Services] (http://www.microsoft.com/cognitive) for more information.
+- **[Cognitive Services: Making AI Easy] (https://channel9.msdn.com/Events/Machine-Learning-and-Data-Sciences-Conference/Data-Science-Summit-2016/MSDSS08)** – The rise of machine learning has produced an explosion of APIs to make your applications more intelligent.  Learn about more than 20 Cognitive Services APIs.  You'll see powerful demos, experience the simplicity of calling this code, and get ideas for adding this functionality to your own applications.
+
 
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
@@ -177,6 +166,15 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 	  </tr>
      </table>
 
+##Internet of Things
+- **[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
+  <h3><i> Tutorials and Sample code</i></h3>
+    <table class="table table-bordered table-striped table-hover">
+        <tr>
+	  <td valign="top"><b>[IoT Microsoft Imagine course content] (https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6)</b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
+	  <td valign="top"><b>[MyDriving App IoT sample] (https://azure.microsoft.com/en-us/campaigns/mydriving/)</b> – MyDriving app uses a wide range of Azure services to process and analyze car telemetry data for both real-time insights and long-term patterns and trends</td>
+	  </tr>
+     </table>
 
 #Cloud Architecture
 -	**[Cloud Patterns & Practices] (https://aka.ms/mspnp)** - Best practices for building cloud solutions. Including checklists and design patterns. 
