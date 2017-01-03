@@ -6,7 +6,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
    <table class="table table-bordered table-striped table-hover border-0px">
    <tr>
 	<td valign="top"><b>[- Getting Started on Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure)<br>[- Migrating to Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure)</b></td>
-	<td valign="top"><b>[- Infrastructure Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas)</b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b>[- Platform Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas)</b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Active Directory & Identity, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics, IoT<br> </td>
+	<td valign="top"><b>[- Infrastructure Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas)</b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b>[- Platform Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas)</b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br> </td>
 	<td valign="top"><b>[- Cloud Architecure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture)<br>[- Additional Useful Tools and Links] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links)<br>[- Azure Resource Manager] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm)</b></td>	
 	</tr>
 </table>
@@ -123,11 +123,6 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
           <td valign="top"><b>[PHP, Node.js, and Python] (https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md)</b> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
 	</tr>
      </table>
-
-##Active Directory, Identity, and Access Management
-- **[Azure AD B2C] (https://azure.microsoft.com/en-us/services/active-directory-b2c/)** - Gain an understanding of how Azure active directory B2C can help you reliably and cost effectively manage your online consumers enabling them to log on to all your applications.
-- **[Azure AD B2B collaboration] (https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/)** - Learn how Azure Directory can enable and support B2B collaboration.
-
 
 ##Data 
 - **[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
