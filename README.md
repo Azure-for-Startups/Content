@@ -6,7 +6,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
    <table class="table table-bordered table-striped table-hover border-0px">
    <tr>
 	<td valign="top"><b>[- Getting Started on Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure)<br>[- Working with Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure)<br>[- Migrating to Azure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure)</b></td>
-	<td valign="top"><b>[- Infrastructure Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas)</b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b>[- Platform Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas)</b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, IoT & Machine Learning, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics<br></td>
+	<td valign="top"><b>[- Infrastructure Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas)</b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b>[- Platform Services] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas)</b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Active Directory & Identity, <br>&nbsp;&nbsp;&nbsp;Data, Intelligence & Analytics, IoT<br> </td>
 	<td valign="top"><b>[- Cloud Architecure] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture)<br>[- Additional Useful Tools and Links] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links)<br>[- Azure Resource Manager] (https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm)</b></td>	
 	</tr>
 </table>
@@ -85,7 +85,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
    <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	  <td valign="top"><b>[Containers on Azure] (https://github.com/Azure-for-Startups/Containers-on-Azure-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+	<td valign="top"><b>[Containers on Azure] (https://github.com/Azure-for-Startups/Containers-on-Azure-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
           <td valign="top"><b>[Deploy to Azure using the Docker VM Extension] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
            <td valign="top"><b>[Ruby on Rails web app on Azure VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b></td>
 </tr>
@@ -102,7 +102,6 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
 
 #Platform Services (PaaS)
-
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
 
 ##Web & Mobile
@@ -124,7 +123,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 	</tr>
      </table>
 
-##Active Directory, Identify, and Access Management
+##Active Directory, Identity, and Access Management
 - **[Azure AD B2C] (https://azure.microsoft.com/en-us/services/active-directory-b2c/)** - Gain an understanding of how Azure active directory B2C can help you reliably and cost effectively manage your online consumers enabling them to log on to all your applications.
 - **[Azure AD B2B collaboration] (https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/)** - Learn how Azure Directory can enable and support B2B collaboration.
 
