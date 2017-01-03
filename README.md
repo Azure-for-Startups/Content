@@ -37,7 +37,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <p> </p>
 
 ##Working with Azure
-
 -	**[Azure Portal] (https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
 -	**[Azure SDKs & Tools] (https://azure.microsoft.com/en-us/downloads/)** - SDKs for many common languages such as .NET, Java, Node.js, Python, Ruby and other tools.
 -	**[Azure PowerShell] (https://msdn.microsoft.com/en-us/library/jj156055.aspx)** - Work with PowerShell cmdlets to perform Azure operations.
@@ -50,7 +49,8 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 ##Migrating to Azure 
 -	**[AWS to Azure mapping] (https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
--	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
+-	**[AWS to Azure migration] (https://azure.microsoft.com/en-in/documentation/articles/site-recovery-migrate-aws-to-azure/)** - Migrate virtual machines in Amazon Web Services (AWS) to Azure with Azure Site Recovery
+-	**[MongoDB to Azure Migration resources] (https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
 
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
@@ -75,12 +75,12 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Learning Path for Azure VMs] (https://azure.microsoft.com/en-us/documentation/learning-paths/virtual-machines/)** - Learn how to deploy and manage VMs. 
 -	**[Linux VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/)** – Get started creating a Linux VM on the Azure Portal and utilize [proven practices] (https://azure.microsoft.com/en-us/documentation/articles/guidance-compute-single-vm-linux/) to run the Linux VM.
 -	**[Windows VM] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/)** – Get started creating a Windows VM on the Azure Portal
--	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Learn about extensions to virtual machines such as the Chef, Docker or custom script extensions.
+-	**[VM Extensions] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-extensions-features/)** - Gain an overview of extensions to virtual machines such as the Chef, Docker or custom script extensions.  Direct link to [Docker VM Extension] (https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-dockerextension?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)
 -	**[VM Scale Sets Overview] (https://azure.microsoft.com/en-us/documentation/articles/virtual-machine-scale-sets-overview/)** - Learn about deploying and managing VM scale sets.
 -	**[Service Fabric Overview] (https://azure.microsoft.com/en-us/documentation/services/service-fabric/)** – a distributed systems platform that makes it easy to package, deploy, and manage scalable, reliable microservices.
 -	**[Choose between App Services, Service Fabric and VMs] (https://azure.microsoft.com/en-us/documentation/articles/choose-web-site-cloud-service-vm/)** - including scenarios and recommendations.
 -	**[Docker Documentation] (https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
-
+-	**[Docker VM Extension] (https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-dockerextension?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)** - Create a Docker environment in Azure using the Docker VM extension.
 
    <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
@@ -98,6 +98,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 
 ##Storage
 -	**[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
+-	**[Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Orchestrate your disaster recovery plan.
 -	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
 
 #Platform Services (PaaS)
@@ -105,8 +106,10 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
 
 ##Web & Mobile
--	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/)** – Learn about Web Apps, Mobile Apps, API apps.
--       **[Getting Started with Xamarin] (https://azure.microsoft.com/en-us/features/xamarin/)** - Create cloud-powered mobile apps faster across iOS, Android, and Windows.  Overview of Xamarin and how to use it.
+-	**[Azure App Service overview] (https://azure.microsoft.com/en-us/documentation/services/app-service/)** – Learn about Web Apps, Mobile Apps, API apps.
+-	**[Azure Web Apps] (https://azure.microsoft.com/en-us/services/app-service/web/)** – Create and deploy mission-critical web apps that scale with your business.
+-	**[Azure Mobile Apps] (https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-value-prop)** – Build engaging iOS, Android, and Windows apps.
+-       **[Getting Started with Xamarin] (https://azure.microsoft.com/en-us/features/xamarin/)** - Create cloud-powered mobile apps faster across iOS, Android, and Windows.  Overview of Xamarin and how to use it.
 -	**[Notification Hub overview] (https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 -	**[Azure Search] (https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 -	**[Azure Mobile Services REST API Reference MSDN] (https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
@@ -121,11 +124,13 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 	</tr>
      </table>
 
-
+##Active Directory, Identify, and Access Management
+-	**[Azure AD B2C] (https://azure.microsoft.com/en-us/services/active-directory-b2c/)** - Gain an understanding of how Azure active directory B2C can help you reliably and cost effectively manage your online consumers enabling them to log on to all your applications.
+-	**[Azure AD B2B collaboration] (https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-collaboration-overview/)** - Learn how Azure Directory can enable and support B2B collaboration.
 
 ##Internet of Things & Machine Learning
 -	**[Azure IoT suite documentation] (https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
--	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.
+-	**[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.  Or explore further [Machine Learning] (https://azure.microsoft.com/en-us/services/machine-learning/)
 -	**[Azure Machine Learning Studio] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-ml-studio/)** - A collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions. 
 
   <h3><i> Tutorials and Sample code</i></h3>
