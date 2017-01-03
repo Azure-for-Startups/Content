@@ -97,9 +97,10 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Load-Balancers] (https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)** – Learn about Azure Load Balancer and to configure one.
 
 ##Storage
--	**[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
--	**[Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Orchestrate your disaster recovery plan.
--	**[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
+- **[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
+- **[Azure Backup] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Learn about and how to implement Azure Backup to back up (or protect) and restore your data in the Microsoft cloud.
+- **[Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Orchestrate your disaster recovery plan.
+- **[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
 
 #Platform Services (PaaS)
 Platform as a Service (PaaS) resources are Azure services which are built for most cases and allow you to enjoy high availability, scalability and robustness out of the box. Instead of managing VMs directly, let Azure manage the underlying infrastructure and focus on building your applications and solutions. 
@@ -129,10 +130,10 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 
 ##Data 
--	**[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
--	**[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
--	**[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
--	**[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** – Learn about MongoDB on Azure and deployment recommendations.
+- **[Azure SQL Overview] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
+- **[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)] (https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
+- **[DocumentDB] (https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
+- **[MongoDB on Azure] (https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** – Learn about MongoDB on Azure and deployment recommendations.
 
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-hover">
@@ -149,6 +150,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
      
 ##Intelligence & Analytics *(incl. Machine learning and Cognitive services)*
+- **[Azure HDInsight] (https://azure.microsoft.com/en-us/services/hdinsight/)** - An introduction to Hadoop on Azure HDInsight, its ecosystem, and big data. Learn about the Hadoop components, common terminology, and scenarios for big data analysis.
 - **[Stream Analytics] (http://azure.microsoft.com/en-us/services/stream-analytics/)** - Overview of Azure stream analytics, low-cost solutions to gain real-time insights from devices, sensors, infrastructure, and applications 
 - **[Additional Intelligence and Analytics services] (https://azure.microsoft.com/en-us/services/?sort=popular&filter=intelligence-analytics)** – HDInsight, Machine Learning, Data Factory, Log Analytics, Data Catalog, Power BI Embedded, Data Lake store and much more.
 - **[Machine Learning Overview] (https://azure.microsoft.com/en-us/documentation/articles/machine-learning-what-is-machine-learning/)** - Overview and tutorial on Machine Learning.  Or explore further [Machine Learning] (https://azure.microsoft.com/en-us/services/machine-learning/)
