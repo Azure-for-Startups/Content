@@ -98,7 +98,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 
 ##Storage
 - **[Introduction to Azure Storage] (https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
-- **[Azure Backup] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Learn about and how to implement Azure Backup to back up (or protect) and restore your data in the Microsoft cloud.
+- **[Azure Backup] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Learn about and how to implement Azure Backup to back up (or protect) and restore your data in the Microsoft cloud.
 - **[Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/)** – Orchestrate your disaster recovery plan.
 - **[Create a storage account] (https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)** – Learn how to create a general purpose or blob storage account with links to getting started on Blob, Table, Queue, and file storage accounts.
 
