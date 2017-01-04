@@ -1,4 +1,4 @@
-# Azure for Startups
+- **[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.# Azure for Startups
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue] (https://github.com/Azure-for-Startups/Content/issues)**.
 <br><br>
@@ -17,6 +17,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 - **[Azure on Microsoft Virtual Academy] (https://mva.microsoft.com/training-topics/cloud-app-development)** - Virtual courses on cloud development.
 - **[Azure on Channel9] (https://channel9.msdn.com/Azure)** - Video tutorials about Azure services.
 - **[Startup Offers] (https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
+- **[Microsoft Azure for Amazon AWS Cloud professionals: Getting Started] (https://channel9.msdn.com/Shows/TechNet+Radio/TNR1667)** - Showcase and demo of Microsoft Azure features and comparison to Amazon Web Services to see how they match up.
 
    <table class="table table-bordered table-striped table-hover">
         <tr>
