@@ -83,9 +83,9 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 
    ### *Tools & Services*
-	- **[AWCopy](https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
-	- **[CloudBerry Cloud Migrator](http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
-	- **[Azure Import/Export Service](https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
+   - **[AWCopy](https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
+   - **[CloudBerry Cloud Migrator](http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
+   - **[Azure Import/Export Service](https://azure.microsoft.com/en-us/documentation/articles/storage-import-export-service/)** - Transfer Data to Blob Storage.
 
 # Infrastructure Services (IaaS)
 Infrastructure as a service (IaaS) refers to the compute, networking and storage building blocks which allow you to build any kind of cloud solution. IaaS allows you to have maximum control on how you manage virtual machines, network configuration but requires you to invest in attaining robustness, availability and scalability in the cloud.  
@@ -101,14 +101,14 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Docker Documentation](https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
 -	**[Docker VM Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-dockerextension?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)** - Create a Docker environment in Azure using the Docker VM extension.
 
-   <h3><i> Tutorials and Sample code</i></h3>
+  <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
 	<tr>
-	
-	<td valign="top"><b>[Containers on Azure](https://github.com/Azure-for-Startups/Containers-on-Azure-demo)</b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
-          <td valign="top"><b>[Deploy to Azure using the Docker VM Extension](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/)</b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
-           <td valign="top"><b>[Ruby on Rails web app on Azure VM](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/)</b></td>
-</tr>
+	  <td valign="top"><a href="https://github.com/Azure-for-Startups/Containers-on-Azure-demo"><b>Containers on Azure</b></a> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+	  <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/"><b>Deploy to Azure using the Docker VM Extension</b></a> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
+	  <td valign="top"><a href="https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo"><b>AWS S3 to Azure Blob Storage migration</b></a></td>
+	  <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/"><b>Ruby on Rails web app on Azure VM</b></a></td>
+	 </tr>
      </table>
 
 ## Networking
