@@ -117,6 +117,7 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Load-Balancers](https://azure.microsoft.com/en-us/documentation/articles/load-balancer-overview/)** – Learn about Azure Load Balancer and to configure one.
 
 ## Storage
+
 - **[Introduction to Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)** – Learn the basics of Azure Storage including Blob, Table, Queue, and File storage.
 - **[Azure Backup](https://azure.microsoft.com/en-us/services/site-recovery/)** – Learn about and how to implement Azure Backup to back up (or protect) and restore your data in the Microsoft cloud.
 - **[Azure Site Recovery](https://azure.microsoft.com/en-us/services/site-recovery/)** – Orchestrate your disaster recovery plan.
@@ -136,15 +137,13 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Azure Deployment Using Git](https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 - **[Azure Media Services (AMS) Overview](https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-	  <td valign="top"><b>[Notification Hub demo](https://github.com/Azure-for-Startups/Notification-Hub-demo)</b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-          <td valign="top"><b>[PHP, Node.js, and Python](https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md)</b> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-	</tr>
-     </table>
-
+  <h3><i> Tutorials and Sample code</i></h3>
+     <table class="table table-bordered table-striped table-hover">
+        <tr>
+          <td valign="top"><a href="https://github.com/Azure-for-Startups/Notification-Hub-demo"><b>Notification Hub demo</b></a> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+          <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md"><b>PHP, Node.js, and Python</b></a> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+         </tr>
+     </table>
 ## Data 
 - **[Azure SQL Overview](https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
 - **[Azure SQL (PaaS) vs. SQL Server on Azure VMs (IaaS)](https://azure.microsoft.com/en-us/documentation/articles/sql-database-paas-vs-sql-server-iaas/)** - Learn what scenarios are better for an IaaS vs. PaaS SQL solution.
@@ -163,7 +162,17 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
           <td colspan="4" valign="top" align="left"><b>[SQL DB and Elastic pool feature tutorials](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials)</b> – simple step-by-start tutorial for different SQL feature areas</td>
      <tr>	  
      </table>
-
+  <h3><i> Tutorials and Sample code</i></h3>
+     <table class="table table-bordered table-striped table-hover">
+        <tr>
+          <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/"><b>Import data to DocumentDB with the Database Migration tool</b></a> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
+          <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/"><b>Install MongoDB on a Windows VM</b></a> - Learn how to install MongoDB on a Linux VM in Azure.</td>
+          <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/"><b>Create a web app that connects to MongoDB</b></a> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
+	  </tr>
+     <tr>
+          <td colspan="4" valign="top" align="left"><b>[SQL DB and Elastic pool feature tutorials](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials)</b> – simple step-by-start tutorial for different SQL feature areas</td>
+     <tr>	
+</table>
      
 ## Intelligence & Analytics *(incl. Machine learning and Cognitive services)*
 - **[Azure HDInsight](https://azure.microsoft.com/en-us/services/hdinsight/)** - An introduction to Hadoop on Azure HDInsight, its ecosystem, and big data. Learn about the Hadoop components, common terminology, and scenarios for big data analysis.
