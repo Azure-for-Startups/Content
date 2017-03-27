@@ -80,8 +80,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 	 </tr>
      </table>
 
-
-
    ### *Tools & Services*
    - **[AWCopy](https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
    - **[CloudBerry Cloud Migrator](http://www.cloudberrylab.com/cloud-migrator.aspx)** - service to transfer files from one cloud storage to another (Amazon S3 & Glacier, Windows Azure Blob Storage, Rackspace Cloud Files and FTP servers).
@@ -137,8 +135,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Azure Deployment Using Git](https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 - **[Azure Media Services (AMS) Overview](https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
+  <h3><i> Tutorials and Sample code</i></h3><table class="table table-bordered table-striped table-hover">
         <tr>
           <td valign="top"><a href="https://github.com/Azure-for-Startups/Notification-Hub-demo"><b>Notification Hub demo</b></a> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
           <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md"><b>PHP, Node.js, and Python</b></a> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
@@ -150,23 +147,12 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[DocumentDB](https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
 - **[MongoDB on Azure](https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** – Learn about MongoDB on Azure and deployment recommendations.
 
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-hover">
-	<tr>
-	  <td valign="top"><b>[Import data to DocumentDB with the Database Migration tool](https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/)</b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
-	  <td valign="top"><b>[Install MongoDB on a Windows VM](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/)</b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
-          <td valign="top"><b>[Install MongoDB on Linux](https://docs.mongodb.com/v3.0/administration/install-on-linux/)</b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
-          <td valign="top"><b>[Create a web app that connects to MongoDB](https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/)</b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
-	  </tr>
-     <tr>
-          <td colspan="4" valign="top" align="left"><b>[SQL DB and Elastic pool feature tutorials](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials)</b> – simple step-by-start tutorial for different SQL feature areas</td>
-     <tr>	  
-     </table>
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
         <tr>
           <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/"><b>Import data to DocumentDB with the Database Migration tool</b></a> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
-          <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/"><b>Install MongoDB on a Windows VM</b></a> - Learn how to install MongoDB on a Linux VM in Azure.</td>
+          <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/"><b>Install MongoDB on a Windows VM</b></a> - Learn how to install MongoDB on a Linux VM in Azure.</td>	  
+          <td valign="top"><a href="https://docs.mongodb.com/v3.0/administration/install-on-linux/"><b>Install MongoDB on Linux</b></a> - Learn how to install MongoDB on a Linux VM in Azure.</td>
           <td valign="top"><a href="https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/"><b>Create a web app that connects to MongoDB</b></a> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
 	  </tr>
      <tr>
@@ -183,7 +169,6 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Get started with Microsoft Cognitive Services](https://channel9.msdn.com/Events/Connect/2016/102)** – Learn how to easily add powerful artificial intelligence capabilities to your applications with Microsoft Cognitive Services.  See [Cognitive Services](http://www.microsoft.com/cognitive) for more information.
 - **[Cognitive Services: Making AI Easy](https://channel9.msdn.com/Events/Machine-Learning-and-Data-Sciences-Conference/Data-Science-Summit-2016/MSDSS08)** – The rise of machine learning has produced an explosion of APIs to make your applications more intelligent.  Learn about more than 20 Cognitive Services APIs.  You'll see powerful demos, experience the simplicity of calling this code, and get ideas for adding this functionality to your own applications.
 
-
   <h3><i> Tutorials and Sample code</i></h3>
     <table class="table table-bordered table-striped table-hover">
         <tr>
@@ -194,6 +179,7 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 
 ## Internet of Things
 - **[Azure IoT suite documentation](https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
+
   <h3><i> Tutorials and Sample code</i></h3>
     <table class="table table-bordered table-striped table-hover">
         <tr>
