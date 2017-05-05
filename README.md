@@ -1,6 +1,7 @@
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
-<br><br>
+
+<br>
 ## Table of Contents
    <table class="table table-bordered table-striped table-hover border-0px">
 <col>
