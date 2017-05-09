@@ -11,9 +11,8 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br><a href=""><b></b></a><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br></td>
 </tr>
 </table>  
-
-## New and notable in Azure  
-  
+## New and notable in Azure
+-a bunch of text
 ## Getting Started on Azure
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
