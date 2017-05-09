@@ -6,22 +6,10 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <col>
 <col>
 <tr>
-   	<td valign="top">
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#New and notable in Azure"><b>- New and notable in Azure</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting Started on Azure</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure"><b>- Working with Azure</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>
-	</td>
+   	<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#New and notable in Azure"><b>- New and notable in Azure</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting Started on Azure</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure"><b>- Working with Azure</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Migrating to Azure</b></a></td>  
 
-<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br>
-	<a href=""><b></b></a>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br>
-	</td>
-
-	</tr>
+<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br><a href=""><b></b></a><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br></td>
+</tr>
 </table>  
 ## New and notable in Azure  
 
