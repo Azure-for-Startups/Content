@@ -10,7 +10,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <tr>
    	<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting Started on Azure</b></a><br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure"><b>- Working with Azure</b></a><br>
-	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Getting Started on Azure</b></a>
+	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>
 	</td>
 
 <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>
