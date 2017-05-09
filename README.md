@@ -6,7 +6,9 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <col>
 <col>
 <tr>
-   	<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting Started on Azure</b></a><br>
+   	<td valign="top">
+	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#New and notable in Azure"><b>- New and notable in Azure</b></a><br>
+	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting Started on Azure</b></a><br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure"><b>- Working with Azure</b></a><br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>
 	</td>
@@ -21,6 +23,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 	</tr>
 </table>
+## New and notable in Azure  
 
 ## Getting Started on Azure
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
