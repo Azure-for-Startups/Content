@@ -1,5 +1,4 @@
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
-
 <br><br>
 ## Table of Contents
    <table class="table table-bordered table-striped table-hover border-0px">
@@ -15,11 +14,11 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br>
 	<a href=""><b></b></a>
-	</td>
-<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br>
+	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br>
 	<a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br>
 	</td>
+
 	</tr>
 </table>
 
