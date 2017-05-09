@@ -13,7 +13,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 </table>  
 
 ## New and notable in Azure  
-- a bunch of text  
+a bunch of text  
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
