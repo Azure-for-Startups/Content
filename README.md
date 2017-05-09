@@ -22,7 +22,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 	</td>
 
 	</tr>
-</table>
+</table>  
 ## New and notable in Azure  
 
 ## Getting Started on Azure
