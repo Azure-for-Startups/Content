@@ -6,22 +6,50 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <col>
 <col>
 <tr>
-   	<td valign="top" width=50%><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#new-and-notable-in-azure"><b>- New and notable in Azure</b></a><br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure"><b>- Getting started on Azure</b></a>&nbsp;&nbsp;Learning paths, tutorials, videos, and all you need to know to get ramped up on Azure<br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>&nbsp;&nbsp;Tools & services, tutorials, and official information on how to move your existing solution to Azure.<br><br><a href="./README.md#additional-useful-tools--links"><b>- Tools and links</b></a>&nbsp;&nbsp;Azure price calculator, Azure Trust Center, and other useful additions to help your success on Azure.<br><br></td>  
+   	<td valign="top" width=50%><a href="./README.md#new-and-notable-in-azure"><b>- New and notable in Azure</b></a><br><br><a href="./README.md#getting-started-on-azure"><b>- Getting started on Azure</b></a>&nbsp;&nbsp;Learning paths, tutorials, videos, and all you need to know to get ramped up on Azure<br><br><a href="./README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>&nbsp;&nbsp;Tools & services, tutorials, and official information on how to move your existing solution to Azure.<br><br><a href="./README.md#additional-useful-tools--links"><b>- Tools and links</b></a>&nbsp;&nbsp;Azure price calculator, Azure Trust Center, and other useful additions to help your success on Azure.<br><br></td>  
 
-<td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br><br><a href=""><b></b></a><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-services"><b>- Azure Services</b></a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#storage">
-
-- Storage</a></td>
+<td valign="top"><a href="./README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><br><a href="./README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br><br><a href=""><b></b></a><a href="./README.md#cloud-architecture"><b>- Cloud Architecure</b></a><br><br><a href="./README.md#additional-useful-tools--links"><b>- Additional Useful Tools and Links</b></a><br><br><a href="./README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a><br><br><a href="./README.md#azure-services"><b>- Feature highlights</b></a><br><br></td>
 </tr>
 </table>  
 
-## New and notable in Azure  
-#### Storage: Check out preview of Storage Service Encryption (SSE) for Azure File Storage
-Microsoft recently released the preview of [Storage Service Encryption (SSE) for Azure File Storage](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/). When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.
-
-For more information:  
--  [Azure Storage security guide](https://docs.microsoft.com/en-us/azure/storage/storage-security-guide)  
--  [Azure Storage Service encryption for data at rest](https://docs.microsoft.com/en-us/azure/storage/storage-service-encryption)  
+## New and notable in Azure (updated April)  
   
+[Storage: **Check out preview of Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/)  
+Microsoft recently released the preview of Storage Service Encryption (SSE) for Azure File Storage. When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.  
+  
+  
+[Backup: **Keep business up and running with instant file recovery in Azure Backup**](https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-cloud-backups-using-azure-backup/)  
+RaaS Restore as a service (RaaS) enhances your Azure Backup capabilities by instantly restoring files and folders from multiple recovery points in the cloud or on-premises. RaaS enables you to maintain business continuity in addition to high availability.  
+  
+  
+[Linux: **Easily scale with Kubernetes, now available on Azure Container Service (ACS)**](https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/)  
+Kubernetes lets you scale without increasing your ops team. Microsoft recently moved Kubernetes on Azure from preview to General Availability (GA), making it easier for your startup to scale out (and in) on demand. Startups that focus on cloud-native application development, mobile application development, gaming, or e-commerce can quickly deploy container-based applications to enable agility, portability, and scalability.  
+   
+[Service Bus: **Boost cloud security with Azure Relay Hybrid Connections** ](https://azure.microsoft.com/en-us/blog/azure-relay-hybrid-connections-ga/)  
+In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
+  
+[Azure CLI: **Manage VMs with commands in Azure CLI 2.0**](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/)  
+Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice. The latest release of Azure CLI includes commands for managing virtual machines, scale sets, containers, and storage and network. This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.
+  
+[Azure Stream Analytics:  **Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/)  
+Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code. A range of uses are supported, including:  
+· Fleet monitoring  
+· Asset tracking  
+· Geofencing  
+· Phone tracking across cell sites  
+· Connected manufacturing  
+· Ride-sharing solutions  
+The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
+  
+[Networking:  **Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/)  
+Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location. Routing can also be configured for varying levels of granularity, from regional grouping down to state/province levels.
+  
+[Azure Resource Manager (ARM): **Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)  
+Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.
+ 
+
+
+
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
@@ -46,18 +74,35 @@ For more information:
     </table> 
 
 
-![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/AzureMap.png)<p> </p>
+![](./Content/media/AzureMap.png)<p> </p>
 <p> </p>
 
-## Azure services  
+## Feature highlights  
 ### Storage
-#### Check out preview of Storage Service Encryption (SSE) for Azure File Storage
-Microsoft recently released the preview of [Storage Service Encryption (SSE) for Azure File Storage](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/). When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.
-
-For more information:  
--  [Azure Storage security guide](https://docs.microsoft.com/en-us/azure/storage/storage-security-guide)  
--  [Azure Storage Service encryption for data at rest](https://docs.microsoft.com/en-us/azure/storage/storage-service-encryption)  
-
+[**Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/). When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements.  
+###Backup
+[**Instant File Recovery from Cloud using Azure Backup**](https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-cloud-backups-using-azure-backup/). Restore as a service (RaaS) enhances your Azure Backup capabilities by instantly restoring files and folders from multiple recovery points in the cloud or on-premises. RaaS enables you to maintain business continuity in addition to high availability.  
+  
+  
+### Azure Linux ###
+[**Easily scale with Kubernetes, now available on Azure Container Service (ACS)**](https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/)  
+Kubernetes lets you scale without increasing your ops team. Startups that focus on cloud-native application development, mobile application development, gaming, or e-commerce can quickly deploy container-based applications to enable agility, portability, and scalability.  
+  
+### Service Bus ###
+[**Boost cloud security with Azure Relay Hybrid Connections** ](https://azure.microsoft.com/en-us/blog/azure-relay-hybrid-connections-ga/) 
+In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
+   
+### Azure CLI ###
+[**Manage VMs with commands in Azure CLI 2.0**](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/) Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice.  This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.  
+  
+### Azure Stream Analytics ###
+[**Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/) Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code.  The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
+  
+### Networking ###
+[**Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/) Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location.  
+  
+### Azure Resource Manager (ARM) ###
+[**Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
 
 ## Working with Azure
 - **[Azure Portal](https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
@@ -69,12 +114,12 @@ For more information:
 - **[Azure Solutions](https://azure.microsoft.com/en-us/solutions/?v=3)** - A listing of top Azure solutions and their brief descriptions
 - **[Azure Products and services](https://azure.microsoft.com/en-us/services/)** – A searchable list of all Azure products and services
 
-![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/PortalImage.png)
+![](./Content/media/PortalImage.png)
 
 ## Migrating to Azure 
 -	**[AWS to Azure mapping](https://azure.microsoft.com/en-us/campaigns/azure-vs-aws/mapping/)** - Map between Azure and AWS services
 -	**[AWS to Azure migration](https://azure.microsoft.com/en-in/documentation/articles/site-recovery-migrate-aws-to-azure/)** - Migrate virtual machines in Amazon Web Services (AWS) to Azure with Azure Site Recovery
--	**[MongoDB to Azure Migration resources](https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
+-	**[MongoDB to Azure Migration resources](./Content/MongoDB%20Azure%20Migration.md)**  
 
   <h3><i> Tutorials and Sample code</i></h3>
      <table class="table table-bordered table-striped table-hover">
@@ -139,13 +184,13 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Notification Hub overview](https://azure.microsoft.com/en-us/documentation/services/notification-hubs/)** - An easy-to-use, multiplatform, scaled-out push infrastructure.
 - **[Azure Search](https://azure.microsoft.com/en-us/documentation/articles/search-what-is-azure-search/)** - Ready-to-use service that you can populate with your data and then use to add search to your web or mobile apps.
 - **[Azure Mobile Services REST API Reference MSDN](https://msdn.microsoft.com/en-US/library/azure/jj710108.aspx)** – Documentation on Mobile Services REST API and the available operations.
-- **[Azure Deployment Using Git](https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
+- **[Azure Deployment Using Git](./Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 - **[Azure Media Services (AMS) Overview](https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
   <h3><i> Tutorials and Sample code</i></h3><table class="table table-bordered table-striped table-hover">
         <tr>
           <td valign="top"><a href="https://github.com/Azure-for-Startups/Notification-Hub-demo"><b>Notification Hub demo</b></a> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-          <td valign="top"><a href="https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md"><b>PHP, Node.js, and Python</b></a> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+          <td valign="top"><a href="./Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md"><b>PHP, Node.js, and Python</b></a> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
          </tr>
      </table>
 ## Data 
