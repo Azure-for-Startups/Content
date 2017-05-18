@@ -78,31 +78,32 @@ Custom Azure Resource Manager (ARM) templates are a great way to make deploying 
 ![](./Content/media/AzureMap.png)<p> </p>
 <p> </p>
 
-## Feature highlights  
-### Storage
+## Feature highlights##  
+### Storage ###  
 [**Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/). When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements.  
-###Backup
+  
+### Backup ###  
 [**Instant File Recovery from Cloud using Azure Backup**](https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-cloud-backups-using-azure-backup/). Restore as a service (RaaS) enhances your Azure Backup capabilities by instantly restoring files and folders from multiple recovery points in the cloud or on-premises. RaaS enables you to maintain business continuity in addition to high availability.  
   
   
-### Azure Linux ###
+### Azure Linux ###  
 [**Easily scale with Kubernetes, now available on Azure Container Service (ACS)**](https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/)  
 Kubernetes lets you scale without increasing your ops team. Startups that focus on cloud-native application development, mobile application development, gaming, or e-commerce can quickly deploy container-based applications to enable agility, portability, and scalability.  
   
-### Service Bus ###
+### Service Bus ###  
 [**Boost cloud security with Azure Relay Hybrid Connections** ](https://azure.microsoft.com/en-us/blog/azure-relay-hybrid-connections-ga/) 
 In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
    
-### Azure CLI ###
+### Azure CLI ###  
 [**Manage VMs with commands in Azure CLI 2.0**](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/) Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice.  This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.  
   
-### Azure Stream Analytics ###
+### Azure Stream Analytics ###  
 [**Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/) Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code.  The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
   
-### Networking ###
+### Networking ###  
 [**Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/) Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location.  
   
-### Azure Resource Manager (ARM) ###
+### Azure Resource Manager (ARM) ###  
 [**Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
 
 ## Working with Azure
