@@ -78,7 +78,7 @@ Custom Azure Resource Manager (ARM) templates are a great way to make deploying 
 ![](./Content/media/AzureMap.png)<p> </p>
 <p> </p>
 
-## Feature highlights##  
+## Feature highlights ##  
 ### Storage ###  
 [**Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/). When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements.  
   
