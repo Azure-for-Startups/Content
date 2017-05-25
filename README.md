@@ -12,7 +12,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 </table>  
 
 ## New and notable in Azure  
-Updated April 2017  
   
 [Storage: **Check out preview of Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/)  
 Microsoft recently released the preview of Storage Service Encryption (SSE) for Azure File Storage. When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.  
