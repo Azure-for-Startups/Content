@@ -1,11 +1,11 @@
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
 
-<br>
+<br><br>
 
 ## Table of Contents
 
 <table class="table table-bordered table-striped table-hover border-0px">
-<tr>
+
 <td valign="top" width="50%"><a href="./README.md#new-and-notable-in-azure"><b>- New and notable in Azure</b></a>&nbsp;&nbsp;Check out new feature releases and updates applicable for Start-Ups updated monthly.<br><br><a href="./README.md#getting-started-on-azure"><b>- Getting started on Azure</b></a>&nbsp;&nbsp;Learning paths, tutorials, videos, and all you need to know to get ramped up on Azure<br><br><a href="./README.md#migrating-to-azure"><b>- Migrating to Azure</b></a>&nbsp;&nbsp;Tools &amp; services, tutorials, and official information on how to move your existing solution to Azure.<br><br><a href="./README.md#additional-useful-tools--links"><b>- Tools and links</b></a>&nbsp;&nbsp;Azure price calculator, Azure Trust Center, and other useful additions to help your success on Azure.<br><br></td>  
 <td valign="top" width="50%"><a href="./README.md#infrastructure-services-iaas"><b>- Infrastructure Services</b></a><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><br><a href="./README.md#platform-services-paas"><b>- Platform Services</b></a><br>&nbsp;&nbsp;&nbsp;Web &amp; Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence &amp; Analytics, IoT<br><br><a href=""><b></b></a><a href="./README.md#cloud-architecture"><b>- Cloud Architecure</b></a>&nbsp;&nbsp;patterns, practices, and architecture blueprints. <br><br><a href="./README.md#azure-resource-manager-arm"><b>- Azure Resource Manager</b></a>&nbsp;&nbsp;overview and availability chart<br><br><a href="./README.md#feature-highlights"><b>- Feature highlights</b></a>&nbsp;&nbsp;Get beyond the basics. Helpful features in Azure for Start-ups<br><br></td>
 </tr>
@@ -47,9 +47,6 @@ Azure Traffic Manager Geographic Routing lets you get the right content to the r
 [Azure Resource Manager (ARM): **Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)  
 Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
  
-
-
-
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
