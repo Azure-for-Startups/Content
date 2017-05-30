@@ -13,12 +13,25 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 ## New and notable in Azure  
   
-[Storage: **Check out preview of Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/)  
-Microsoft recently released the preview of Storage Service Encryption (SSE) for Azure File Storage. When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.  
-  
-  
 
- 
+[Azure Monitor: **Monitoring Azure resources with Azure Monitor**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-azure-monitor/)  
+Microsoft recently announced the general availability of Azure Monitor, a platform service that provides a single source for monitoring Azure resources. Azure Monitor enables you to visualize, query, route, archive, and take action on the metrics and logs of resources in Azure. It helps you use monitoring data to gain deep insights about your application. This knowledge can help you improve application performance or maintainability or automate actions that would otherwise require manual intervention.  
+  
+[Azure Advisor: **Optimize Azure resources with personalized guidance from Azure Advisor**](https://azure.microsoft.com/en-us/blog/announcing-azure-advisor-azure-monitor-and-resource-health/)  
+The recently announced Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments at no additional cost. You can use it to scan your Azure resources and get actionable recommendations based on configuration and usage patterns. It also guides you through the implementation of each recommendation, so you can make the adjustments you want quickly and easily.  
+  
+[Azure Developer Experiences: **Manage a Docker private registry as a first-class Azure resource in Azure Container Registry**](https://azure.microsoft.com/en-us/blog/azure-container-registry-now-generally-available/)  
+Your developers need a way to store and manage images for all types of container deployments. Microsoft recently announced the general availability of Azure Container Registry, which enables developers to create and maintain Azure container registries to store and manage private Docker container images. By using Azure Container Registry, developers can host container images from apps they want to work with on the Azure infrastructure.  
+  
+[Azure CLI: **New Azure CLI 2.0 commands for managing VMs, ACS, storage, and network**](https://azure.microsoft.com/en-us/blog/announcing-azure-cli-shell-preview-more-azure-cli-2-0-commands-now-generally-available/)  
+Azure CLI 2.0 is the new command-line experience for managing Microsoft Azure resources. Microsoft announced new command modules in Azure CLI 2.0: Azure Container Registry, Batch, Key Vault, and SQL. The az find command is also new. You can use it to search for Azure CLI 2.0 commands that contain specific text strings. Azure CLI 2.0 provides an idiomatic command-line interface that integrates natively with Bash and POSIX tools. You can use it to run one command at a time or to run automation scripts composed of multiple commands, including other Bash commands.  
+  
+[Azure Search: **New search analytics for Azure Search**](https://azure.microsoft.com/en-us/blog/azure-search-new-analytics/)  
+To have useful search metrics, you need to log signals from the users of the search application. The new search traffic analytics pattern lets you gain visibility into your search service and unlock insights about your users and their behavior. It’s a pattern for implementing a feedback loop for your search service. It describes the necessary data and how to collect it by using Application Insights. You can get an information about what users are really interested in and whether they’re finding what they’re looking for.  
+  
+[Azure DocumentDB: **Real-time machine learning on globally distributed data in Azure DocumentDB**](https://azure.microsoft.com/en-us/blog/real-time-machine-learning-on-globally-distributed-data-with-apache-spark-and-documentdb/)  
+Microsoft recently announced the Spark to DocumentDB connector to enable real-time data science, machine learning, and exploration over globally distributed data in Azure DocumentDB. Connecting Apache Spark to Azure DocumentDB accelerates your ability to solve fast-moving data science problems where your data can be quickly persisted and queried with DocumentDB. The new connector enables ad-hoc, interactive queries on big data as well as advanced analytics, data science, machine learning, and artificial intelligence.
+
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
