@@ -13,39 +13,28 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 ## New and notable in Azure  
   
-[Storage: **Check out preview of Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/)  
-Microsoft recently released the preview of Storage Service Encryption (SSE) for Azure File Storage. When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.  
+
+[Azure Monitor: **Monitoring Azure resources with Azure Monitor**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-azure-monitor/)  
+Microsoft recently announced the general availability of Azure Monitor, a platform service that provides a single source for monitoring Azure resources. Azure Monitor enables you to visualize, query, route, archive, and take action on the metrics and logs of resources in Azure. It helps you use monitoring data to gain deep insights about your application. This knowledge can help you improve application performance or maintainability or automate actions that would otherwise require manual intervention.  
   
+[Azure Advisor: **Optimize Azure resources with personalized guidance from Azure Advisor**](https://azure.microsoft.com/en-us/blog/announcing-azure-advisor-azure-monitor-and-resource-health/)  
+The recently announced Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments at no additional cost. You can use it to scan your Azure resources and get actionable recommendations based on configuration and usage patterns. It also guides you through the implementation of each recommendation, so you can make the adjustments you want quickly and easily.  
   
-[Backup: **Keep business up and running with instant file recovery in Azure Backup**](https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-cloud-backups-using-azure-backup/)  
-RaaS Restore as a service (RaaS) enhances your Azure Backup capabilities by instantly restoring files and folders from multiple recovery points in the cloud or on-premises. RaaS enables you to maintain business continuity in addition to high availability.  
+[Azure Developer Experiences: **Manage a Docker private registry as a first-class Azure resource in Azure Container Registry**](https://azure.microsoft.com/en-us/blog/azure-container-registry-now-generally-available/)  
+Your developers need a way to store and manage images for all types of container deployments. Microsoft recently announced the general availability of Azure Container Registry, which enables developers to create and maintain Azure container registries to store and manage private Docker container images. By using Azure Container Registry, developers can host container images from apps they want to work with on the Azure infrastructure.  
   
+[Azure CLI: **New Azure CLI 2.0 commands for managing VMs, ACS, storage, and network**](https://azure.microsoft.com/en-us/blog/announcing-azure-cli-shell-preview-more-azure-cli-2-0-commands-now-generally-available/)  
+Azure CLI 2.0 is the new command-line experience for managing Microsoft Azure resources. Microsoft announced new command modules in Azure CLI 2.0: Azure Container Registry, Batch, Key Vault, and SQL. The az find command is also new. You can use it to search for Azure CLI 2.0 commands that contain specific text strings. Azure CLI 2.0 provides an idiomatic command-line interface that integrates natively with Bash and POSIX tools. You can use it to run one command at a time or to run automation scripts composed of multiple commands, including other Bash commands.  
   
-[Linux: **Easily scale with Kubernetes, now available on Azure Container Service (ACS)**](https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/)  
-Kubernetes lets you scale without increasing your ops team. Microsoft recently moved Kubernetes on Azure from preview to General Availability (GA), making it easier for your startup to scale out (and in) on demand. Startups that focus on cloud-native application development, mobile application development, gaming, or e-commerce can quickly deploy container-based applications to enable agility, portability, and scalability.  
-   
-[Service Bus: **Boost cloud security with Azure Relay Hybrid Connections** ](https://azure.microsoft.com/en-us/blog/azure-relay-hybrid-connections-ga/)  
-In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
+[Azure Search: **New search analytics for Azure Search**](https://azure.microsoft.com/en-us/blog/azure-search-new-analytics/)  
+To have useful search metrics, you need to log signals from the users of the search application. The new search traffic analytics pattern lets you gain visibility into your search service and unlock insights about your users and their behavior. It’s a pattern for implementing a feedback loop for your search service. It describes the necessary data and how to collect it by using Application Insights. You can get an information about what users are really interested in and whether they’re finding what they’re looking for.  
   
-[Azure CLI: **Manage VMs with commands in Azure CLI 2.0**](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/)  
-Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice. The latest release of Azure CLI includes commands for managing virtual machines, scale sets, containers, and storage and network. This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.
+[Azure DocumentDB: **Real-time machine learning on globally distributed data in Azure DocumentDB**](https://azure.microsoft.com/en-us/blog/real-time-machine-learning-on-globally-distributed-data-with-apache-spark-and-documentdb/)  
+Microsoft recently announced the Spark to DocumentDB connector to enable real-time data science, machine learning, and exploration over globally distributed data in Azure DocumentDB. Connecting Apache Spark to Azure DocumentDB accelerates your ability to solve fast-moving data science problems where your data can be quickly persisted and queried with DocumentDB. The new connector enables ad-hoc, interactive queries on big data as well as advanced analytics, data science, machine learning, and artificial intelligence.  
   
-[Azure Stream Analytics:  **Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/)  
-Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code. A range of uses are supported, including:  
-· Fleet monitoring  
-· Asset tracking  
-· Geofencing  
-· Phone tracking across cell sites  
-· Connected manufacturing  
-· Ride-sharing solutions  
-The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
-  
-[Networking:  **Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/)  
-Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location. Routing can also be configured for varying levels of granularity, from regional grouping down to state/province levels.  
-  
-[Azure Resource Manager (ARM): **Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)  
-Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
- 
+[Azure Data Factory: **Move your SAP data to Azure for advanced analytics**](https://azure.microsoft.com/en-us/blog/azure-data-factory-offer-sap-hana-and-business-warehouse-data-integration/)  
+SAP is one of the most widely-used enterprise applications in the world. You can now integrate your SAP HANA and SAP Business Warehouse (BW) data with Azure Data Factory. This allows you to move data from SAP HANA and SAP BW into various Azure data stores—including Azure Blob, Azure Data Lake, and Azure SQL Data Warehouse—for advanced analytics and reporting. It’s easy to move your SAP data to Azure and build your own intelligent solutions by using Azure services, big data stores, and advanced analytics tools.  
+
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
