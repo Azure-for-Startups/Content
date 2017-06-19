@@ -30,7 +30,7 @@ MySQL and PostgreSQL databases are among the popular open-source choices used by
   
   
 
-[IoT: **Learn to quickly design and develop IoT solutions with Azure IoT training**](https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/)
+[IoT: **Learn to quickly design and develop IoT solutions with Azure IoT training**](https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/)  
 Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
   
   
@@ -42,7 +42,7 @@ Running a traditional application inside containers is an easy first step to gai
 When video and audio content lacks human-understandable, time-stamped metadata, it can be difficult to find. Generating such metadata for video and audio is expensive and next to impossible when you have a high volume of this type of content. Microsoft has announced the public preview of a cloud service called Video Indexer as part of Microsoft Cognitive Services. Video Indexer enables organizations with digital video and audio content to automatically extract metadata and use it to build intelligent, innovative applications. It builds upon media AI technologies to make it easier for you to extract insights from video and audio. You can use Video Indexer to power new forms of content discovery, like searching for spoken words, faces, characters, and emotions, and to enrich your apps with embedded video insights to drive user engagement.  
   
   
-[Azure: **Massive-scale cloud rendering with Autodesk on Azure** ](https://azure.microsoft.com/en-us/blog/massive-scale-cloud-rendering-with-autodesk-on-azure/)
+[Azure: **Massive-scale cloud rendering with Autodesk on Azure** ](https://azure.microsoft.com/en-us/blog/massive-scale-cloud-rendering-with-autodesk-on-azure/)  
 When implementing a rendering project, it’s hard to find the right infrastructure, set up a render farm made up of high-performance compute clusters, and then manage the render farm. Even small projects can take anywhere from days to weeks to complete. The cloud is perfectly suited for variable-length and long-running rendering projects. Microsoft has announced the preview of Azure Batch Rendering and its integration with Autodesk.  When used together with Autodesk, Azure opens doors for artists, engineers, designers, and developers. Built on top of Azure Batch, a mature production service, this new rendering platform will allow you to seamlessly submit rendering jobs by using Autodesk’s suite of products—including Autodesk Maya, 3ds Max, and Arnold—together with the agility, flexibility, and scalability of Azure compute.  
   
   
