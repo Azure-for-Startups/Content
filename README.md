@@ -13,39 +13,41 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 
 ## New and notable in Azure  
   
-[Storage: **Check out preview of Storage Service Encryption (SSE) for Azure File Storage**](https://azure.microsoft.com/en-us/blog/preview-storage-service-encryption-for-file-storage/)  
-Microsoft recently released the preview of Storage Service Encryption (SSE) for Azure File Storage. When enabled, SSE automatically encrypts data at rest using a 256-bit encryption key—helping organizations meet organizational security and industry compliance requirements. SSE provides startups that focus on cloud-native or mobile application development with a trusted and secure platform where they can ensure that their data is safe.  
+[Visual Studio: **Gain powerful info about your web app by using new tools in Microsoft Azure Application Insights**](https://azure.microsoft.com/en-us/blog/new-tools-for-understanding-user-behavior-with-application-insights/)  
+Which features of your web app are most popular and most frequently used? Do your users achieve their goals with your app? Microsoft has released new tools in Application Insights to help you understand user behavior and empower your development team to better understand how customers use your web apps.  Every time you update your app, you can assess how well it works for users. You can get rich performance monitoring, powerful alerting, and easy-to-consume dashboards to help ensure your applications are available and performing as you expect.  
   
   
-[Backup: **Keep business up and running with instant file recovery in Azure Backup**](https://azure.microsoft.com/en-us/blog/instant-file-recovery-from-cloud-backups-using-azure-backup/)  
-RaaS Restore as a service (RaaS) enhances your Azure Backup capabilities by instantly restoring files and folders from multiple recovery points in the cloud or on-premises. RaaS enables you to maintain business continuity in addition to high availability.  
+[Azure compute: **Your Microsoft-managed admin machine in Azure, for Azure**](https://azure.microsoft.com/en-us/blog/public-preview-of-azure-cloud-shell/)  
+Microsoft has announced the public preview of Azure Cloud Shell. Cloud Shell provides an interactive, browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. The authenticated shell experience is hosted in the cloud and accessible from virtually anywhere. It enables you to use common tools and programming languages in a shell that’s updated and maintained by Microsoft. You can also persist your files across sessions by using attached Azure File storage.  
   
   
-[Linux: **Easily scale with Kubernetes, now available on Azure Container Service (ACS)**](https://azure.microsoft.com/en-us/blog/kubernetes-now-generally-available-on-azure-container-service/)  
-Kubernetes lets you scale without increasing your ops team. Microsoft recently moved Kubernetes on Azure from preview to General Availability (GA), making it easier for your startup to scale out (and in) on demand. Startups that focus on cloud-native application development, mobile application development, gaming, or e-commerce can quickly deploy container-based applications to enable agility, portability, and scalability.  
-   
-[Service Bus: **Boost cloud security with Azure Relay Hybrid Connections** ](https://azure.microsoft.com/en-us/blog/azure-relay-hybrid-connections-ga/)  
-In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
+[Cosmos DB: **Build fast, scalable, globally distributed applications by using Azure Cosmos DB**](https://azure.microsoft.com/en-us/blog/azure-cosmos-db-microsofts-globally-distributed-multi-model-database-service/)  
+Microsoft has announced the general availability of Azure Cosmos DB, a globally distributed multimodel database. Azure Cosmos DB is the first globally-distributed data service that lets you elastically scale throughput and storage across any number of geographical regions while guaranteeing low latency, high availability, and consistency—and it’s backed by the most comprehensive SLAs in the industry. Azure Cosmos DB is the right solution for your globally distributed mission-critical applications—including web, mobile, gaming, and IoT applications—when predictable throughput, high availability, low latency, and a schema-free data model are key requirements.  
   
-[Azure CLI: **Manage VMs with commands in Azure CLI 2.0**](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/)  
-Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice. The latest release of Azure CLI includes commands for managing virtual machines, scale sets, containers, and storage and network. This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.
   
-[Azure Stream Analytics:  **Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/)  
-Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code. A range of uses are supported, including:  
-· Fleet monitoring  
-· Asset tracking  
-· Geofencing  
-· Phone tracking across cell sites  
-· Connected manufacturing  
-· Ride-sharing solutions  
-The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
+[Database Systems: **Microsoft extends Azure managed database services with the introduction of MySQL and PostgreSQL**](https://azure.microsoft.com/en-us/blog/microsoft-extends-azure-managed-database-services-with-introduction-of-mysql-and-postgresql/)  
+MySQL and PostgreSQL databases are among the popular open-source choices used by developers to build and deploy a variety of applications, including web, mobile, content management system (CMS), and customer relationship management (CRM) apps. Microsoft has announced the preview of managed database services with two additions to the Azure relational database platform: Azure Database for MySQL and Azure Database for PostgreSQL. Your developers can now choose their favorite database engines delivered as managed services on Azure. These services seamlessly integrate with most common open-source programming languages—like PHP, Python, and Node.js—and application development frameworks like WordPress, Magento, Drupal, Django, and Ruby on Rails. 
   
-[Networking:  **Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/)  
-Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location. Routing can also be configured for varying levels of granularity, from regional grouping down to state/province levels.  
   
-[Azure Resource Manager (ARM): **Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://azure.microsoft.com/en-us/blog/azure-resource-manager-template-reference-now-available/)  
-Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
- 
+
+[IoT: **Learn to quickly design and develop IoT solutions with Azure IoT training**](https://azure.microsoft.com/en-us/blog/microsoft-launches-azure-iot-technical-training-developers-can-start-quickly-with-iot/)
+Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
+  
+  
+[Hyper scale compute: **Microsoft brings container orchestration for Windows Server Containers to Azure Service Fabric**](https://azure.microsoft.com/en-us/blog/announcing-windows-server-container-orchestration-with-azure-service-fabric/)  
+Running a traditional application inside containers is an easy first step to gain some of the benefits of a microservices architecture, such as improved density and easier application lifecycle management. Azure Service Fabric is the Microsoft microservices platform, and Microsoft has announced the release of Service Fabric 5.6 runtime and 2.6 SDK, which support the orchestration of Windows Server Containers. This release includes many new features targeted at container orchestration, including a DNS service, resource governance, Microsoft Operations Management Suite integration, and more. It also contains support for Docker Compose for deploying containerized apps to Service Fabric with Microsoft Visual Studio 2017 tooling integration.  
+  
+  
+[Azure Video Services: **Video Indexer—a cloud service that lets you easily extract insights from your videos** ](https://azure.microsoft.com/en-us/blog/introducing-video-indexer-a-cloud-service-to-unlock-insights-from-your-videos/)  
+When video and audio content lacks human-understandable, time-stamped metadata, it can be difficult to find. Generating such metadata for video and audio is expensive and next to impossible when you have a high volume of this type of content. Microsoft has announced the public preview of a cloud service called Video Indexer as part of Microsoft Cognitive Services. Video Indexer enables organizations with digital video and audio content to automatically extract metadata and use it to build intelligent, innovative applications. It builds upon media AI technologies to make it easier for you to extract insights from video and audio. You can use Video Indexer to power new forms of content discovery, like searching for spoken words, faces, characters, and emotions, and to enrich your apps with embedded video insights to drive user engagement.  
+  
+  
+[Azure: **Massive-scale cloud rendering with Autodesk on Azure** ](https://azure.microsoft.com/en-us/blog/massive-scale-cloud-rendering-with-autodesk-on-azure/)
+When implementing a rendering project, it’s hard to find the right infrastructure, set up a render farm made up of high-performance compute clusters, and then manage the render farm. Even small projects can take anywhere from days to weeks to complete. The cloud is perfectly suited for variable-length and long-running rendering projects. Microsoft has announced the preview of Azure Batch Rendering and its integration with Autodesk.  When used together with Autodesk, Azure opens doors for artists, engineers, designers, and developers. Built on top of Azure Batch, a mature production service, this new rendering platform will allow you to seamlessly submit rendering jobs by using Autodesk’s suite of products—including Autodesk Maya, 3ds Max, and Arnold—together with the agility, flexibility, and scalability of Azure compute.  
+  
+  
+
+
 ## Getting Started on Azure  
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
