@@ -40,6 +40,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <p> </p>  
   
 ## Feature highlights  
+
 ###IoT  
 [**Developing IoT Solutions with Azure IoT**](https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x)  Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
   
