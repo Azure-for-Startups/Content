@@ -41,39 +41,38 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
   
 ## Feature highlights  
 
-###IoT  
+### IoT  
 [**Developing IoT Solutions with Azure IoT**](https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x)  Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
   
   
-###Hyper scale compute  
+### Hyper scale compute  
 [**Microsoft brings container orchestration for Windows Server Containers to Azure Service Fabric**](https://azure.microsoft.com/en-us/blog/announcing-windows-server-container-orchestration-with-azure-service-fabric/)  Running a traditional application inside containers is an easy first step to gain some of the benefits of a microservices architecture, such as improved density and easier application lifecycle management. Azure Service Fabric is the Microsoft microservices platform, and Microsoft has announced the release of Service Fabric 5.6 runtime and 2.6 SDK, which support the orchestration of Windows Server Containers. This release includes many new features targeted at container orchestration, including a DNS service, resource governance, Microsoft Operations Management Suite integration, and more. It also contains support for Docker Compose for deploying containerized apps to Service Fabric with Microsoft Visual Studio 2017 tooling integration.  
   
   
-###Azure Video Services  
+### Azure Video Services  
 [**Video Indexer—a cloud service that lets you easily extract insights from your videos** ](https://vi.microsoft.com/)  When video and audio content lacks human-understandable, time-stamped metadata, it can be difficult to find. Generating such metadata for video and audio is expensive and next to impossible when you have a high volume of this type of content. Microsoft has announced the public preview of a cloud service called Video Indexer as part of Microsoft Cognitive Services. Video Indexer enables organizations with digital video and audio content to automatically extract metadata and use it to build intelligent, innovative applications. It builds upon media AI technologies to make it easier for you to extract insights from video and audio. You can use Video Indexer to power new forms of content discovery, like searching for spoken words, faces, characters, and emotions, and to enrich your apps with embedded video insights to drive user engagement.  
   
   
-###Azure  
+### Azure  
 [**Massive-scale cloud rendering with Autodesk on Azure** ](https://azure.microsoft.com/en-us/blog/massive-scale-cloud-rendering-with-autodesk-on-azure/)  When implementing a rendering project, it’s hard to find the right infrastructure, set up a render farm made up of high-performance compute clusters, and then manage the render farm. Even small projects can take anywhere from days to weeks to complete. The cloud is perfectly suited for variable-length and long-running rendering projects. Microsoft has announced the preview of Azure Batch Rendering and its integration with Autodesk.  When used together with Autodesk, Azure opens doors for artists, engineers, designers, and developers. Built on top of Azure Batch, a mature production service, this new rendering platform will allow you to seamlessly submit rendering jobs by using Autodesk’s suite of products—including Autodesk Maya, 3ds Max, and Arnold—together with the agility, flexibility, and scalability of Azure compute.  
   
 
-###Database Systems  
+### Database Systems  
 [**Microsoft extends Azure managed database services with the introduction of MySQL and PostgreSQL**](https://azure.microsoft.com/en-us/blog/microsoft-extends-azure-managed-database-services-with-introduction-of-mysql-and-postgresql/)  MySQL and PostgreSQL databases are among the popular open-source choices used by developers to build and deploy a variety of applications, including web, mobile, content management system (CMS), and customer relationship management (CRM) apps. Microsoft has announced the preview of managed database services with two additions to the Azure relational database platform: Azure Database for MySQL and Azure Database for PostgreSQL. Your developers can now choose their favorite database engines delivered as managed services on Azure. These services seamlessly integrate with most common open-source programming languages—like PHP, Python, and Node.js—and application development frameworks like WordPress, Magento, Drupal, Django, and Ruby on Rails. 
   
   
-###Cosmos DB  
+### Cosmos DB  
 [**Build fast, scalable, globally distributed applications by using Azure Cosmos DB**](https://azure.microsoft.com/en-us/blog/azure-cosmos-db-microsofts-globally-distributed-multi-model-database-service/)  Microsoft has announced the general availability of Azure Cosmos DB, a globally distributed multimodel database. Azure Cosmos DB is the first globally-distributed data service that lets you elastically scale throughput and storage across any number of geographical regions while guaranteeing low latency, high availability, and consistency—and it’s backed by the most comprehensive SLAs in the industry. Azure Cosmos DB is the right solution for your globally distributed mission-critical applications—including web, mobile, gaming, and IoT applications—when predictable throughput, high availability, low latency, and a schema-free data model are key requirements.  
   
-###Azure Advisor  
+### Azure Advisor  
 [**Optimize Azure resources with personalized guidance from Azure Advisor**](https://azure.microsoft.com/en-us/blog/announcing-azure-advisor-azure-monitor-and-resource-health/)  The recently announced Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments at no additional cost. You can use it to scan your Azure resources and get actionable recommendations based on configuration and usage patterns. It also guides you through the implementation of each recommendation, so you can make the adjustments you want quickly and easily.  
   
 
-###Azure compute  
+### Azure compute  
 [**Your Microsoft-managed admin machine in Azure, for Azure**](https://azure.microsoft.com/en-us/blog/public-preview-of-azure-cloud-shell/)  Cloud Shell provides an interactive, browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. The authenticated shell experience is hosted in the cloud and accessible from virtually anywhere. It enables you to use common tools and programming languages in a shell that’s updated and maintained by Microsoft. You can also persist your files across sessions by using attached Azure File storage.
 
 
-  
-###Visual Studio  
+### Visual Studio  
 [**Gain powerful info about your web app by using new tools in Microsoft Azure Application Insights**](https://azure.microsoft.com/en-us/blog/new-tools-for-understanding-user-behavior-with-application-insights/)  Which features of your web app are most popular and most frequently used? Do your users achieve their goals with your app? Microsoft has released new tools in Application Insights to help you understand user behavior and empower your development team to better understand how customers use your web apps.  Every time you update your app, you can assess how well it works for users. You can get rich performance monitoring, powerful alerting, and easy-to-consume dashboards to help ensure your applications are available and performing as you expect.  
   
   
