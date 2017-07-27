@@ -40,6 +40,7 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 <p> </p>  
   
 ## Feature highlights  
+
 ### IoT  
 [**Developing IoT Solutions with Azure IoT**](https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x)  Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
   
@@ -71,7 +72,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 [**Your Microsoft-managed admin machine in Azure, for Azure**](https://azure.microsoft.com/en-us/blog/public-preview-of-azure-cloud-shell/)  Cloud Shell provides an interactive, browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. The authenticated shell experience is hosted in the cloud and accessible from virtually anywhere. It enables you to use common tools and programming languages in a shell that’s updated and maintained by Microsoft. You can also persist your files across sessions by using attached Azure File storage.
 
 
-  
 ### Visual Studio  
 [**Gain powerful info about your web app by using new tools in Microsoft Azure Application Insights**](https://azure.microsoft.com/en-us/blog/new-tools-for-understanding-user-behavior-with-application-insights/)  Which features of your web app are most popular and most frequently used? Do your users achieve their goals with your app? Microsoft has released new tools in Application Insights to help you understand user behavior and empower your development team to better understand how customers use your web apps.  Every time you update your app, you can assess how well it works for users. You can get rich performance monitoring, powerful alerting, and easy-to-consume dashboards to help ensure your applications are available and performing as you expect.  
   
