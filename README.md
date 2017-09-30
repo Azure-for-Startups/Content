@@ -41,8 +41,6 @@
   
 ## Feature highlights  
 
-## Feature highlights  
-
 ### Azure App Service
 [**More choices and support for developers with the availability of App Service on Linux and Web App for Containers**](https://azure.microsoft.com/en-us/blog/general-availability-of-app-service-on-linux-and-web-app-for-containers/) Applications are changing the business landscape—from delivering amazing customer experiences to transforming internal operations. To keep pace, Microsoft Azure offers App Service, which helps your developers quickly build, deploy, and scale applications without having to maintain the underlying web servers or operating system. M With this, App Service now offers built-in image support for ASP.NET Core, Node.js, PHP, and Ruby on Linux. It also gives developers the option to bring their own Docker-formatted container images supporting Java, Python, Go, and more. In other words, it provides a complete development platform to enable your developers to gain high productivity and easy deployment.
 
@@ -50,9 +48,11 @@
 ### IoT Hub 
 [**Automate the provisioning of devices to Azure IoT Hub**](https://azure.microsoft.com/en-us/blog/azure-iot-hub-device-provisioning-service-preview-automates-device-connection-configuration/) Provisioning is an important part of the lifecycle management of an IoT device. Microsoft has announced the preview of Azure IoT Hub Device Provisioning Service to remove the tedium of manually configuring IoT devices. This automated service can be used to provision millions of devices. The IoT Hub Device Provisioning Service is a helper service for your IoT hub that enables zero-touch, just-in-time provisioning to the right IoT hub without human intervention, enabling you to provision IoT devices in a secure and scalable manner. The Device Provisioning Service is the only cloud service that provides complete automated provisioning, including registration of the device to the cloud as well as configuration of the device.
 
+
 ### Azure Log Analytics
 [**Get deep insights into containers with the newly announced Container Monitoring Solution on Azure Log Analytics**](https://azure.microsoft.com/en-in/blog/azure-la-container-monitoring/) Docker containers is a growing technology for running modern applications. It helps developers and DevOps with easy provisioning and continuous delivery in modern infrastructures. To simplify Docker container monitoring and management, Microsoft has announced the general availability of the Container Monitoring Solution on Azure Log Analytics, available on Azure Marketplace. It provides deep insights into containers supporting Kubernetes, Docker Swarm, Mesos DC/OS, and Service Fabric container orchestrators on multiple OS platforms. It helps you know which containers are running, what image they're running, and where they're running. You can view detailed audit information that shows commands used with containers. And you can troubleshoot containers by viewing and searching centralized logs without having to remotely view Docker or Windows hosts.
-  
+ 
+ 
 ### Azure Event Grid
 [**Microsoft announces Azure Event Grid, a unique and intelligent event service for modern applications**](https://azure.microsoft.com/en-us/services/event-grid/) Modern applications—including Internet of Things (IoT), mobile apps, business process applications, and more—are built around events. This drives the need for event-based programming. To support this need, Microsoft recently announced the first-of-its-kind Azure Event Grid, a fully managed, intelligent event-routing service that allows for uniform event consumption using a publish-subscribe model. You can build event-based, serverless applications with a higher level of abstraction, so you don’t need to worry about infrastructure, provisioning, or scaling. You can use Event Grid to react to relevant events across Azure and non-Azure services in near-real time. And you can create richer app scenarios by connecting serverless logic to events from multiple sources. 
 
@@ -111,10 +111,12 @@ In the past, this was only available for WCF services. Hybrid Connections remove
 
 ### Azure Stream Analytics  
 [**Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/) Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code.  The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
-  
+
+
 ### Networking  
 [**Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/) Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location.  
-  
+ 
+ 
 ### Azure Resource Manager (ARM)  
 [**Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://docs.microsoft.com/en-us/azure/templates/)Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.   
 
