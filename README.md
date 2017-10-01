@@ -1,4 +1,4 @@
-The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
+﻿The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
 
 <br><br>
 
@@ -41,14 +41,34 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
   
 ## Feature highlights  
 
-### IoT  
-[**Developing IoT Solutions with Azure IoT**](https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x)  Sometimes it can be challenging for an enterprise developer to start an IoT project, especially with the overwhelming amount of technical information available online. To simplify IoT development, Microsoft has created training—Developing IoT Solutions with Azure IoT—designed to help developers learn how to connect and manage devices, analyze data, and extract insights by using a flexible IoT platform. The structured curriculum of this training will help developers become familiar with Azure IoT and enable them to start a proof of concept in no time. The training uses a combination of videos and hands-on labs to help developers quickly become familiar with the Azure IoT platform.  
-  
-  
+### Azure App Service
+[**More choices and support for developers with the availability of App Service on Linux and Web App for Containers**](https://azure.microsoft.com/en-us/blog/general-availability-of-app-service-on-linux-and-web-app-for-containers/) Applications are changing the business landscape—from delivering amazing customer experiences to transforming internal operations. To keep pace, Microsoft Azure offers App Service, which helps your developers quickly build, deploy, and scale applications without having to maintain the underlying web servers or operating system. M With this, App Service now offers built-in image support for ASP.NET Core, Node.js, PHP, and Ruby on Linux. It also gives developers the option to bring their own Docker-formatted container images supporting Java, Python, Go, and more. In other words, it provides a complete development platform to enable your developers to gain high productivity and easy deployment.
+
+
+### IoT Hub 
+[**Automate the provisioning of devices to Azure IoT Hub**](https://azure.microsoft.com/en-us/blog/azure-iot-hub-device-provisioning-service-preview-automates-device-connection-configuration/) Provisioning is an important part of the lifecycle management of an IoT device. Microsoft has announced the preview of Azure IoT Hub Device Provisioning Service to remove the tedium of manually configuring IoT devices. This automated service can be used to provision millions of devices. The IoT Hub Device Provisioning Service is a helper service for your IoT hub that enables zero-touch, just-in-time provisioning to the right IoT hub without human intervention, enabling you to provision IoT devices in a secure and scalable manner. The Device Provisioning Service is the only cloud service that provides complete automated provisioning, including registration of the device to the cloud as well as configuration of the device.
+
+
+### Azure Log Analytics
+[**Get deep insights into containers with the newly announced Container Monitoring Solution on Azure Log Analytics**](https://azure.microsoft.com/en-in/blog/azure-la-container-monitoring/) Docker containers is a growing technology for running modern applications. It helps developers and DevOps with easy provisioning and continuous delivery in modern infrastructures. To simplify Docker container monitoring and management, Microsoft has announced the general availability of the Container Monitoring Solution on Azure Log Analytics, available on Azure Marketplace. It provides deep insights into containers supporting Kubernetes, Docker Swarm, Mesos DC/OS, and Service Fabric container orchestrators on multiple OS platforms. It helps you know which containers are running, what image they're running, and where they're running. You can view detailed audit information that shows commands used with containers. And you can troubleshoot containers by viewing and searching centralized logs without having to remotely view Docker or Windows hosts.
+ 
+ 
+### Azure Event Grid
+[**Microsoft announces Azure Event Grid, a unique and intelligent event service for modern applications**](https://azure.microsoft.com/en-us/services/event-grid/) Modern applications—including Internet of Things (IoT), mobile apps, business process applications, and more—are built around events. This drives the need for event-based programming. To support this need, Microsoft recently announced the first-of-its-kind Azure Event Grid, a fully managed, intelligent event-routing service that allows for uniform event consumption using a publish-subscribe model. You can build event-based, serverless applications with a higher level of abstraction, so you don’t need to worry about infrastructure, provisioning, or scaling. You can use Event Grid to react to relevant events across Azure and non-Azure services in near-real time. And you can create richer app scenarios by connecting serverless logic to events from multiple sources. 
+
+
+### Azure Web Apps
+[**Deploy your Java app to Azure by using a new Maven Plugin**](https://azure.microsoft.com/en-us/blog/maven-deploy-java-web-apps-to-azure/) With the release of a new Maven Plugin for Azure Web Apps, developers can now deploy or redeploy Java-based web applications over Linux Azure App Service or Windows App Service in a couple easy steps. The Azure App Service provides a managed web app environment to enable your Java application to run smoothly on Azure. The only thing the developer needs to worry about is the code of the Java app. App Service handles the provisioning, load balancing, auto-scaling, and app health monitoring. You can also customize the settings and create a custom layout for your application. 
+
+
+### Azure Batch Rendering 
+[**New Azure Batch Rendering to run large-scale rendering workloads seamlessly on Azure**](https://azure.microsoft.com/en-us/blog/announcing-public-preview-of-azure-batch-rendering/) Rendering visual effects is one of the most complex aspects of a cinematic production. Major challenges in rendering include finding the right infrastructure, setting up and managing a render farm made up of high-performance computing clusters, and managing associated workflows. To overcome these challenges, Microsoft has announced the public preview of Azure Batch Rendering service, which offers cloud-scale rendering capabilities on a pay-per-use basis. The Batch Rendering service handles job scheduling and queueing, managing failures and retries, and auto-scaling for your rendering jobs. You can submit rendering jobs via client applications like Autodesk Maya, 3ds Max, and Arnold and get easy scaling, monitoring, and asset management. A flexible programming model and an SDK that’s available in various languages allow your developers to integrate their own pipelines and workflows into the solution. Batch Rendering accelerates large-scale rendering jobs to deliver results to your customers faster.
+
+
 ### Hyper scale compute  
 [**Microsoft brings container orchestration for Windows Server Containers to Azure Service Fabric**](https://azure.microsoft.com/en-us/blog/announcing-windows-server-container-orchestration-with-azure-service-fabric/)  Running a traditional application inside containers is an easy first step to gain some of the benefits of a microservices architecture, such as improved density and easier application lifecycle management. Azure Service Fabric is the Microsoft microservices platform, and Microsoft has announced the release of Service Fabric 5.6 runtime and 2.6 SDK, which support the orchestration of Windows Server Containers. This release includes many new features targeted at container orchestration, including a DNS service, resource governance, Microsoft Operations Management Suite integration, and more. It also contains support for Docker Compose for deploying containerized apps to Service Fabric with Microsoft Visual Studio 2017 tooling integration.  
   
-  
+
 ### Azure Video Services  
 [**Video Indexer—a cloud service that lets you easily extract insights from your videos** ](https://vi.microsoft.com/)  When video and audio content lacks human-understandable, time-stamped metadata, it can be difficult to find. Generating such metadata for video and audio is expensive and next to impossible when you have a high volume of this type of content. Microsoft has announced the public preview of a cloud service called Video Indexer as part of Microsoft Cognitive Services. Video Indexer enables organizations with digital video and audio content to automatically extract metadata and use it to build intelligent, innovative applications. It builds upon media AI technologies to make it easier for you to extract insights from video and audio. You can use Video Indexer to power new forms of content discovery, like searching for spoken words, faces, characters, and emotions, and to enrich your apps with embedded video insights to drive user engagement.  
   
@@ -63,9 +83,6 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
   
 ### Cosmos DB  
 [**Build fast, scalable, globally distributed applications by using Azure Cosmos DB**](https://azure.microsoft.com/en-us/blog/azure-cosmos-db-microsofts-globally-distributed-multi-model-database-service/)  Microsoft has announced the general availability of Azure Cosmos DB, a globally distributed multimodel database. Azure Cosmos DB is the first globally-distributed data service that lets you elastically scale throughput and storage across any number of geographical regions while guaranteeing low latency, high availability, and consistency—and it’s backed by the most comprehensive SLAs in the industry. Azure Cosmos DB is the right solution for your globally distributed mission-critical applications—including web, mobile, gaming, and IoT applications—when predictable throughput, high availability, low latency, and a schema-free data model are key requirements.  
-  
-### Azure Advisor  
-[**Optimize Azure resources with personalized guidance from Azure Advisor**](https://azure.microsoft.com/en-us/blog/announcing-azure-advisor-azure-monitor-and-resource-health/)  The recently announced Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments at no additional cost. You can use it to scan your Azure resources and get actionable recommendations based on configuration and usage patterns. It also guides you through the implementation of each recommendation, so you can make the adjustments you want quickly and easily.  
   
 
 ### Azure compute  
@@ -91,17 +108,17 @@ Kubernetes lets you scale without increasing your ops team. Startups that focus 
 [**Boost cloud security with Azure Relay Hybrid Connections** ](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it) 
 In the past, this was only available for WCF services. Hybrid Connections removes the dependency upon WCF by using open standards-based protocols. Now you can establish bi-directional connections from any on-premises service, in any language, to your cloud-based clients.  
    
-### Azure CLI  
-[**Manage VMs with commands in Azure CLI 2.0**](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli) Create and manage your Azure virtual machines, containers, and more with Azure Command-Line Interface (CLI) 2.0 on your operating system of choice.  This enables startups to script and automate Azure resources from their native environments, including macOS, Linux, and Windows.  
-  
+
 ### Azure Stream Analytics  
 [**Track data with real-time geospatial analytics in Azure Stream Analytics**](https://azure.microsoft.com/en-us/blog/announcing-real-time-geospatial-analytics-in-azure-stream-analytics/) Azure Stream Analytics now offers real-time geospatial analytics, with production-grade quality and just a few lines of code.  The new capabilities include native functions to compute geospatial operations (such as overlap between polygons, intersection between paths, and more), as well as the ability to join multiple streams for more complex calculations.  
-  
+
+
 ### Networking  
 [**Adapt content for global users with Azure Traffic Manager Geographic Routing**](https://azure.microsoft.com/en-us/blog/announcing-the-general-availability-of-geographic-routing-capability-in-azure-traffic-manager/) Azure Traffic Manager Geographic Routing lets you get the right content to the right users by customizing it for the location of your customer, by country or region. This means you can make your service compliant with local data access or privacy mandates. Your startup will be able to easily maintain a global presence and direct user traffic to specific endpoints based on geographic location.  
-  
+ 
+ 
 ### Azure Resource Manager (ARM)  
-[**Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://docs.microsoft.com/en-us/azure/templates/)Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.  
+[**Simplify VM deployment using custom templates in Azure Resource Manager (ARM)**](https://docs.microsoft.com/en-us/azure/templates/)Custom Azure Resource Manager (ARM) templates are a great way to make deploying virtual machines and resources a repeatable, easy-to-automate process. The template reference documentation explains the available resource types you can use to create custom templates for various Azure resources—including what values to use in your template.   
 
 ## Working with Azure
 - **[Azure Portal](https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
